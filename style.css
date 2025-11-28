@@ -1,0 +1,531 @@
+/* ベース */
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #222;
+  background: #f5f5fa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #fdfbff, #f0f2ff);
+}
+
+/* 共通ヘッダー・フッター */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 80px 16px 32px;
+  text-align: center;
+  /* ↓ここを変更します */
+  background:
+    linear-gradient(135deg, rgba(220,210,255,0.92) 0%, rgba(240,230,255,0.92) 100%),
+    url("images/top.jpg") center/cover no-repeat;
+  background-blend-mode: lighten;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(160,120,255,0.08);
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.1em;
+}
+
+.site-header p {
+  margin: 6px 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #888;
+  padding: 16px 0 24px;
+}
+
+.page-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px 32px;
+}
+
+/* 戻るリンク */
+
+.back-link {
+  display: inline-block;
+  margin: 4px 0 12px;
+  font-size: 0.95rem;
+  color: #c75a8a;
+  background: linear-gradient(90deg, #fbeaf3 0%, #fff4fa 100%);
+  border: 1px solid #f3c1d8;
+  border-radius: 999px;
+  padding: 7px 22px 7px 18px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px rgba(200,90,140,0.07);
+  text-decoration: none;
+  transition:
+    background 0.18s,
+    box-shadow 0.18s,
+    border-color 0.18s,
+    color 0.18s,
+    transform 0.12s;
+}
+
+.back-link:hover {
+  background: linear-gradient(90deg, #f7d1e6 0%, #fbeaf3 100%);
+  color: #a73b6b;
+  border-color: #e8a6c2;
+  box-shadow: 0 4px 16px rgba(200,90,140,0.13);
+  transform: translateY(-2px) scale(1.03);
+  text-decoration: none;
+}
+
+/* アルバムインデックス（index.html） */
+
+.album-index-section {
+  max-width: 960px;
+  margin: 0 auto 40px;
+  padding: 0 16px 32px;
+}
+
+.album-index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.album-index-card {
+  background: #ffffffcc;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(6px);
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.album-index-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  background: #ffffffee;
+}
+
+.album-card-image {
+  width: 100%;
+  max-width: 240px;      /* サムネの最大幅（お好みで 200〜280px に調整可） */
+  aspect-ratio: 1 / 1;   /* ★ 正方形にする */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;     /* サムネイルを自然にトリミング */
+  margin: 0 auto 10px;   /* 中央寄せ */
+  display: block;
+}
+
+.album-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.album-card-title span {
+  font-size: 0.85rem;
+  color: #777;
+  margin-left: 6px;
+}
+
+.album-card-meta {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.album-card-desc {
+  font-size: 0.86rem;
+  color: #555;
+}
+
+/* アルバム詳細ページのミニヘッダー（戻る＋タイトル） */
+.album-page-header {
+  position: sticky;
+  top: 90px;              /* ← ここを 90 に変更（完全にヘッダーの下に出す） */
+  z-index: 80;
+  background: radial-gradient(circle at top,
+    rgba(253, 251, 255, 0.96),
+    rgba(240, 242, 255, 0.96));
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  padding: 6px 16px 4px;
+}
+
+.album-back-and-title {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 0.9rem;
+}
+
+.album-back-and-title .back-link {
+  font-size: 0.86rem;
+  text-decoration: none;
+}
+
+.album-back-and-title .back-link:hover {
+  text-decoration: underline;
+}
+
+.album-page-title {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* アルバム詳細（album.html） */
+
+.album {
+  background: #ffffffcc;
+  border-radius: 16px;
+  padding: 24px 20px 20px;
+  margin-top: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(6px);
+}
+
+/* アルバム詳細ページの上部カード（スクロールで流す） */
+.album-header-card {
+  position: static;
+  top: auto;
+  z-index: auto;
+}
+
+.album-header-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.album-jacket-large {
+  width: 180px;
+  max-width: 40%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.album-header {
+  flex: 1;
+}
+
+.album-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.album-title span {
+  font-size: 0.9rem;
+  color: #777;
+  margin-left: 6px;
+}
+
+.album-meta {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 6px;
+}
+
+.album-desc {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 10px 0 0;
+  line-height: 1.6;
+}
+
+/* 曲一覧 */
+.album-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.track-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.track-card {
+  background: #fafafa;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  transition:
+    background 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.track-card--clickable {
+  cursor: pointer;
+}
+
+.track-card--clickable:hover {
+  background: #f0f4ff;
+  border-color: #c5d2ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+}
+
+/* 左の番号バッジ */
+.track-badge {
+  min-width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #e0e5ff;
+  color: #354072;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+/* 右側の本文領域 */
+.track-main {
+  flex: 1;
+}
+
+.track-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.track-title span {
+  font-size: 0.8rem;
+  color: #777;
+  margin-left: 6px;
+}
+
+.track-note {
+  font-size: 0.82rem;
+  color: #555;
+  margin: 0;
+}
+
+.track-title {
+  font-size: 1rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.track-title span {
+  font-size: 0.8rem;
+  color: #777;
+  margin-left: 6px;
+}
+
+.track-note {
+  font-size: 0.82rem;
+  color: #555;
+  margin: 0;
+}
+/* Spotify専用ボタン */
+.track-go-button.spotify {
+  background: linear-gradient(90deg, #1db954 0%, #1ed760 100%);
+  color: #fff;
+  border: none;
+  font-size: 0.98rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 8px rgba(30,185,84,0.09);
+}
+.track-go-button.spotify:hover {
+  background: linear-gradient(90deg, #17a74a 0%, #1db954 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(30,185,84,0.18);
+}
+
+.track-links {
+  margin-top: 4px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ▶ ボタン（1つだけ） */
+
+.track-go-button {
+  font-size: 1.2rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid #d0d4ff;
+  background: #f9f9ff;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+}
+
+.track-go-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+  background: #eef0ff;
+}
+
+/* 曲詳細（song.html） */
+
+.song-header {
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.song-title {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.song-title span {
+  font-size: 0.9rem;
+  color: #777;
+  margin-left: 6px;
+}
+
+.song-meta {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.song-back-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #666;
+  text-decoration: none;
+}
+
+/* プレイヤー */
+
+.song-player {
+  margin: 12px 0 16px;
+}
+
+.song-player iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 360px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* タブ */
+
+.song-tabs {
+  margin-top: 8px;
+}
+
+.song-tab-header {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 2px;
+  background: #e5e7ff;
+  margin-bottom: 10px;
+}
+
+.song-tab-button {
+  border: none;
+  background: transparent;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #555;
+}
+
+.song-tab-button.active {
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  color: #222;
+}
+
+.song-tab-panels {
+  margin-top: 4px;
+}
+
+.song-tab-panel {
+  display: none;
+}
+
+.song-tab-panel.active {
+  display: block;
+}
+
+/* 歌詞・解説ブロック */
+
+.lyrics-block {
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  padding: 12px 10px;
+  border-radius: 12px;
+  background: #ffffffee;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.notice {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 6px;
+}
+
+.analysis-block {
+  background: #ffffffee;
+  border-radius: 12px;
+  padding: 16px 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+.analysis-block h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+/* ==== Album Index – Jacket Image Fix ==== */
+.album-card img {
+  width: 100%;
+  max-width: 280px;        /* ← サムネの最大幅（お好みで調整可能） */
+  aspect-ratio: 4 / 3;     /* ← 必ず綺麗な比率で切れる */
+  object-fit: cover;       /* ← ジャケットを自然にトリミング */
+  border-radius: 12px;
+  margin: 0 auto 12px;
+  display: block;
+}

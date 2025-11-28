@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>うたのほし | Album Detail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>うたのほし Discography</h1>
+    <p>Album Detail</p>
+  </header>
+
+  <main>
+    <!-- ★ 戻る＋アルバム名のミニヘッダー（sticky） -->
+    <section class="album-page-header">
+      <div class="album-back-and-title">
+        <a href="index.html" class="back-link">← アルバム一覧へ戻る</a>
+        <span id="album-page-title" class="album-page-title"></span>
+      </div>
+    </section>
+
+    <!-- JS がアルバムカード＆曲リストを描画する領域 -->
+    <section id="album-detail" class="album-detail"></section>
+  </main>
+
+  <footer class="site-footer">
+    © うたのほし / UTANOHOSHI
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,886 @@
+{
+  "albums": [
+    {
+      "key": "story",
+      "title_ja": "ストーリー",
+      "title_en": "STORY",
+      "year": 2024,
+      "type": "Album",
+      "album_jacket": "images/story_jacket.jpg",
+      "description": "過去と未来をつなぎ、人の営みの連なりをそっと照らす物語集。",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "ストーリー",
+          "title_en": "Story",
+          "lyric_id": 93,
+          "audio_embed": "https://www.youtube.com/embed/1zfV2iGctj0",
+          "analysis": "この曲は、忘れかけていた“自分の原点”にそっと触れなおす物語です。過去の記憶や揺らぎを抱えたまま、それでも歩き続けてきた自分を認めることで、人生という物語が再びひとつにつながっていく——そんな静かな再出発の歌です。は、子どもの頃に持っていたまっすぐなまなざしを、大人になった今の自分がもう一度抱きしめ直していく物語です。「うまくいかなかったページ」も含めて全部が自分のストーリーなんだと認めていく、その静かな勇気を歌っています。",
+          "links": {
+            "youtube": "https://youtu.be/1zfV2iGctj0",
+            "spotify": "https://open.spotify.com/intl-ja/track/2r3W8CR1AgKGuczQMWI72S?si=e3a2cd141f39410a",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "やまと風来",
+          "title_en": "Wanderer",
+          "lyric_id": 88,
+          "audio_embed": "https://www.youtube.com/embed/ahpQUKC3lTs",
+          "analysis": "この曲は、時代や土地を越えて“人は最初から大いなるものに抱かれて生きている”という静かな確信を描いた歌です。痛みや迷いを抱えながらも、自然と祈りに導かれるように歩む人の姿を通して、「ひとは孤独ではなく、いつも見えない手に支えられている」 という大和的な生命観が流れています。",
+          "links": {
+            "youtube": "https://youtu.be/ahpQUKC3lTs",
+            "spotify": "https://open.spotify.com/intl-ja/track/3SVxxnQaHS4wOCpWqBwxGX?si=266e33e9db6c42e2",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "オリーブの夏日（かじつ）",
+          "title_en": "Olive Day",
+          "lyric_id": 89,
+          "audio_embed": "https://www.youtube.com/embed/n0VSKDUklOI",
+          "analysis": "まぶしい夏の日のひとこまを通して、「もう戻らないけれど確かにここにあった小さな約束」へそっと触れていく歌です。オリーブの枝のような、穏やかで平和な時間を思い出しながら、過去と現在がやわらかく重なり合う感覚を描いています。",
+          "links": {
+            "youtube": "https://youtu.be/n0VSKDUklOI",
+            "spotify": "https://open.spotify.com/intl-ja/track/3Nn0oqla8KZsUzxYPe12Ge?si=3ede839f496c442f",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "こころのキラリ",
+          "title_en": "Sparkle",
+          "lyric_id": 87,
+          "audio_embed": "https://www.youtube.com/embed/dBJORi1xcCg",
+          "analysis": "この歌は、日常の中でふと胸に灯る“ささやかな光”をすくい上げる物語です。大きな希望ではなくても、心の片隅で確かに瞬く小さな輝きが、人をもう一歩だけ前へ進ませてくれる——そんな静かな励ましをそっと描いています。",
+          "links": {
+            "youtube": "https://youtu.be/dBJORi1xcCg",
+            "spotify": "https://open.spotify.com/intl-ja/track/0bgVUN6RroQdxDN70lYSKS?si=89a45315fa274f9d",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "マイステージ",
+          "title_en": "My Stage",
+          "lyric_id": 999,
+          "audio_embed": "https://www.youtube.com/embed/T7tfUedymZA",
+          "analysis": "この歌は、慌ただしい日常の中でもふと訪れる“自分だけの舞台”の感覚を描いています。焦りや雑音に押されながら歩く朝の道も、陽だまりや小鳥の声に気づいた瞬間、世界がやわらかく開いていく。外の景色と心のリズムが重なり、何でもない時間が小さな祝福のように輝きだす——そんなささやかな目覚めの歌です。",
+          "links": {
+            "youtube": "https://youtu.be/T7tfUedymZA?si=jp8qzLlU0cosUuM6",
+            "spotify": "https://open.spotify.com/intl-ja/track/03PaFBsq8n28BL9L9OhccU?si=453ad2d20e124cea",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "ブーゲンビリアの花束を",
+          "title_en": "Bougainvillea",
+          "lyric_id": 52,
+          "audio_embed": "https://www.youtube.com/embed/Sd19_5wADas",
+          "analysis": "この歌は、別れや揺らぎの中に差し出された“鮮やかな祈りの気配”を描いています。ブーゲンビリアの花束は、失われゆくものへの手向けであり、同時に相手をそっと送り出すための光でもある——そんな静かな慈しみが芯に流れている作品です。",
+          "links": {
+            "youtube": "https://youtu.be/Sd19_5wADas",
+            "spotify": "https://open.spotify.com/intl-ja/track/5uKDEJr1XFAEtdj8EFvzB5?si=ceecd64346524ca5",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "ハートで魂(ソウル)",
+          "title_en": "Heart & Soul",
+          "lyric_id": 90,
+          "audio_embed": "https://www.youtube.com/embed/hS4jVWzQZ_Y",
+          "analysis": "この歌は、“理屈よりも心が先に動く瞬間”をまっすぐに肯定する作品です。揺れる感情の奥で静かに燃えている本音にそっと触れながら、魂が選ぼうとしている方向へ正直に進む勇気を描いています。",
+          "links": {
+            "youtube": "https://youtu.be/hS4jVWzQZ_Y",
+            "spotify": "https://open.spotify.com/intl-ja/track/1MHBaFtlFJSYlRyDqT6ZoL?si=de3132bf80314cab",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "幻影",
+          "title_en": "Phantom",
+          "lyric_id": 78,
+          "audio_embed": "https://www.youtube.com/embed/DCaqKX_g2Og",
+          "analysis": "この歌は、心の中に浮かんでは消える“もう届かない面影”をそっと見つめる物語です。掴もうとすると揺れてしまう記憶の影は、失われたものではなく、今の自分を形づくってきた静かな存在として寄り添っています。",
+          "links": {
+            "youtube": "https://youtu.be/DCaqKX_g2Og",
+            "spotify": "https://open.spotify.com/intl-ja/track/66ZNYzz8rRlzPr17ydx88E?si=7e652eee33454d67",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "なみのうた",
+          "title_en": "Waves",
+          "lyric_id": 53,
+          "audio_embed": "https://www.youtube.com/embed/vMeRrmqYmxs",
+          "analysis": "この歌は、水辺に残された小さな記憶をそっと撫でるように、突然失われた命を思い返す静かな祈りの物語です。波の揺らぎに触れるたび胸に訪れる痛みを、そのまま否定せず抱きしめながら、残された人の心に少しずつ寄り添い、やさしい慰めへと導いていく作品です。",
+          "links": {
+            "youtube": "https://youtu.be/vMeRrmqYmxs",
+            "spotify": "https://open.spotify.com/intl-ja/track/1Q0tJp6KJz971X01IOid37?si=45463d33767b40da",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "OKAERI 8.15",
+          "title_en": "OKAERI 8.15",
+          "lyric_id": 50,
+          "audio_embed": "https://www.youtube.com/embed/dxjxUab1OKg",
+          "analysis": "この歌は、終戦記念日の静けさの中で“帰れなかった人々”と“帰りを待ち続けた人々”の想いにそっと寄り添う鎮魂の祈りです。消えてしまった声や時間を悼みつつ、その痛みを抱えて生きる者たちの心に「あなたは今も帰ってきている」と語りかけるような、深い追悼とつながりの歌になっています。",
+          "links": {
+            "youtube": "https://youtu.be/dxjxUab1OKg",
+            "spotify": "https://open.spotify.com/intl-ja/track/2MkzEh6cbJIec2GA2ANNMu?si=0fe5bb40ab694005",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "ホウセンカ",
+          "title_en": "Balsam",
+          "lyric_id": 92,
+          "audio_embed": "https://www.youtube.com/embed/vITgziNHH9o",
+          "analysis": "この歌は、胸の奥に長く残ってきた“言葉にできない痛み”にそっと触れ、その影を抱きしめながら癒しへ向かう道を描いています。壊れやすいものに宿る静かな強さを通して、失われた命や記憶への祈りが柔らかくにじむ作品であり、過去の傷が時を経てもなお光へと変わっていく瞬間をそっと示しています。",
+          "links": {
+            "youtube": "https://youtu.be/vITgziNHH9o",
+            "spotify": "https://open.spotify.com/intl-ja/track/7w7CkGMoqjXYVRyhuLbe8O?si=6c613e2a06a04b87",
+            "apple_music": ""
+          }
+        },
+        {
+          "track_no": 12,
+          "title_ja": "D",
+          "title_en": "D",
+          "lyric_id": 91,
+          "audio_embed": "https://www.youtube.com/embed/1VktE9Ww1lk",
+          "analysis": "この歌は、世界中の人々がひとつの静かな夢を共有することで、争いの影がほどけていく未来を願う祈りの物語です。心の奥に残る痛みや分断を超えて、同じ朝を迎えるというささやかな奇跡を信じることで、人は再びやわらかな平和へ向かえる——そんな静かな希望をそっと描いています。",
+          "links": {
+            "youtube": "https://youtu.be/1VktE9Ww1lk",
+            "spotify": "https://open.spotify.com/intl-ja/track/3WH4JYHQOAuCiQQKNEMfE6?si=149327347d6c4740",
+            "apple_music": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "utanohoshi",
+      "title_ja": "歌の星",
+      "title_en": "UTANOHOSHI",
+      "year": 2024,
+      "type": "Album",
+      "album_jacket": "images/utanohoshi_jacket.jpg",
+      "description": "星々とともに歌で巡る、自然への賛歌と静かな警鐘が響く歌集。",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "黎明",
+          "title_en": "Dawn",
+          "lyric_id": 85,
+          "audio_embed": "https://www.youtube.com/embed/s7_ZGypOxlY",
+          "analysis": "この歌は、世界の稜線が少しずつ光り出す“こころの夜明け”を描いた物語です。不安や闇に飲み込まれそうになりながらも、「大好きなこと」に正直であろうとする鼓動が、見えないところで静かに夜を押し返していく。自分の中に差し込む一筋の光を信じることで、人生そのものが新しい朝へと開けていく、その瞬間をそっと切り取った祈りのような歌です。",
+          "links": {
+            "youtube": "https://youtu.be/s7_ZGypOxlY",
+            "spotify": "https://open.spotify.com/intl-ja/track/3pmJHclR74MHtp4cD3RtCv?si=ee1464631d5f4c78"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "セカンド",
+          "title_en": "Second",
+          "lyric_id": 76,
+          "audio_embed": "https://www.youtube.com/embed/BOu4R90NT8k",
+          "analysis": "この歌は、奪われそうになった希望を“第二楽章”のようにもう一度鳴らしなおす物語です。冷たく硬い罠や痛みを、そのまま飲み込んで鋼の知恵と静かな勇気へと変えていく姿が描かれています。理不尽さに晒されても、心の奥に燃え続けるフレアを信じて、恐れとの鎖を断ち切る——そんな再起動の瞬間を刻んだ、強くもしなやかな一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/BOu4R90NT8k",
+            "spotify": "https://open.spotify.com/intl-ja/track/4exL8vpgj3vZXvr6tHd9ed?si=87741bab462d4c08"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "照ラ",
+          "title_en": "Terra",
+          "lyric_id": 82,
+          "audio_embed": "https://www.youtube.com/embed/DFVih704Jvs",
+          "analysis": "この歌は、街角の小さな春の風景から、地球そのものをてらす“Terraの灯り”へと視点が広がっていく物語です。忘れていた夢の続きや、置き去りにしてきた想いに光を当てながら、影ごとまるっと抱きしめて照らしていく優しさが流れています。誰かに救われるのを待つのではなく、自分たちの手で世界に光を分かち合う——そんな共創の祈りがこめられた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/DFVih704Jvs",
+            "spotify": "https://open.spotify.com/intl-ja/track/0ldr6BK7PxeODSteMIinrs?si=675ab6f709d44772"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "燦 Sun",
+          "title_en": "Sun",
+          "lyric_id": 84,
+          "audio_embed": "https://www.youtube.com/embed/jqqtHRWOqHU",
+          "analysis": "この歌は、太陽の子どもとして生まれてきた私たちが、本来の輝きを思い出していく物語です。包まれるような愛しさの中で、迷いを手放し、心の奥に眠っていた光へとそっと身を委ねていく。その光は寂しさや喪失感さえも溶かし、焦がしながら、新しい生命の循環へと編み直してくれる——そんな大いなる“Sun”との再会を描いた賛歌です。",
+          "links": {
+            "youtube": "https://youtu.be/jqqtHRWOqHU",
+            "spotify": "https://open.spotify.com/intl-ja/track/6qupeeja2gbwngNzuaR3zb?si=59ab2fb196774a02"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "瑠璃色の雨",
+          "title_en": "Lapis Rain",
+          "lyric_id": 86,
+          "audio_embed": "https://www.youtube.com/embed/NKCuCmOBEQY",
+          "analysis": "この歌は、閉ざされた心にそっと降り注ぐ“瑠璃色の雨”が、痛みとともに静かな安らぎをもたらす物語です。塞いでいた胸の奥に、青い雫がひとつ、またひとつ落ちるたび、固くなっていた感情がほどけ、張り詰めていた時間が少しずつ溶けていきます。雷鳴のような怒りも、弔いのような祈りも、すべてを抱きかかえながら、雨はやがて新しい夢の光景へと導いてくれる——そんな浄化と再生の歌です。",
+          "links": {
+            "youtube": "https://youtu.be/NKCuCmOBEQY",
+            "spotify": "https://open.spotify.com/intl-ja/track/3sFtmeRcS5yxkZEkGBL8V2?si=2edceb4e12e44a3d"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "うろこ雲",
+          "title_en": "Mackerel Sky",
+          "lyric_id": 77,
+          "audio_embed": "https://www.youtube.com/embed/fp9DKQ8Mt3Q",
+          "analysis": "この歌は、ビルの隙間を抜ける風や、頭上に広がるうろこ雲の景色の中で、心に溜め込んだ涙とそっと向き合う物語です。こぼれ落ちた理由を無理に問い詰めるのではなく、その涙のそばにひっそり咲く小さな花に気づいていく。悲しみの色と日常の色がにじみ合い、世界が少しだけやわらかく染め替えられていく——そんな繊細な心の変化をすくい上げた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/fp9DKQ8Mt3Q",
+            "spotify": "https://open.spotify.com/intl-ja/track/0ljGBp3jVXOmX3pjjLQKE3?si=0e4918682ce34c22"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "砂の惑星",
+          "title_en": "Desert Planet",
+          "lyric_id": 79,
+          "audio_embed": "https://www.youtube.com/embed/u-Qngnm3DYk",
+          "analysis": "この歌は、乾ききった砂の惑星を舞う風景の中で、人の心が枯れてしまうことの痛みと、その先にある可能性を描いています。虚しさや恐れが頬を刺すような世界でも、誰かを真っ直ぐに愛し、見つめ合うまなざしは、砂の大地を青い涙の海へと変えていく源になる。闇の力に脅かされながらも、素直さから離れない選択こそが、この惑星を生き返らせる鍵だと示す、強く切実な祈りの歌です。",
+          "links": {
+            "youtube": "https://youtu.be/u-Qngnm3DYk",
+            "spotify": "https://open.spotify.com/intl-ja/track/4Y37CedoxEFxyYNKtqUGKb?si=6f77d24918094d59"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "バベル",
+          "title_en": "BABEL",
+          "lyric_id": 83,
+          "audio_embed": "https://www.youtube.com/embed/nOR9j9KtBGk",
+          "analysis": "この歌は、“正義”や“公正”の名のもとに組み上げられていく現代のバベルの塔を、冷静かつ鋭く見つめる物語です。巧妙で透明に見えるシステムの裏側で、壊れたメディアや暴力的な言葉が静かに手を結び、人々の心を分断していく。その構造に気づきながらも、夢見心地のまま目をそらしてしまう自分たちの姿も含めて問い直し、どこから世界を立て直していくのかを聴き手に委ねるような、警鐘と祈りの一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/nOR9j9KtBGk",
+            "spotify": "https://open.spotify.com/intl-ja/track/3wzvRnX2jd06TcFIG3mPU1?si=5aff8611fda543a8"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "リヴァイアサン",
+          "title_en": "Leviathan",
+          "lyric_id": 80,
+          "audio_embed": "https://www.youtube.com/embed/0ee-OVxrdNQ",
+          "analysis": "この歌は、閉ざされた海の底で眠る“リヴァイアサン”をモチーフに、偽りの権力構造と奪われた神話を描き出す物語です。正しさの名を借りた城壁や、聖なるはずの言葉までもが足枷となって人々を縛っていくさまの中で、抑圧された嘆きと怒りが静かにうねり続けています。その深い水圧の中から、本当の自由といのちの秩序を取り戻そうとする気配が立ちのぼる、重厚な問いかけの歌です。",
+          "links": {
+            "youtube": "https://youtu.be/0ee-OVxrdNQ",
+            "spotify": "https://open.spotify.com/intl-ja/track/3uqy44NzERZ8rydruWjjOI?si=f8c0deda2409488e"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "歌の星",
+          "title_en": "UTANOHOSHI",
+          "lyric_id": 81,
+          "audio_embed": "https://www.youtube.com/embed/WHN44oHqVX4",
+          "analysis": "この歌は、ひとりひとりの胸の高鳴りが、この惑星そのものの歌声と重なり合う瞬間を描いた、アルバムの核となる物語です。自分を愛することを恐れず、弱さや痛みを抱えたままでも、そのままの姿で「一緒に歌おう」と招かれていく。君だからこそ響く声があり、その声が星と呼応するとき、この世界は少しずつ優しく塗り替えられていく——そんな感謝と共鳴の祝祭を刻んだタイトルチューンです。",
+          "links": {
+            "youtube": "https://youtu.be/WHN44oHqVX4",
+            "spotify": "https://open.spotify.com/intl-ja/track/4EnYpx0nMNWHKJi2R3i6pA?si=383219b3535a4dda"
+          }
+        }
+      ]
+    },
+    {
+      "key": "message",
+      "title_ja": "メッセージ",
+      "title_en": "Message",
+      "year": "2024",
+      "type": "Album",
+      "album_jacket": "images/message_jacket.jpg",
+      "description": "星や自然が届ける見えない声に気づき、心を澄ませる11の祈り。",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "はじまりのパルス",
+          "title_en": "The First Pulse",
+          "lyric_id": 63,
+          "audio_embed": "https://www.youtube.com/embed/smJvxM84m2s",
+          "analysis": "この歌は、宇宙そのものが放つ微細な振動と、自分の内側の鼓動が重なり合う瞬間を描いています。見えない信号のように届くパルスは、世界を満たす無限の愛のエネルギーの一部であり、その響きに気づいたとき、人は新しい始まりへと優しく導かれていく——そんな宇宙的な目覚めの物語です。",
+          "links": {
+            "youtube": "https://youtu.be/smJvxM84m2s",
+            "spotify": "https://open.spotify.com/intl-ja/track/3Vxe71cGlTmMvghgWp0d9e?si=231b868276fd44f8"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "プラトニカ",
+          "title_en": "Platonica",
+          "lyric_id": 74,
+          "audio_embed": "https://www.youtube.com/embed/Cv3qZna12To",
+          "analysis": "この歌は、ビッグバンのように世界が生まれた瞬間に宿った“最初の愛の光”を象徴的に描いています。形を持たない心の交流は、宇宙創生の振動と同じ源から立ち上がる純粋なエネルギーであり、その気配に触れるとき、人は出会いの意味を超えて“存在そのもののつながり”へと導かれていきます。",
+          "links": {
+            "youtube": "https://youtu.be/Cv3qZna12To",
+            "spotify": "https://open.spotify.com/intl-ja/track/522nBnVrOxjfLQXT1PzOUd?si=026931ae0d31484a"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "ラストフラッグ",
+          "title_en": "Last Flag",
+          "lyric_id": 67,
+          "audio_embed": "https://www.youtube.com/embed/4eG5MPAwN6s",
+          "analysis": "この歌は、深く傷ついた一人ひとりが掲げる“折れた旗”をそっと拾い集め、それらをつないで大きな希望の旗へと変えていく祈りの物語です。絶望に沈む日にも、人の心に残るわずかな灯りを束ねれば、人がもう一度立ち上がるための光になる——そんな静かで力強い希望を示しています。",
+          "links": {
+            "youtube": "https://youtu.be/4eG5MPAwN6s",
+            "spotify": "https://open.spotify.com/intl-ja/track/46ISIqh6GSdjTfDhfAZ8lW?si=d2a1d3f8704e4e37"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "さすらいの輪舞曲（ロンド）",
+          "title_en": "Rondo of the Wanderer",
+          "lyric_id": 72,
+          "audio_embed": "https://www.youtube.com/embed/8b4ucxotR8o",
+          "analysis": "この歌は、住み慣れた街を離れざるを得なかった喪失の痛みを抱えながらも、その“さすらい”の中に人類がかつて自然と共に生きていた原初の記憶が静かに重なる瞬間を描いています。奪われた旅路のようでいて、実は大切なものを思い出すための輪舞でもあり、失った後にこそ見えてくる人の強さと本質への回帰がそっと息づいています。",
+          "links": {
+            "youtube": "https://youtu.be/8b4ucxotR8o",
+            "spotify": "https://open.spotify.com/intl-ja/track/2VLLUTwPkfSk0eobnIxLPM?si=6437887c31c44a32"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "悠奏ヒストリア",
+          "title_en": "Everflowing Historia",
+          "lyric_id": 64,
+          "audio_embed": "https://www.youtube.com/embed/iwYGTbayvgY",
+          "analysis": "この歌は、遠い昔から続く人類の営みが、今の自分の中にも静かに息づいていることを思い出させる物語です。日々の選択や迷いのひとつひとつが、歴史の“悠なる旋律”の一部として響き合い、過去から未来へとつながる大きな流れの中で自分も確かに奏でている——そんな時間の連なりへの気づきを描いています。",
+          "links": {
+            "youtube": "https://youtu.be/iwYGTbayvgY",
+            "spotify": "https://open.spotify.com/intl-ja/track/1lpQxtKZC5wtXn7X7HtDc4?si=1a15ee989c004d13"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "神サピエンス",
+          "title_en": "Kami Sapiens",
+          "lyric_id": 68,
+          "audio_embed": "https://www.youtube.com/embed/tF-BFiNJSWs",
+          "analysis": "この歌は、古い時代に人々が“約束の地”を求めて歩んだ物語を象徴的に重ねながら、現在を生きる私たちの中にも続いている大いなる旅路を描いています。国や時代を越えて、人類が同じ源へ向かって進んできた痕跡が静かに息づいており、その記憶の流れの中で自分という存在もまた見えない導きに照らされながら歩いている——そんな普遍的な旅の感覚をそっと示す作品です。",
+          "links": {
+            "youtube": "https://youtu.be/tF-BFiNJSWs",
+            "spotify": "https://open.spotify.com/intl-ja/track/0yk3fu33nqT6h1ziGFAlLE?si=0f08c005658c4bde"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "アイコトバ",
+          "title_en": "AIKOTOBA",
+          "lyric_id": 65,
+          "audio_embed": "https://www.youtube.com/embed/YKTFOf_Y7UI",
+          "analysis": "この歌は、たった一言で世界をやわらかくほどく“心の鍵”のような言葉の力を描いています。誰かの存在を受けとめ、過去の痛みさえそっと包み込むその響きは、つながりを取り戻すための小さな灯りでもあり、自分と相手のどちらにも光を宿す合図となる——そんな優しい再生の物語です。",
+          "links": {
+            "youtube": "https://youtu.be/YKTFOf_Y7UI",
+            "spotify": "https://open.spotify.com/intl-ja/track/7LRyfVXIvRVeF92UdZ7S4c?si=7dc8e18cddbc40ff"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "ニライカナイに誘われて",
+          "title_en": "Drawn to Nirai Kanai",
+          "lyric_id": 70,
+          "audio_embed": "https://www.youtube.com/embed/Fp5Gtc0PF-g",
+          "analysis": "この歌は、海の彼方にあるとされる“ニライカナイ”を、人の魂がふと帰りたくなる原郷として描いています。日々の疲れや迷いを抱えた心が、見えない呼び声にそっと導かれるように、本来の自分を思い出していく物語であり、失われた安心の感覚をもう一度取り戻すための優しい誘いが流れています。",
+          "links": {
+            "youtube": "https://youtu.be/Fp5Gtc0PF-g",
+            "spotify": "https://open.spotify.com/intl-ja/track/41qjOxZbP7WzBZgo55G4vy?si=bd1e0d7bf71646b0"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "ReBIRTH",
+          "title_en": "ReBIRTH",
+          "lyric_id": 69,
+          "audio_embed": "https://www.youtube.com/embed/UaO8iCQYZl4",
+          "analysis": "この歌は、数万年にわたる人類の記憶を遠くに見渡しながら、今という時代に必要な“赦しの感性”を取り戻す再生の物語です。痛みや分断を越えてゆくために、心の深層に眠っていた柔らかな光を呼び覚まし、長い歴史の流れの中で人がもう一度生まれ直す姿を静かに描いています。",
+          "links": {
+            "youtube": "https://youtu.be/UaO8iCQYZl4",
+            "spotify": "https://open.spotify.com/intl-ja/track/6xXebpdneU59RrbDTxwoN2?si=ee8afb3e205c4439"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "山の精霊",
+          "title_en": "Spirit of the Mountain",
+          "lyric_id": 71,
+          "audio_embed": "https://www.youtube.com/embed/Mv4gj7T6Hpc",
+          "analysis": "この歌は、山に宿る“見えない存在”を通して、人が自然と深くつながっている感覚を呼び覚ます物語です。静かな森の気配や風の声のように、外界の響きが心の内側へそっとしみ込んでいき、忘れていた祈りの感性がよみがえる——そんな原初的なまなざしを描いています。",
+          "links": {
+            "youtube": "https://youtu.be/Mv4gj7T6Hpc",
+            "spotify": "https://open.spotify.com/intl-ja/track/1flMxgYms1gr6AoDujfek6?si=870e07a7b5d7412d"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "春とルルリラ",
+          "title_en": "Spring and Lululila",
+          "lyric_id": 75,
+          "audio_embed": "https://www.youtube.com/embed/hgZ0qiHvPio",
+          "analysis": "この歌は、春の軽やかな気配の奥に、宇宙から舞い降りる小さな兆しのような“見えない力”を重ね合わせた物語です。儚い綿毛のように見えても、本来は大きな運命さえ変えてしまうほどの力を秘めた存在であり、破壊と慈悲の境目にあるその気配が、心の深くに静かな目覚めをもたらしていくという象徴的な作品です。",
+          "links": {
+            "youtube": "https://youtu.be/hgZ0qiHvPio",
+            "spotify": "https://open.spotify.com/intl-ja/track/574zbtJmTJX3KVKEm4mwu6?si=45adad427e4b4917"
+          }
+        }
+      ]
+    },
+    {
+      "key": "misyo",
+      "title_ja": "未生",
+      "title_en": "MISYO",
+      "year": "2023",
+      "type": "Album",
+      "album_jacket": "images/misyo_jacket.jpg",
+      "description": "見えない世界の気配と日々の想いが重なり合う、静かな12曲を収めたアルバム。",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "夜明け",
+          "title_en": "YOAKE – Dawn",
+          "lyric_id": 59,
+          "audio_embed": "https://www.youtube.com/embed/UbGQpLbgo4I",
+          "analysis": "この歌は、まだ誰も目撃していない心の夜明けを描いています。世界が変わる前に、最初に変わるのはいつも自分の内側の景色で、その小さな変化を丁寧に見つめなおすことで、未生の世界にともっていた光が現実の朝焼けへとつながっていく。終わりと始まりのあいだで揺れているスピリットが、そっと「生きてみたい」と呟く瞬間をすくい上げたような一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/UbGQpLbgo4I",
+            "spotify": "https://open.spotify.com/intl-ja/track/6204Ss61584fPWVDoJbzgH?si=1f2b168acfb74012"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "ココロセカイのこどもたち",
+          "title_en": "Children of the Kokoro World",
+          "lyric_id": 58,
+          "audio_embed": "https://www.youtube.com/embed/n22WifDyktc",
+          "analysis": "ココロセカイのこどもたちは、この世に生まれる前の魂たちの遊び場のような歌です。ことばより先に音やリズムでじゃれ合い、まだ名前も境界も持たない存在たちが、ただ嬉しさと好奇心だけで世界を触っている。その無邪気さは、私たちがどんなに傷ついても失われない「原初のこども心」を思い出させてくれます。未生の世界からこちら側を見つめる、やわらかいまなざしの歌です。",
+          "links": {
+            "youtube": "https://youtu.be/n22WifDyktc",
+            "spotify": "https://open.spotify.com/intl-ja/track/2MoS7A3OwQDn2i9yevn11z?si=4bc6e12117d4461f"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "フラワー",
+          "title_en": "Flower",
+          "lyric_id": 56,
+          "audio_embed": "https://www.youtube.com/embed/RiNsm-G_B3Q",
+          "analysis": "フラワーは、まだ芽吹く前のいのちが、自分でも知らないうちに世界から祝福されていることを描いた歌です。誰にも気づかれていないつぼみの段階ですら、風や光や見えない手に支えられていて、そのことをふと知ったとき、心の奥で静かに「生きていこう」という決意が生まれる。未生という透明な庭で、これから咲く花が自分自身だと気づいていくプロセスを、そっとなぞるような物語です。",
+          "links": {
+            "youtube": "https://youtu.be/RiNsm-G_B3Q",
+            "spotify": "https://open.spotify.com/intl-ja/track/73xYEm7C1pXAAT9Yvsu1xW?si=bf7f9beeba4c4240"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "クジラレジューム",
+          "title_en": "Whale Regime",
+          "lyric_id": 57,
+          "audio_embed": "https://www.youtube.com/embed/TVpKZcrrwL0",
+          "analysis": "クジラレジュームは、太古からこの星を見守ってきたクジラたちの記憶を通して、人類のいのちのあり方を問い直す歌です。見えないところで傷つけられてきたものたちの痛みが、海の底から静かに響き続けている。その響きは、まだ形にならない「次の世界のルール＝レジューム」を選びなおすようにと、未生の領域から呼びかけているのかもしれません。耳を澄ますこと自体が、新しい選択のはじまりなのだと教えてくれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/TVpKZcrrwL0",
+            "spotify": "https://open.spotify.com/intl-ja/track/2EIrJMaPS37o3Xnvgid7WX?si=de9c2c1c3af9436d"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "アカシアの安息",
+          "title_en": "Acacia's Sabbath",
+          "lyric_id": 55,
+          "audio_embed": "https://www.youtube.com/embed/J74xn3uh_r0",
+          "analysis": "アカシアの安息は、忙しさと責任の重さに押しつぶされそうになった心が、いったん現実から離れて「魂の安息日」を過ごす物語です。アカシアの木陰のような時間の中で、何者でもない自分に帰り、ただ静かに呼吸を取り戻す。そのひとときは、まだ生まれていない決断や、まだ言葉になっていない祈りが、未生の世界でゆっくりと温められている時間でもあります。何もできていないように見えて、実は一番大事な変化が内側で起こっていることを肯定してくれる歌です。",
+          "links": {
+            "youtube": "https://youtu.be/J74xn3uh_r0",
+            "spotify": "https://open.spotify.com/intl-ja/track/5eZZYlorpQyHFh1ZmnFVmk?si=94bc2367418b4875"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "ダンシングシャドー",
+          "title_en": "Dancing Shadow",
+          "lyric_id": 54,
+          "audio_embed": "https://www.youtube.com/embed/fVjNZuS9Y7A",
+          "analysis": "ダンシングシャドーは、見たくない感情や見捨ててきた影たちと、あえて一緒に踊ってみるという選択を描いた歌です。心の床に貼りついていた暗い影は、リズムとともに揺らぎだすと、ただの「怖い存在」ではなく、ずっと理解してほしかった古い感情の化身であることが見えてくる。未生の世界では、光と影はまだ分かたれておらず、両方を抱きしめることでしか本当の解放は訪れない——そんな深い気づきを、ダンスという形で伝えてくれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/fVjNZuS9Y7A",
+            "spotify": "https://open.spotify.com/intl-ja/track/31D2cDpQcWcturT34d2v0S?si=b138fd89da70499b"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "norma -ノーマ 誰も知らない国-",
+          "title_en": "norma - The Unknown Land –",
+          "lyric_id": 54,
+          "audio_embed": "https://www.youtube.com/embed/cAaJCoqhJ8U",
+          "analysis": "norma は、「普通」や「常識」という名の見えない国境線をテーマにした歌です。誰も知らない国とは、まだ誰も言葉にしてこなかった心の領域でもあり、そこには既存のルールでは測れない、繊細で豊かな世界が広がっています。未生の世界から眺めると、私たちが信じてきたノーマルは、ほんの一部の狭い地図にすぎないのかもしれない。その外側へそっと足を踏み出す勇気を、優しく後押ししてくれる物語です。",
+          "links": {
+            "youtube": "https://youtu.be/cAaJCoqhJ8U",
+            "spotify": "https://open.spotify.com/intl-ja/track/3zaEMMqsQfu9I7NzICITgF?si=48d6b0648ff84edd"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "君たちの物語",
+          "title_en": "Your Stories",
+          "lyric_id": 60,
+          "audio_embed": "https://www.youtube.com/embed/3LFQnw4G98I",
+          "analysis": "君たちの物語は、この世に生まれてくるひとりひとりの人生が、すでに未生の世界で丁寧に紡がれてきた「シナリオ」のようなものだと感じさせてくれる歌です。嬉しさも悲しみも、出会いも別れも、すべてが無意味な偶然ではなく、どこかで深くつながった物語の糸として響き合っている。自分だけのストーリーを生きることは、世界全体の物語を一緒に紡いでいくことなのだと、やさしく教えてくれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/3LFQnw4G98I",
+            "spotify": "https://open.spotify.com/intl-ja/track/2u5RTIYqzM8Asr8d7b0YrM?si=9dc5c1937f1a4b96"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "ゆうやけ小路",
+          "title_en": "Sunset Alley",
+          "lyric_id": 51,
+          "audio_embed": "https://www.youtube.com/embed/HuYIieNkIys",
+          "analysis": "ゆうやけ小路は、一日の終わりにだけ開く、心の路地裏のような景色を描いた歌です。夕焼けの光に照らされると、見慣れた街角やささやかな日常の会話が、不思議と「向こう側の世界」と地続きに感じられてくる。未生の世界と現実のあいだにある薄いヴェールが、ほんの少し透けて見える時間帯に、言えなかった想いをそっと手渡し合う——そんな情景を、猫や人々のやり取りを通してやさしく映し出しています。",
+          "links": {
+            "youtube": "https://youtu.be/HuYIieNkIys",
+            "spotify": "https://open.spotify.com/intl-ja/track/2GtwxdPtLZzrbDLeOVMxhj?si=9ee137ddd6c942fb"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "流星群",
+          "title_en": "Meteor Shower",
+          "lyric_id": 49,
+          "audio_embed": "https://www.youtube.com/embed/-ZOIgLDCyDo",
+          "analysis": "流星群は、空から降り注ぐ光の粒が、地上の誰かの祈りや感謝と呼応していることを描いた歌です。心の器をからっぽにして空を見上げると、自分の中にもともとあった光と、遠い宇宙から届く光がひとつに重なっていく。その瞬間、未生の世界に浮かんでいた想いや願いが、現実の行動や選択としてこの星に降り立つのかもしれません。自分が「星の一つ」として生きている感覚を、そっと思い出させてくれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/-ZOIgLDCyDo",
+            "spotify": "https://open.spotify.com/intl-ja/track/0EgzjRkAVuzNQMG4KOuRLw?si=4ade4c106d3a4c79"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "メリークリスマスをわたしから",
+          "title_en": "I wish you a merry Christmas",
+          "lyric_id": 29,
+          "audio_embed": "https://www.youtube.com/embed/qDLrbEytZIg",
+          "analysis": "メリークリスマスをわたしから は、祝祭のきらめきの奥にある、静かな感謝と祈りの気持ちを丁寧にすくい上げた歌です。華やかなイルミネーションや賑やかな笑い声の裏側で、誰にも言えない孤独や痛みを抱えている人にも、そっと光が届くようにと歌われています。未生の世界から見れば、贈り物とは物質ではなく、「あなたを想っている」という温かな意識そのもの。小さな『メリークリスマス』の一言が、見えないところで大きな癒しの波となって広がっていくことを教えてくれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/qDLrbEytZIg",
+            "spotify": "https://open.spotify.com/intl-ja/track/6OEG56bR4qxyBCfZF3bYUM?si=f1c2624447b14570"
+          }
+        },
+        {
+          "track_no": 12,
+          "title_ja": "おやすみ",
+          "title_en": "Good Night",
+          "lyric_id": 998,
+          "audio_embed": "https://www.youtube.com/embed/NKtfarn33b8",
+          "analysis": "おやすみ は、一日の終わりに魂がそっと未生の世界へと帰っていく、そのゆらぎの時間を描いた子守歌のような歌です。ありがとうという言葉とともに目を閉じると、悲しみや痛みは風に運ばれ、胸の奥に眠っていたやさしさの泉が少しずつ温度を取り戻していく。明日のいのちの歌は、眠りの中で静かに編まれているのだという感覚を思い出させながら、「大事なわたし」におやすみを告げる——そんな深い癒しと自己受容の祈りがこめられた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/NKtfarn33b8?si=VV54M3U4wIxtHMLv",
+            "spotify": "https://open.spotify.com/intl-ja/track/2gmsdoycdN2DlsSgUbTDOg?si=9474884700c4406b"
+          }
+        }
+      ]
+    },
+    {
+      "key": "vega",
+      "title_ja": "ベガ",
+      "title_en": "VEGA",
+      "year": "2023",
+      "type": "Album",
+      "album_jacket": "images/vega_jacket.jpg",
+      "description": "夏のきらめきと心の鼓動が交差する、光と風の物語を編んだ11曲のアルバム。",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "夏のEYES",
+          "title_en": "Summer Eyes",
+          "lyric_id": 46,
+          "audio_embed": "https://www.youtube.com/embed/KNdtxI81ros",
+          "analysis": "この歌は、真夏の強烈な日差しが胸の奥のわだかまりや寂しさを一気に焼き払い、心の奥へまっすぐ光を通していく物語です。太陽がこちらを真正面から射抜くように照らすそのまなざしを受けて、人はその圧倒的な清々しさの中で、素直さと前向きさを取り戻していく。影が光へと変わるその瞬間、心は夏の風とともに軽やかに生まれ変わり、新しい季節へと踏み出していく——そんな力強い浄化と解放の感覚を描いた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/KNdtxI81ros",
+            "spotify": "https://open.spotify.com/intl-ja/track/6aulWvR32wTcShYODHvzat?si=168bda94fe2d4ec0"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "ほしのうた",
+          "title_en": "Song of the Planet",
+          "lyric_id": 41,
+          "audio_embed": "https://www.youtube.com/embed/q64n6rchTzo",
+          "analysis": "この歌は、夜空の星々を“地球というひとつの生命”と重ね合わせた、大地讃頌のような祈りの歌です。瞬く光には自然の営みや失われた命の記憶が宿り、人類が忘れかけている大切な声をそっと抱えながら響いている。その輝きに耳を澄ませると、私たちは地球の一部として生まれた“ほしの子”であることに気づく。同時にこの光は、いまの世界に潜む痛みや歪みへの小さな警鐘でもある。地球への感謝と未来への願いが静かに息づく一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/q64n6rchTzo",
+            "spotify": "https://open.spotify.com/intl-ja/track/72xIMhuhXoGlHogD7IEGAD?si=95b4a5bd79164a57"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "やまびこ",
+          "title_en": "YAMABIKO - Echo of the Mountains",
+          "lyric_id": 37,
+          "audio_embed": "https://www.youtube.com/embed/dsiXEzkcN0Q",
+          "analysis": "この歌は、自分の声を世界へ放つことの怖さと美しさを描いた作品です。投げかけた言葉が山々に反射して返ってくるように、心から発した想いは誰かの胸で静かに響き、巡り巡って自分へと返ってくる。たとえ今は届かないように感じても、声は消えずに世界を旅し、未来の自分を励ます力に変わる。自然と人が昔から交わしてきた“応答の記憶”が息づき、失われかけた勇気をそっと呼び覚ます歌です。",
+          "links": {
+            "youtube": "https://youtu.be/dsiXEzkcN0Q",
+            "spotify": "https://open.spotify.com/intl-ja/track/4UGjAjvsF5YvnMg1E21tnx?si=2c0f84c214ae4377"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "コドウ、サイキドウ",
+          "title_en": "KODO SAIKIDO - Heartbeat, Restart",
+          "lyric_id": 43,
+          "audio_embed": "https://www.youtube.com/embed/vCRhhmVmYrU",
+          "analysis": "この歌は、止まりかけた心のリズムが再び動き始める“再起動”の瞬間を描いています。重く沈んでいた胸の奥で、失われたと思っていた力が微かに息を吹き返し、世界の輪郭が静かに変わっていく。過去の痛みが影となって残っていても、深い部分ではコドウは確かに鳴り続けている。その微細な響きを聴き取ったとき、人はもう一度やわらかく歩き出せる。いのちの再生を象徴する、凛とした光を持つ一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/vCRhhmVmYrU",
+            "spotify": "https://open.spotify.com/intl-ja/track/5fmubhhhOQq6TClFpdpwDR?si=0f21f81a32364286"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "Hello マイフレンド",
+          "title_en": "Hello, My Friend",
+          "lyric_id": 45,
+          "audio_embed": "https://www.youtube.com/embed/D2AkfXj0Gbs",
+          "analysis": "この歌は、いまは亡き友へ向けて静かに語りかける“再会の挨拶”を描いた作品です。過ぎ去った日々の温度や声の残響は胸の奥で消えずに生き続け、ふとした瞬間にそっとよみがえる。もう触れられないはずの存在へ、心だけが手を伸ばし「Hello」と声をかけ直すと、失われた時間がやさしい光として立ち上がる。悲しみの中に宿る確かなつながりと、友への深い感謝が静かに息づく、温かな追憶の歌です。",
+          "links": {
+            "youtube": "https://youtu.be/D2AkfXj0Gbs",
+            "spotify": "https://open.spotify.com/intl-ja/track/7iLScDlM6VPkb3sZV2gdZ3?si=1f1eefea528e4814"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "真夏のペガサス",
+          "title_en": "Midsummer Pegasus",
+          "lyric_id": 18,
+          "audio_embed": "https://www.youtube.com/embed/rkXLtd5I1Zk",
+          "analysis": "この歌は、胸の奥で眠っていた願いが夏の風を受けて羽ばたき出す瞬間を描いています。現実の重さや迷いを抜け、心の内に潜んでいた“自由のかたち”が白い翼となって青空へ駆けていく。ペガサスは、誰にも見せられなかった本当の自分の象徴でもあり、その姿を追うようにして未来も軽やかに開けていく。夢が現実に近づく高揚と、夏ならではの疾走感があふれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/rkXLtd5I1Zk",
+            "spotify": "https://open.spotify.com/intl-ja/track/3B85AzDUNFTH34LOhdjQq8?si=048250f93f5a45a1"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "ハートtoハート",
+          "title_en": "Heart to Heart",
+          "lyric_id": 51,
+          "audio_embed": "https://www.youtube.com/embed/Dw4RHSKDVms",
+          "analysis": "この歌は、言葉より先に心が触れ合う瞬間の温度を描いています。相手の存在にふと救われるような気持ちや、寄り添おうとする素直さがやわらかな光となって胸に灯る。すれ違いの影を抱えていても、ハートを差し出す勇気が世界を少しだけ優しく変えていく。互いを思いやる心が交わったときに生まれる、小さな奇跡のような瞬間を捉えた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/Dw4RHSKDVms",
+            "spotify": "https://open.spotify.com/intl-ja/track/33tFx9AyBqFcMiTljEcL7c?si=b64a9fbbc68f4e72"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "忘却のエターナルランド",
+          "title_en": "Eternal Land of Oblivion",
+          "lyric_id": 47,
+          "audio_embed": "https://www.youtube.com/embed/xO518w8Mivw",
+          "analysis": "この歌は、忘れていた、あるいは忘れたいと願ってきた過去の記憶を、今の自分がそっと抱きしめ直す物語です。胸の奥に封じ込められた痛みは、消えたのではなく、心を守るために静かに眠っていただけだった。その記憶を救い出し、やわらかな光で溶かしていくとき、人はもう一度自分を取り戻してゆく。過去と向き合う勇気が未来を開いてくれることを示す、深い癒しの一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/xO518w8Mivw",
+            "spotify": "https://open.spotify.com/intl-ja/track/0pMJyOVp2V8QNT6qthZdbC?si=00e8794531b64fa3"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "チョコレート",
+          "title_en": "Chocolate",
+          "lyric_id": 44,
+          "audio_embed": "https://www.youtube.com/embed/_oOBGp-n3k4",
+          "analysis": "この歌は、贈り物に託された小さな勇気や、相手を想う気持ちのあたたかさを描いた作品です。チョコレートに込められた“言葉にできないメッセージ”は、甘さだけでなく胸の奥で灯り続けるやさしさの象徴でもある。受け取った側の心にも同じ温度が広がり、世界が少し明るく見える。日常に潜む愛のきらめきを丁寧にすくい上げた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/_oOBGp-n3k4",
+            "spotify": "https://open.spotify.com/intl-ja/track/4WYAWHXhlU2MZpGjDQf8Vd?si=0a70f943639647aa"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "負けたって。",
+          "title_en": "Even If I Lose",
+          "lyric_id": 40,
+          "audio_embed": "https://www.youtube.com/embed/FoKKNvW-ZO4",
+          "analysis": "この歌は、敗北の中に隠されている希望の種を見つけ出す物語です。思い通りにいかなかった自分を責めるのではなく、その経験の奥に眠っていた“次へ進む力”に気づくとき、心は静かに立ち上がる。負けることは終わりではなく、新しい未来への入り口。涙の先に差し込む光をまっすぐ見つめる強さを描いた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/FoKKNvW-ZO4",
+            "spotify": "https://open.spotify.com/intl-ja/track/7fJunLRi3zSp4ErWOSDPio?si=34577eacf6f441b1"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "祝福のレシテーション",
+          "title_en": "Recitation of Blessings",
+          "lyric_id": 27,
+          "audio_embed": "https://www.youtube.com/embed/1jgUyVCcw0Y",
+          "analysis": "この歌は、言葉そのものを祈りとして世界へ放つ“祝福の詠唱”をテーマにしています。一つ一つの言葉が光となり、誰かを励まし、自分自身も照らす鏡のように響いていく。祝福とは相手の存在をありのまま肯定する静かな愛の呼吸。その言葉を紡ぐたび、未来は静かにやわらかく変わりはじめる。大切な人へ、自分へ、そっと手渡す祈りの歌です。",
+          "links": {
+            "youtube": "https://youtu.be/1jgUyVCcw0Y",
+            "spotify": "https://open.spotify.com/intl-ja/track/6JxRFVDzL7D6uXp5OPLKpS?si=f40b9dcaf7f44955"
+          }
+        }
+      ]
+    },
+    {
+      "key": "koikaharuka",
+      "title_ja": "コイカハルカ",
+      "title_en": "KOI KAHARUKA",
+      "year": "2023",
+      "type": "Album",
+      "album_jacket": "images/koikaharuka_jacket.jpg",
+      "description": "恋と春の気配が揺れながら交差する、季節の物語を紡いだ11曲。",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "恋のお星さま",
+          "title_en": "Star of Love",
+          "lyric_id": 33,
+          "audio_embed": "https://www.youtube.com/embed/KNsTcPIO-Fo",
+          "analysis": "この歌は、恋に落ちた女の子の頭の中が一気にカラフルに染まっていく瞬間を、とびきりポップに描いた物語です。三つ編みからはみ出す恋心や、妖精たちの先回り、お花畑でのミツバチとの作戦会議など、恋のときめきが世界をふくらませていく情景が軽やかに広がります。ぐるぐる迷いながらも「変わりたい」と願う小さな決意が光を帯び、星にそっと見守られながら一歩を踏み出す——そんな初恋の甘酸っぱさを閉じ込めた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/KNsTcPIO-Fo",
+            "spotify": "https://open.spotify.com/intl-ja/track/3NLMImL844UUHBvTf2IKoL?si=55a32e4c78874681"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "リフ",
+          "title_en": "Riff",
+          "lyric_id": 35,
+          "audio_embed": "https://www.youtube.com/embed/KJJjvrIZ75o",
+          "analysis": "この歌は、胸の奥で繰り返し鳴り続ける“好き”のリズムを描いた小さな恋の物語です。伝えたいのに伝えられない言葉が、心の中でリフのように何度も反復し、そのたび恋心がふくらんでいく。近づきたいのに近づけない距離感の甘さと切なさが揺れながら、やがてその鼓動は、ほんとうの自分に気付かせる灯りとなってゆく——そんな片想いの揺らぎをやわらかく刻む一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/KJJjvrIZ75o",
+            "spotify": "https://open.spotify.com/intl-ja/track/2Db1nEewBeolLspylvzAfF?si=04cb21250d7d4623"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "みのり",
+          "title_en": "Harvest",
+          "lyric_id": 32,
+          "audio_embed": "https://www.youtube.com/embed/L49Kn_2Lp-8",
+          "analysis": "この歌は、時間をかけて育ててきた想いが、ある日そっと実を結ぶ瞬間を描いています。すぐに答えが出なくても、日々の小さなやりとりや季節をまたいで積み重ねてきた気持ちが、静かに土の中で熟していく。やがて訪れる“みのり”は、結果だけでなく、その過程を共に歩んできた記憶そのもののあたたかさでもある。恋と人生の収穫期をやさしく照らす一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/L49Kn_2Lp-8",
+            "spotify": "https://open.spotify.com/intl-ja/track/6jEymd3pNrEm4kmLl1k6wf?si=fa984ae87eb34b11"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "ひことみこ",
+          "title_en": "Hiko and Miko",
+          "lyric_id": 31,
+          "audio_embed": "https://www.youtube.com/embed/sBYbeXbSRnk",
+          "analysis": "この歌は、日本神話のイザナギ・イザナミの原型をやわらかく映し込んだ“はじまりの物語”です。ふたりが呼び合う名前の響きは、世界を形づくる最初の対話のように、優しく神秘的に重なっていく。幼い恋心のように見えながら、その奥には男女という存在が初めてつながり、文化や生命が芽生えていく瞬間の原風景が潜む。小さなやりとりの中に創世の気配が宿る、うたのほしでも特異な一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/sBYbeXbSRnk",
+            "spotify": "https://open.spotify.com/intl-ja/track/2dNfQsVPabBI7o79fRzKNl?si=5776f638684f4b54"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "パラレルワールドで待ち合わせしましょう",
+          "title_en": "Let's Meet in a Parallel World",
+          "lyric_id": 34,
+          "audio_embed": "https://www.youtube.com/embed/QiMCSW7HF0w",
+          "analysis": "この歌は、もし違う時間や世界があったなら“あなたにちゃんと想いを届けられたのに”という切実な願いを描きます。同じ未来を歩けなかった現実への悔しさと、もう一つの世界線では笑っていられるはずだという希望が交差する。叶わなかった関係の痛みを抱えながら、それでもどこかのパラレルで会えると信じる姿が、やさしい余韻を残す一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/QiMCSW7HF0w",
+            "spotify": "https://open.spotify.com/intl-ja/track/1dALYILjtLx85xn0oarTw5?si=25fa6017550a46e9"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "旅立ち",
+          "title_en": "Setting Off",
+          "lyric_id": 36,
+          "audio_embed": "https://www.youtube.com/embed/9ZCvBzAzIGc",
+          "analysis": "この歌は、春に新しい世界へ踏み出す子どもたちへ向けた“門出のエール”です。別れの寂しさを抱えながらも、これまでの時間が背中を押し、未来へ向かう勇気をそっと支えてくれる。親や大人たちは、成長してゆくあなたを誇りと共に見送るしかないけれど、その見えない祈りはいつも隣にある。季節が変わるたびに思い出される、温かい旅立ちの光を描いた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/9ZCvBzAzIGc",
+            "spotify": "https://open.spotify.com/intl-ja/track/1fCcGej9DovzEzPXKrZGfd?si=10a9a4c363e34c3a"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "月の夢",
+          "title_en": "Dream of the Moon",
+          "lyric_id": 15,
+          "audio_embed": "https://www.youtube.com/embed/aUEiAHGDYZU",
+          "analysis": "この歌は、静かな夜に見上げる月を、叶わなかった想いや遠い憧れの象徴として描いています。届かないと知りながらも、心のどこかでずっと見つめ続けてきた願いは、夢の中でだけそっと形を持つ。月の光に照らされるとき、人は自分の孤独とやさしく向き合い、まだ終わっていない物語の存在に気づく。醒めることのない“月の夢”として、心に残り続ける感情をすくい上げた一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/aUEiAHGDYZU",
+            "spotify": "https://open.spotify.com/intl-ja/track/4wZnTiU5batNojb0kmUJHu?si=469284549d434891"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "BE LOVE EXPRESS",
+          "title_en": "BE LOVE EXPRESS",
+          "lyric_id": 39,
+          "audio_embed": "https://www.youtube.com/embed/pusU0Z9g_7c",
+          "analysis": "この歌は、“愛そのものになって走り抜けていく”という、大胆で軽やかな宣言のような一曲です。迷いや照れくささを一度脇に置いて、愛を表現する列車のように、思い切り人生のレールを駆け抜けていく。誰かに届くかどうかよりも、自分が今どれだけ本気で愛を生きられているかを試されるような、高揚感と解放感に満ちたラブ・アンセムです。",
+          "links": {
+            "youtube": "https://youtu.be/pusU0Z9g_7c",
+            "spotify": "https://open.spotify.com/intl-ja/track/5wZUwDaLpUvYK0Ng1ktvpT?si=ff5d78141d634ebf"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "小さな愛",
+          "title_en": "Little Love",
+          "lyric_id": 24,
+          "audio_embed": "https://www.youtube.com/embed/otbkodNwFME",
+          "analysis": "この歌は、壮大な言葉では語られない、ごくささやかな日常の中の“愛”を描いています。誰かがそっと差し出した手、ふと交わした視線、さりげない一言。それらは大きなドラマではないけれど、心がくじけそうなときに何度も思い出される、かけがえのない灯りになる。見逃してしまいそうなほど小さな愛こそが、人を支え続ける大きな力であることを教えてくれる一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/otbkodNwFME",
+            "spotify": "https://open.spotify.com/intl-ja/track/3AzXZ0w4DwvCwgeTq2rnR3?si=bbce3a5064c64bc4"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "僕らの別れ",
+          "title_en": "Our Farewell",
+          "lyric_id": 73,
+          "audio_embed": "https://www.youtube.com/embed/jfcuah_Y9J4",
+          "analysis": "この歌は、卒業の季節に訪れる“別れと継承”の瞬間を優しく描いた作品です。共に笑い、悩み、歩いてきた時間が、それぞれの胸の中でこれからの道を支える力になっていく。同じ景色を見られなくなる寂しさはあるけれど、別々の道を選ぶことで、かつての時間が本当の意味を持ちはじめる。“僕らの別れ”を通して、恐れず次へ進む勇気を照らす春の節目の歌です。",
+          "links": {
+            "youtube": "https://youtu.be/jfcuah_Y9J4",
+            "spotify": "https://open.spotify.com/intl-ja/track/0IWJS5ThHDAKKFKftOijwV?si=187bb1190ef24d81"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "桜ふらり",
+          "title_en": "Sakura Fulari",
+          "lyric_id": 38,
+          "audio_embed": "https://www.youtube.com/embed/DhiV3sy634w",
+          "analysis": "この歌は、東日本大震災で失われた多くの命へ向けた“鎮魂と祈り”を静かにたたえた作品です。桜が風に舞う光景は、散りながらもなお美しく、人々の記憶に寄り添い続ける魂の象徴のように揺れる。残された者の胸に残る痛み、言葉にならない想いを、春の光がそっと受け止めてくれる。喪失と再生のあわいで、亡き人々への祈りが息づく深い一曲です。",
+          "links": {
+            "youtube": "https://youtu.be/DhiV3sy634w",
+            "spotify": "https://open.spotify.com/intl-ja/track/60nAxRsqtMN4u1HWytpUUB?si=79b317bae5c0487e"
+          }
+        }
+      ]
+    }
+  ]
+}
