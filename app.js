@@ -186,7 +186,8 @@ async function initAlbumPage() {
       if (track.lyric_id) {
         card.classList.add("track-card--clickable");
         card.addEventListener("click", () => {
-          window.location.href = `song.html?id=${encodeURIComponent(track.lyric_id)}`;
+          window.location.href =
+            `song.html?album=${encodeURIComponent(album.key)}&track=${encodeURIComponent(track.track_no)}`;
         });
       }
 
@@ -255,54 +256,85 @@ async function autoFillIntroSnippets(container) {
    song.html 曲詳細
    ========================= */
 
+/* =========================
+   song.html 曲詳細
+   ========================= */
+
 async function initSongPage() {
   const container = document.getElementById("song-page");
   if (!container) return;
 
-  const id = getQueryParam("id");
-  if (!id) {
-    container.textContent = "曲が指定されていません。";
-    return;
-  }
+  // 新方式：album + track
+  const albumKey = getQueryParam("album");
+  const trackNoParam = getQueryParam("track");
+
+  // 旧方式との互換用（?id=xxx が来たとき用）
+  const legacyId = getQueryParam("id");
 
   try {
     const disc = await loadDiscography();
+
     let foundTrack = null;
     let foundAlbum = null;
+    let lyricId = null;
 
-    for (const album of disc.albums || []) {
-      for (const track of album.tracks || []) {
-        if (String(track.lyric_id) === String(id)) {
-          foundAlbum = album;
-          foundTrack = track;
-          break;
-        }
+    if (albumKey && trackNoParam) {
+      // --- 新ルーティング: /song.html?album=xxx&track=yy ---
+      const trackNo = Number(trackNoParam);
+
+      foundAlbum = (disc.albums || []).find((a) => a.key === albumKey);
+      if (!foundAlbum) {
+        throw new Error("指定されたアルバムが見つかりません: " + albumKey);
       }
-      if (foundTrack) break;
+
+      foundTrack = (foundAlbum.tracks || []).find(
+        (t) => Number(t.track_no) === trackNo
+      );
+      if (!foundTrack) {
+        throw new Error("指定されたトラックが見つかりません: " + trackNo);
+      }
+
+      lyricId = foundTrack.lyric_id;
+    } else if (legacyId) {
+      // --- 互換用: /song.html?id=xxx の古いリンク ---
+      lyricId = legacyId;
+
+      for (const album of disc.albums || []) {
+        for (const track of album.tracks || []) {
+          if (String(track.lyric_id) === String(legacyId)) {
+            foundAlbum = album;
+            foundTrack = track;
+            break;
+          }
+        }
+        if (foundTrack) break;
+      }
+    } else {
+      container.textContent = "曲が指定されていません。";
+      return;
     }
 
-    const songData = await fetchSongByLyricId(id);
+    // 歌詞データはこれまで通り lyric_id から取得
+    const songData = await fetchSongByLyricId(lyricId);
 
     const headerDiv = document.createElement("div");
     headerDiv.className = "song-header";
     headerDiv.innerHTML = `
       <h2 class="song-title">
         ${foundTrack ? foundTrack.title_ja : songData.title}
-        ${
-          foundTrack && foundTrack.title_en
-            ? `<span>${foundTrack.title_en}</span>`
-            : ""
-        }
+        ${foundTrack && foundTrack.title_en
+        ? `<span>${foundTrack.title_en}</span>`
+        : ""
+      }
       </h2>
       <div class="song-meta">
         アルバム：${foundAlbum ? foundAlbum.title_ja : (songData.album || "")}
         ${songData.date ? ` / 公開日：${songData.date}` : ""}
       </div>
-    <a class="back-link" href="${
-  foundAlbum
-    ? `album.html?album=${encodeURIComponent(foundAlbum.key)}`
-    : "index.html"
-}">← アルバムへ戻る</a>
+      <a class="back-link" href="${foundAlbum
+        ? `album.html?album=${encodeURIComponent(foundAlbum.key)}`
+        : "index.html"
+      }">← アルバムへ戻る</a>
     `;
 
     container.appendChild(headerDiv);
@@ -322,8 +354,13 @@ async function initSongPage() {
       container.appendChild(playerDiv);
     }
 
-    // ★ Spotifyリンクボタン
-    if (foundTrack && foundTrack.links && foundTrack.links.spotify && foundTrack.links.spotify.trim() !== "") {
+    // Spotifyリンクボタン
+    if (
+      foundTrack &&
+      foundTrack.links &&
+      foundTrack.links.spotify &&
+      foundTrack.links.spotify.trim() !== ""
+    ) {
       const spotifyDiv = document.createElement("div");
       spotifyDiv.className = "song-spotify-link";
       const spBtn = document.createElement("a");
