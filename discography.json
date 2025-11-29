@@ -881,6 +881,161 @@
           }
         }
       ]
+    },
+    {
+      "key": "kanashimi_wa_kage_wo_shiru_koto",
+      "title_ja": "悲しみは影を知ること",
+      "title_en": "Sadness Knows the Shadow",
+      "year": "2022",
+      "type": "Album",
+      "album_jacket": "images/kanashimiwa_jacket.jpg",
+      "description": "影の痛みを抱きしめ希望へ還す、祈りと再生の物語",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "悲槍",
+          "title_en": "Hiso - The Sorrowful Spear",
+          "lyric_id": 16,
+          "audio_embed": "https://www.youtube.com/embed/tI4BTp_6yDg",
+          "analysis": "痛みを槍として突き立てるのではなく、その鋭さで世界の不条理を指し示す歌。理不尽な攻撃や誤解に晒された心が、怒りに呑まれずに自分の大切なものを守ろうとする姿が描かれる。悲しみを押し殺すのではなく、震えるまま掲げた槍が、やがて誰かを守る祈りへと変わっていくアルバムの入り口の一曲。",
+          "links": {
+            "youtube": "https://youtu.be/tI4BTp_6yDg",
+            "spotify": "https://open.spotify.com/intl-ja/track/6iCx2TVpzImVvLGAVkkNNj?si=134c5534dbd14a6d"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "竜の鐘",
+          "title_en": "Dragon's Bell",
+          "lyric_id": 22,
+          "audio_embed": "https://www.youtube.com/embed/Nuj7G09GO24",
+          "analysis": "胸の奥で眠っていた竜は、暴力ではなく「守るための牙」として描かれる。踏みにじられた心や奪われた優しさを、竜の鐘の響きが呼び覚まし、鎖を断ち切る力へと変えていく。泣き声と咆哮が混じり合うような曲調の中で、自分の弱さを抱いたまま立ち上がることが祝福として響く、内なる力の覚醒の物語。",
+          "links": {
+            "youtube": "https://youtu.be/Nuj7G09GO24",
+            "spotify": "https://open.spotify.com/intl-ja/track/6MLhQAzqdZA05GA2TUSTph?si=c66d97e35a944fa6"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "青い星の人たちへ",
+          "title_en": "To the People of the Blue Star",
+          "lyric_id": 42,
+          "audio_embed": "https://www.youtube.com/embed/J9RtZLYpVo0",
+          "analysis": "冬の浜辺で紡がれたひみつの歌が、波と貝殻を通して時間も距離も越えていく。過去と未来、偉人の言葉と名もなき誰かの声が同じスープのように混ざり合い、この青い星に生きる全ての人へエールを送るレクイエム兼ラブレター。悲しみも喜びも飲み込んで、「続いてほしい世界」を静かに、それでいて力強く願う祈りの歌。",
+          "links": {
+            "youtube": "https://youtu.be/J9RtZLYpVo0",
+            "spotify": "https://open.spotify.com/intl-ja/track/5GEfRDYCCnceR3nrIybpAr?si=ab4fe5cdb0ed465b"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "追憶のマリオネット",
+          "title_en": "Marionette of Remembrance",
+          "lyric_id": 28,
+          "audio_embed": "https://www.youtube.com/embed/j8nJP_lZVIM",
+          "analysis": "他人の書いた台本どおりに動かされてきた心を、ひとつずつ糸から解き放っていく曲。過去の記憶やトラウマに操られる「マリオネット」としての自分を見つめ、それでもなお自分で選びたいという静かな反逆が描かれる。壊すのではなく、関節をほぐすように、ぎこちない一歩を踏み出す。そのたどたどしさ自体が尊いと教えてくれる解放の物語。",
+          "links": {
+            "youtube": "https://youtu.be/j8nJP_lZVIM",
+            "spotify": "https://open.spotify.com/intl-ja/track/5ohQyDXDqMdsRhr1wrwqxQ?si=cfba9449d2f24dfc"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "羊の影",
+          "title_en": "Shadow of the Sheep",
+          "lyric_id": 25,
+          "audio_embed": "https://www.youtube.com/embed/RUkNsy4CToQ",
+          "analysis": "「羊」は従順な存在ではなく、“知らぬ間に操られる者”の寓意として描かれている。情報が密かに書き換えられ、真実が歪められた終末的世界では、大地との約束──すなわち自分の遺伝子すら他者に操作される危険が忍び寄る。影は恐怖ではなく“気づきの徴”。やさしさや無垢さが利用される前に、影が警告として立ち上がり、「目を醒ましてほしい」と告げている。穏やかなメロディに包まれながらも、これは静かに燃える警鐘の歌である。",
+          "links": {
+            "youtube": "https://youtu.be/RUkNsy4CToQ",
+            "spotify": "https://open.spotify.com/intl-ja/track/11yqK2YmlRIMsnlIoiP2DS?si=7915268ba5794668"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "たそがれ",
+          "title_en": "Twilight",
+          "lyric_id": 26,
+          "audio_embed": "https://www.youtube.com/embed/4x7oWWQ_huA",
+          "analysis": "昼と夜のあいだにしか現れない色のように、終わりと始まりが溶け合う時間を描いた歌。過ぎ去った日々への未練と、まだ見ぬ明日への不安が、空のグラデーションの中で同居している。完全に「さよなら」も「はじめまして」も言えないまま、それでも歩みを止めない人の背中を、柔らかな光で包み込む黄昏のポートレート。",
+          "links": {
+            "youtube": "https://youtu.be/4x7oWWQ_huA",
+            "spotify": "https://open.spotify.com/intl-ja/track/6pCemgyNVbf8REXhIEasGJ?si=5334abffd2474070"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "レクイエム0",
+          "title_en": "Requiem 0",
+          "lyric_id": 23,
+          "audio_embed": "https://www.youtube.com/embed/_xwtUIhUnhs",
+          "analysis": "音のない夜に出会う野良猫との短い邂逅から、心の奥底に封じ込めてきた記憶が立ち上がる。冷たく残酷すぎた出来事を、何度も何度も温め直そうとする「ゼロ番目の鎮魂歌」。誰かのための祈りであると同時に、自分自身を赦すための最初のレクイエムでもあることが示される、アルバムの核に近い一曲。",
+          "links": {
+            "youtube": "https://youtu.be/_xwtUIhUnhs",
+            "spotify": "https://open.spotify.com/intl-ja/track/2spa0UIn1KnLu7WfCSdfUR?si=d97ff075c1cc4818"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "スノータウン",
+          "title_en": "Snow Town",
+          "lyric_id": 62,
+          "audio_embed": "https://www.youtube.com/embed/TrOJswQiJwE",
+          "analysis": "雪の降る静かな町に刻まれた足跡が、誰かに見守られてきた時間をそっと知らせてくれる。白い吐息や街角の明かり、溶けて雲になって巡る雪など、季節の循環と心の回復が重ねられる歌。新しい道へ踏み出す前に、あたたかい部屋で「いつでも帰っておいで」と言ってくれる存在を思い出すことで、優しい未来は今ここから始まるのだと教えてくれる。",
+          "links": {
+            "youtube": "https://youtu.be/TrOJswQiJwE",
+            "spotify": "https://open.spotify.com/intl-ja/track/3DlnZAcp8i2zXHwdDIv7KY?si=9ca87ba1a381468a"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "声を聴かせて",
+          "title_en": "The Voice of a Loved One",
+          "lyric_id": 8,
+          "audio_embed": "https://www.youtube.com/embed/HxERkoF_XLc",
+          "analysis": "「声を聴かせて」という願いは、単に音を求めるのではなく、その人の存在そのものに触れたいという祈りに近い。孤独や不安に飲み込まれそうなとき、遠くから届くささやかな声が、身体の奥で灯りを点けていく。離れていてもつながっているという感覚を、柔らかなメロディに乗せて確認し直す、アルバムの中でも特に寄り添う性質の強い楽曲。",
+          "links": {
+            "youtube": "https://youtu.be/HxERkoF_XLc",
+            "spotify": "https://open.spotify.com/intl-ja/track/0NKR41u2wQj6vXspK2IIBq?si=30cb7876ceff4f89"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "約束の場所2025",
+          "title_en": "The Promised Place 2025",
+          "lyric_id": 21,
+          "audio_embed": "https://www.youtube.com/embed/ISQlyMK5i7I",
+          "analysis": "嘘や一方的な正義が支配する「夢の遊園地」から、人々を連れ出そうとする物語。溶け出しそうなアスファルトやデタラメなペンキに塗られた舞台を、一度すべて暗くして、本当の姿を月明かりに浮かび上がらせる。心の中の約束の場所で再会し、「憶えていたね」と微笑み合うクライマックスが、現実を見据えながら希望を手放さない決意として響く。",
+          "links": {
+            "youtube": "https://youtu.be/ISQlyMK5i7I",
+            "spotify": "https://open.spotify.com/intl-ja/track/4pFDucDWSefY1YGiee8GD4?si=3537715fa71340b9"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "GOOD-BYE.",
+          "title_en": "GOOD-BYE.",
+          "lyric_id": 11,
+          "audio_embed": "https://www.youtube.com/embed/zmwBurdVP8U",
+          "analysis": "「今日にさよなら」を繰り返すフレーズが、喪失ではなく更新の儀式として響くワルツ。写真や雨の道の泡、ダンスの一幕などのモチーフを通して、もう二度と来ない一日を丁寧に見送り、新しい愛と共に進んでいく。その「ありがとう」は過去の誰かだけでなく、今を生きる自分自身にも向けられていることに気づかせる、優しい別れのアンセム。",
+          "links": {
+            "youtube": "https://youtu.be/zmwBurdVP8U",
+            "spotify": "https://open.spotify.com/intl-ja/track/7KotxBxKN88ljM13XqJ0kK?si=0ca2c6589e90401c"
+          }
+        },
+        {
+  "track_no": 12,
+  "title_ja": "いつか帰る日まで",
+  "title_en": "Until the Day I Return",
+  "lyric_id": 19,
+  "audio_embed": "https://www.youtube.com/embed/wFR0tQzNLUo",
+  "analysis": "“いつか帰る日”とは、今日の暮らしの終わりだけでなく、いつか私たちが本当に還る場所へ戻るその時までを含んでいる。抱きしめても砂のように指のあいだをすり抜けてしまう私たち──それでも消えてしまうのではなく、形を変えながら寄り添い続けるいのちの姿がある。だからこそ「また帰ってきてほしい」と願う祈りは、今日だけのものではなく、その日まで共に歩いてほしいという静かで深い呼びかけになる。別れのうしろ側に、やさしい光の道がそっと伸びていることを示す歌。",
+  "links": {
+    "youtube": "https://youtu.be/wFR0tQzNLUo",
+    "spotify": "https://open.spotify.com/intl-ja/track/5ZBWewF4IldMc6t5C4ySoD?si=fb35e8ba9ac74954"
+  }
+}
+      ]
     }
   ]
 }
