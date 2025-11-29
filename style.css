@@ -29,6 +29,21 @@ body {
   border-bottom: 1px solid rgba(160,120,255,0.08);
 }
 
+@media (max-width: 600px) {
+  .site-header {
+    padding: 16px 12px 12px;   /* ← かなりスリムに */
+  }
+
+  .site-header h1 {
+    font-size: 1.25rem;        /* 少しだけ小さく */
+    letter-spacing: 0.06em;    /* 詰まりすぎないよう微調整 */
+  }
+
+  .site-header p {
+    font-size: 0.75rem;        /* ちょっと控えめに */
+  }
+}
+
 .site-header h1 {
   margin: 0;
   font-size: 1.8rem;
