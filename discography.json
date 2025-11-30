@@ -1,6 +1,280 @@
 {
   "albums": [
     {
+      "key": "ibuki",
+      "title_ja": "イブキ",
+      "title_en": "ibuki",
+      "year": "2025",
+      "type": "Album",
+      "album_jacket": "images/ibuki_jacket.jpg",
+      "description": "心の奥で芽吹く“息吹”を辿る、祈りと目覚めの10曲",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "ヒカモリ",
+          "title_en": "Hisokomori",
+          "lyric_id": 124,
+          "audio_embed": "https://www.youtube.com/embed/9o3DqrxWPWQ",
+          "analysis": "深い森の奥で鳴り響く拍動は、眠りこけた人間社会への警鐘として鳴っている。水を汚し、土を穢し、驕りあう人の世に対して、木霊と影たちがダンスのように飛び交い「目を覚まして」と呼びかける歌。リンリンと鳴る不思議なフレーズは、自然の側から差し出された最後の合図のようでもある。静かな森に宿る猛き息吹を通して、地球と共に生きる感覚を取り戻そうと促す一曲。",
+          "links": {
+            "youtube": "https://youtu.be/9o3DqrxWPWQ",
+            "spotify": "https://open.spotify.com/intl-ja/track/0z9w40SY1Ef4AwNdBadHd7?si=cd9b23586ca4452e"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "雨、さらさ",
+          "title_en": "Rain, Sarasa",
+          "lyric_id": 118,
+          "audio_embed": "https://www.youtube.com/embed/7kfPOkfZbvI",
+          "analysis": "ざわめきが空回る街を、雨のリズムと土の香りが静かに洗い出していく。色とりどりの傘や濡れた靴が行き交うなか、耳を澄ませば草木と同じように自分も“雨”の一部になっていることに気づく。さらさらと流していくものもあれば、流せない悲しみの声もあるけれど、そのどちらも抱きしめてくれるのがこの雨だと歌は語る。喧騒の中で心を鎮め、優しく諭してくれる雨の精のような一曲。",
+          "links": {
+            "youtube": "https://youtu.be/7kfPOkfZbvI",
+            "spotify": "https://open.spotify.com/intl-ja/track/0z9w40SY1Ef4AwNdBadHd7?si=0c83ceebdb26438b"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "山の聲",
+          "title_en": "Voice of the Mountain",
+          "lyric_id": 119,
+          "audio_embed": "https://www.youtube.com/embed/Q3m9lO7J_no",
+          "analysis": "泉に映る顔は、忙しさや建前に追われ、本当の感情を見つめる余裕を失った“現代の私たち自身”を象徴している。山々は長いあいだ人間を見下ろし、歪んだ暮らしの中で曇っていく心を静かに見つめ続けてきた。裾野で泣き出した声や揺らぐ大地の嘆きに呼応し、眠っていたマグマが目覚めようとする気配が走る。自然を都合よく扱ってきた人間への警告であると同時に、山の聲は“本当の自分へ立ち返れ”という深い呼び声でもある。",
+          "links": {
+            "youtube": "https://youtu.be/Q3m9lO7J_no",
+            "spotify": "https://open.spotify.com/intl-ja/track/15eGrOxGmGCrqcALI8GgVq?si=0a1986e69a594f74"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "いざない",
+          "title_en": "Izanai",
+          "lyric_id": 120,
+          "audio_embed": "https://www.youtube.com/embed/Xt-sajbg-k0",
+          "analysis": "この歌の“いざない”は、イザナギとイザナミの神話を源泉とする。黄泉の坂での対話、愛する者を追う心、そして決別の痛み。その本質に触れながら、現代の私たちが抱く喪失や再生への願いを重ね合わせている。現世の濁った光景の中から、見えない力が「こちらへ」と手を差し伸べてくる感触。それは逃避ではなく、生と死の境界で交わされた“真実の呼びかけ”へ耳を澄ます行為。古代から続く魂の物語を、自身の内側でそっと再演するような歌。",
+          "links": {
+            "youtube": "https://youtu.be/Xt-sajbg-k0",
+            "spotify": "https://open.spotify.com/intl-ja/track/79QmGIFGix14KiPv9eqGVV?si=1c609550c8a346a4"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "color",
+          "title_en": "color",
+          "lyric_id": 116,
+          "audio_embed": "https://www.youtube.com/embed/aryUwpk8BcY",
+          "analysis": "星の瞬きも、月に引かれる潮のような憧れも、気づけば手の届かない彼方に見えてしまう。だからこそ目を閉じて、自分の内側に感じる色で世界を塗り替えていこうと歌は呼びかける。救世主を待つ石の台座さえ、震える胸の色で上書きしてしまえばいい。誰かと比べるのではなく、ひとりひとりの体の中を流れる色で生きること。その涙をすくい上げるのは、外にいる“ヒーロー”ではなく、内側の色を信じる自分自身なのだと伝える。",
+          "links": {
+            "youtube": "https://youtu.be/aryUwpk8BcY",
+            "spotify": "https://open.spotify.com/intl-ja/track/1sk0sjkmVq2mrYrI1JMdSO?si=38ab808eebc74c55"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "gene",
+          "title_en": "gene",
+          "lyric_id": 117,
+          "audio_embed": "https://www.youtube.com/embed/xGgQQNyBEsU",
+          "analysis": "風に溶けてしまいそうなほど素直で儚い“幼い君”の姿は、現代の世界における繊細な存在の象徴でもある。幾千の日々を待ち望んで生まれてきた生命の不思議と、受け継がれてきた想いが“遺伝子”として静かに光っていることを描く。宇宙から続く長い旅路の先に、いま隣で息をしている誰かがいる。その奇跡に触れながら、壊れやすい優しさを守り、未来へとつなぐための歌。小さな命に宿る祈りが、静かに震えて響く。",
+          "links": {
+            "youtube": "https://youtu.be/xGgQQNyBEsU",
+            "spotify": "https://open.spotify.com/intl-ja/track/4Bi1ec6Mw4siznu8Fh8rhI?si=eea8f8eba3584b28"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "BURN THE HEART",
+          "title_en": "BURN THE HEART",
+          "lyric_id": 122,
+          "audio_embed": "https://www.youtube.com/embed/J1LnpKP4Vg0",
+          "analysis": "社会のために整えられたルールに従っていれば、表面的には“良い人”でいられるのかもしれない。でも鏡に映る自分の瞳は、本当に満足しているのかと問いかけてくる。言い訳で擦り切れた傷や、見ないふりをしてきた息苦しさを直視し、「見えないものを感じるために生まれてきた」と宣言する歌。癒えない傷を赦しあうために、心の奥の炎をもう一度燃やそうと促す、熱いスピリットソング。",
+          "links": {
+            "youtube": "https://youtu.be/J1LnpKP4Vg0",
+            "spotify": "https://open.spotify.com/intl-ja/track/6doTSBaRVqVKllzFOvX0iq?si=e7036855b7464549"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "サリュー",
+          "title_en": "Salut",
+          "lyric_id": 115,
+          "audio_embed": "https://www.youtube.com/embed/o2ib3sjAfYY",
+          "analysis": "サリュー（Salut）はフランス語で「やあ」「こんにちは」「またね」など、軽やかな挨拶のこと。歌では、この明るい一声が沈んだ心をふっと軽くする瞬間を描いている。満員電車や暗いニュースに押しつぶされそうな毎日でも、「今日ここにいて息をしているだけで奇跡」と言える小さな希望がある。生んでくれた人や支えてくれた存在への感謝と、今度は自分が隣の誰かを照らす番だという優しい決意が響く一曲。",
+          "links": {
+            "youtube": "https://youtu.be/o2ib3sjAfYY",
+            "spotify": "https://open.spotify.com/intl-ja/track/6ehx8fI5Bi3b8kBnw2VWgw?si=9b8040b40d4a4c1d"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "星影のメヌエット",
+          "title_en": "Minuet of Starshadows",
+          "lyric_id": 123,
+          "audio_embed": "https://www.youtube.com/embed/nZKMlnjcbJY",
+          "analysis": "この歌に漂う星影は、戦禍の犠牲となった人々の声なき叫びを抱いている。叫び出したかったであろう痛み、無念、祈り。すべてが夜空に吸い上げられ、静かな星々の輝きとなって残っている。失われた命を悼むだけでなく、その思いを受け継ぎ、未来へと渡していく役割が今を生きる私たちにあることを示す歌。星影にそっと寄り添うように舞うメヌエットは、悲しみと記憶を抱きしめながら歩いていくための灯火となる。",
+          "links": {
+            "youtube": "https://youtu.be/nZKMlnjcbJY",
+            "spotify": "https://open.spotify.com/intl-ja/track/345EQfsWHbpkLeKaAhQbUV?si=f8f2f4787c12494b"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "カナン",
+          "title_en": "Canaan",
+          "lyric_id": 121,
+          "audio_embed": "https://www.youtube.com/embed/Cil7-pYg1o4",
+          "analysis": "傷つけてしまった心、痛んだ心に向けて、ひとつかみの愛を思い出してと語りかける歌。ほどけてしまう靴ひもを何度でも結び直すように、関係も人生もやり直せると歌いながら、胸の中にある“約束の場所”へと歩みを進めていく。ありがとうとさようならを繰り返し、迷い続けた末にたどり着いたのは、外のどこかではなく自分の内側にあるカナン。赦しと感謝が交差するその丘で、新しい世界を始めていこうとするエンディング。",
+          "links": {
+            "youtube": "https://youtu.be/Cil7-pYg1o4",
+            "spotify": "https://open.spotify.com/intl-ja/track/6DiA1un4K54wV1trK3yjH1?si=ea4222dc2e1d463a"
+          }
+        }
+      ]
+    },
+    {
+      "key": "inochi",
+      "title_ja": "イノチ",
+      "title_en": "inochi",
+      "year": "2024",
+      "type": "Album",
+      "album_jacket": "images/inochi_jacket.jpg",
+      "description": "痛みと祈りが導く、いのちの始まりと再生の物語アルバム",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "スタート",
+          "title_en": "Start",
+          "lyric_id": 113,
+          "audio_embed": "https://www.youtube.com/embed/c5TPSnC9rzA",
+          "analysis": "ひとつだけの未来に君の笑い声があると信じて走り出す決意の歌。裏切られた言葉や奪われそうになる希望に怯えながらも、胸に生まれた新しい愛を手放さずに「スタート」を切ろうとする。糸を断ち切るように過去の呪縛から離れ、自分の言葉と足で未来へ向かう姿が描かれる。傷を抱えたままでも、もう一度自分の人生を始め直していいのだと伝える、力強い出発点のアンセム。",
+          "links": {
+            "youtube": "https://youtu.be/c5TPSnC9rzA",
+            "spotify": "https://open.spotify.com/intl-ja/track/0D9v4hIH1CiPVnSLVUxnIy?si=83a95f89bf6b495c"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "アワノウミ",
+          "title_en": "AWANOMI",
+          "lyric_id": 110,
+          "audio_embed": "https://www.youtube.com/embed/c7CRJaTc_us",
+          "analysis": "波間で交わされる泡の契りとして、命の出会いと循環を描いた歌。ひと粒の砂の出会いの中にさえ、数えきれない奇跡の連なりが宿っていると語りかける。泡はすぐに消えてしまう儚さの象徴でありながら、そこから次の命が生まれ、互いを守り合う未来が育っていく。壊れそうな世界の中で、それでも信じ合い、助け合う時が今ここに生まれていることを示す、やさしくも壮大な生命賛歌。",
+          "links": {
+            "youtube": "https://youtu.be/c7CRJaTc_us",
+            "spotify": "https://open.spotify.com/intl-ja/track/1qfjtWYu7KdqcJR3Ei4Iys?si=8c195491cd46471a"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "鏡の国",
+          "title_en": "Mirrorland",
+          "lyric_id": 107,
+          "audio_embed": "https://www.youtube.com/embed/nGrPlkVz7n8",
+          "analysis": "狙う者と狙われる者が、鏡の向こう側で入れ替わり続ける不思議な世界。逆さまの顔のまま、裏腹な言葉で互いを刺し合ううちに、本当の痛みのありかさえ分からなくなっていく。流され、消されかけた感情のかけらが鏡の中で一つの心として集められるとき、初めて「君は誰？」という問いが生まれる。歪んだ価値観やSNS的な鏡写しの世界の中で、ほんとうの自己と他者を探し直す物語。",
+          "links": {
+            "youtube": "https://youtu.be/nGrPlkVz7n8",
+            "spotify": "https://open.spotify.com/intl-ja/track/0FKS6UDyEFPT1kOjkW8R7q?si=8d95b928b5044056"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "揺れる声のバラード",
+          "title_en": "Ballad of a Trembling Voice",
+          "lyric_id": 111,
+          "audio_embed": "https://www.youtube.com/embed/WLT2p5Yjuls",
+          "analysis": "置き去りにしてきた影や、部屋の隅に残る物悲しさと一緒に旅をしたくなる夜。錆びついた虚しさや競い合いの疲れを抱えた声が、いつの間にか人を傷つけ合う矢になってしまった現実を見つめる。慣れてしまった悲劇を「もう嫌だ」と震えながら告白することで、閉ざされた心のドアが少しずつ開いていく。揺れる声そのものを抱きしめ直し、弱さから始まる優しさを歌うバラード。",
+          "links": {
+            "youtube": "https://youtu.be/WLT2p5Yjuls",
+            "spotify": "https://open.spotify.com/intl-ja/track/38fq37stpIqgPXPCFjRUiZ?si=5300d3874961404f"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "ドン・キホーテの槍",
+          "title_en": "Don Quixote's Spear",
+          "lyric_id": 103,
+          "audio_embed": "https://www.youtube.com/embed/ogKkQ-g5GpI",
+          "analysis": "風車に突っ込むドン・キホーテの姿を借りて、権力と虚構の正義を鋭く見つめる歌。錆びついた銅像の拳は、誰かを守るはずの力がいつの間にか権利と支配の象徴へと変わってしまったことを示す。嘘まじりの言葉で夢を売り飛ばし、戦いを煽る声の背後には、権威を振るう者たちの思惑が潜んでいる。愚かさと勇気のあわいで、ほんとうに守りたいものは何かを問い直す、反戦的なバラード。",
+          "links": {
+            "youtube": "https://youtu.be/ogKkQ-g5GpI",
+            "spotify": "https://open.spotify.com/intl-ja/track/6pXryX7Y0IrLu1nVXBnl3V?si=f2add14249bf4f4d"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "君となら",
+          "title_en": "If It’s with You",
+          "lyric_id": 105,
+          "audio_embed": "https://www.youtube.com/embed/rhHic5j3wDs",
+          "analysis": "朝のラッシュ前、憂鬱な足音が混ざる街のリズムの中で、それでも「君となら」と小さくつぶやく歌。見えない未来が怖くて、夢に続く道を遠くに探してしまうけれど、君と一緒に歩くことで今日一日を生きてみようと思える。自分を責める言葉をそっと捨てて、緑の中で深呼吸をしながら、自分のリズムでステップを踏む。大きな奇跡ではなく、隣にいてくれる誰かとのささやかな時間が人生を変えていくことを伝えるラブソング。",
+          "links": {
+            "youtube": "https://youtu.be/rhHic5j3wDs",
+            "spotify": "https://open.spotify.com/intl-ja/track/0EjO6yEP7yixAxO6Tlep4j?si=fc625e464d45473c"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "いたみ",
+          "title_en": "Pain",
+          "lyric_id": 114,
+          "audio_embed": "https://www.youtube.com/embed/qTL-dXC5HxQ",
+          "analysis": "暗がりに押し込めてきた思い出話の叫び声が、閉ざされたドアの向こうから響いてくる。見ないふりをしてきた怒りや悲しみは、消えたのではなく、救われる時を待ちながらそこに在り続けているのだと歌は告げる。過去の扉を開くことは怖いけれど、その痛みを抱きしめて溶かすことで、渦巻く花のような新しい命の力が生まれる。トラウマを否定せず、いのちの底にある「生き抜いてきた声」をすくい上げる祈りの歌。",
+          "links": {
+            "youtube": "https://youtu.be/qTL-dXC5HxQ",
+            "spotify": "https://open.spotify.com/intl-ja/track/5L9cDYxFh0FYRaLV8hAIV5?si=d041b024aabe42fb"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "ふたば",
+          "title_en": "Sprout",
+          "lyric_id": 112,
+          "audio_embed": "https://www.youtube.com/embed/vGB5kxcWBeg",
+          "analysis": "4月の空の下、ダイアリーを開きながら、大切な人の誕生日に何を歌おうかと胸をときめかせる歌。まだ小さな「ふたば」のような素直さと勇気は、絶望に押しつぶされそうになっても、何度でも伸び上がろうとする生命力を秘めている。泣いてもいい、絶望してもいい、それでもきっと乗り越えられると信じるための“アイコトバ”を手に入れたら、忘れないでと繰り返す。成長の痛みと希望を抱きしめる、芽吹きの祈り。",
+          "links": {
+            "youtube": "https://youtu.be/vGB5kxcWBeg",
+            "spotify": "https://open.spotify.com/intl-ja/track/5mMXACPiaN1ulJyjACAwLl?si=907b9dc88ef14bd3"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "帰り道",
+          "title_en": "The Way Home",
+          "lyric_id": 109,
+          "audio_embed": "https://www.youtube.com/embed/YONSsLqkH3Q",
+          "analysis": "夕暮れに染まる春の帰り道、自転車のリュックが立てる音と一緒に、あの日の歌がよみがえる。忘れかけていたメロディは、未来の自分から届く手紙のように「大丈夫、まだ進める」と囁きかける。誰かのためではなく、自分自身のために歌う声が、歩いていくための道しるべとなる。ふと立ち止まりそうになったときに、心の中の“帰る場所”を指し示してくれる、優しいエンディングテーマ。",
+          "links": {
+            "youtube": "https://youtu.be/YONSsLqkH3Q",
+            "spotify": "https://open.spotify.com/intl-ja/track/2oFWxy1OPtch487TBb7u8L?si=2581aa8cde424dce"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "メロディ",
+          "title_en": "Melody",
+          "lyric_id": 106,
+          "audio_embed": "https://www.youtube.com/embed/uzgAgnoMHXE",
+          "analysis": "水面に映るシリウスの光と、レコードの溝に刻まれた音の記憶を重ね合わせる歌。喜びも苦しさも、逃げ出した夜も、すべてが人生のラプソディとしてメロディに封じ込められている。夢破れ自分を嗤った時でさえ、静かな雨のように降り注ぐ音楽が、もう一度立ち上がる勇気を運んでくる。消したい過去も含めて「僕のメロディ」と呼び直すことで、いのちの物語を肯定していく歌。",
+          "links": {
+            "youtube": "https://youtu.be/uzgAgnoMHXE",
+            "spotify": "https://open.spotify.com/intl-ja/track/0yjlkB3SaV7Px8aOaczv1f?si=9cfac6c836c743e5"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "お誕生日ありがとう",
+          "title_en": "Thank You for Your Birthday",
+          "lyric_id": 997,
+          "audio_embed": "https://www.youtube.com/embed/f6RnfAHg098",
+          "analysis": "「あなたが生まれた今日におめでとう」「ありがとう」と、ストレートな言葉を重ねるシンプルな祝福の歌。大げさなドラマや装飾ではなく、この世界に生まれてきてくれたただその事実に感謝を捧げる。出会えたことそのものが奇跡であり、これからも共に時を重ねていきたいという静かな願いが、ささやかなメロディに乗せて届けられる。誕生日という一日を、命への感謝の日としてそっと照らすラブソング。",
+          "links": {
+            "youtube": "https://youtu.be/f6RnfAHg098?si=AM7vaFcO3nogqY1w",
+            "spotify": "https://open.spotify.com/intl-ja/track/0dEQ65ZeL6tl2V929jaNhG?si=6b5defdbd1d541e3"
+          }
+        }
+      ]
+    },
+    {
       "key": "inori",
       "title_ja": "イノリ",
       "title_en": "inori",
