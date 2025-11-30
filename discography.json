@@ -1,6 +1,149 @@
 {
   "albums": [
     {
+      "key": "inori",
+      "title_ja": "イノリ",
+      "title_en": "inori",
+      "year": "2024",
+      "type": "Album",
+      "album_jacket": "images/inori_jacket.jpg",
+      "description": "祈りと星々が揺れる心を抱く、赦しと再生を歌う物語集",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "青い鼓動",
+          "title_en": "Blue Heartbeat",
+          "lyric_id": 101,
+          "audio_embed": "https://www.youtube.com/embed/J05I-PFxAM0",
+          "analysis": "揺れだした足元の影や蜃気楼のような街の叫びに圧倒されそうになったとき、胸に手を当てて確かめるのは自分の中で鳴り続ける青い鼓動。世界の騒音に呑み込まれそうになりながらも、その鼓動はまだ誰かを励まし、悲鳴を拾いあげる力を持っている。地平線の青さを生み出す源として、自分の命のリズムを信じ直す祈りのような一曲。",
+          "links": {
+            "youtube": "https://youtu.be/J05I-PFxAM0",
+            "spotify": "https://open.spotify.com/intl-ja/track/27GbMSD1Y92bBPuQIojbzb?si=e0eb346904a24db3"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "シンギングスターズ",
+          "title_en": "Singing Stars",
+          "lyric_id": 97,
+          "audio_embed": "https://www.youtube.com/embed/_e6zfhU0D64",
+          "analysis": "夢に敗れ、うまくいかない現実の中で自分の価値を見失いそうになった若者へ向けて届けられる歌。周囲の期待や雑音に押されて本音を隠してきたとしても、心の奥にはまだかすかな光が残っている。歌い出すその瞬間、曇っていた星座は再び瞬きを取り戻し、“もう一度歩き出していい”とそっと背中を押してくれる。評価ではなく、自分自身の内側にある星を信じ直すための再生のメッセージ。",
+          "links": {
+            "youtube": "https://youtu.be/_e6zfhU0D64",
+            "spotify": "https://open.spotify.com/intl-ja/track/7sZXRNrwFqbxO4OhDwrVTi?si=608125e369724d10"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "めぐみいのりし",
+          "title_en": "Blessings in Prayer",
+          "lyric_id": 99,
+          "audio_embed": "https://www.youtube.com/embed/8KeOqFSj-ko",
+          "analysis": "黄金色の田畑を渡るそよ風が、忙しさに曇った心のもやを静かに払っていく。空に祈りを投げかけ、深呼吸をしながら、ひと粒の実りに込められた気の遠くなるような時間と誰かの労力を思うとき、日々の食卓やささやかな言葉が恵みそのものだったと気づかされる。諦めや疲れさえ抱きしめながら、ありがとうを噛みしめて生きる力に変えていく、祈りと祝福の歌。",
+          "links": {
+            "youtube": "https://youtu.be/8KeOqFSj-ko",
+            "spotify": "https://open.spotify.com/intl-ja/track/4UQ2xURRlggGi3VjhXR8Kc?si=50906278335146c0"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "マイユニバース",
+          "title_en": "My Universe",
+          "lyric_id": 98,
+          "audio_embed": "https://www.youtube.com/embed/Qle8TN6cZJg",
+          "analysis": "虚空のように思えた瞳の奥に、ゼロから時間を生み出す「想い」という宇宙が広がっている。何度も巡り巡って出会い直す約束、忘れてしまっても胸のどこかで感じているつながり。手を取り合うことで、ふたりだけの小さな宇宙「マイユニバース」が立ち上がっていく。偶然では済ませられない出会いを、愛という重力でとらえ直す壮大で親密なラブソング。",
+          "links": {
+            "youtube": "https://youtu.be/Qle8TN6cZJg",
+            "spotify": "https://open.spotify.com/intl-ja/track/2S7IxpfqUjzlpkuvL1sUXd?si=fa92a61757424ce9"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "夢人の華",
+          "title_en": "Flower of the Dreamer",
+          "lyric_id": 95,
+          "audio_embed": "https://www.youtube.com/embed/aLQ79uK-bxg",
+          "analysis": "曼珠沙華の赤が揺れる彼岸の風景を思わせる歌。現世と彼岸の境界に咲くその華は、別れや罪の記憶を抱えた者を静かに導く光でもある。届かなかった願い、誰にも触れられず消えかけた夢が、向こう岸からそっと呼びかけるように揺れる。死や儚さの象徴でありながら、魂を浄め再び歩かせる力を宿す“彼岸花”そのものの祈りを描いた、静謐で美しい一曲。",
+          "links": {
+            "youtube": "https://youtu.be/aLQ79uK-bxg",
+            "spotify": "https://open.spotify.com/intl-ja/track/6cLYrbAlgIkoYZt3UlUurc?si=28f6eef6dd0e4c7b"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "ベロニカ",
+          "title_en": "Veronica",
+          "lyric_id": 94,
+          "audio_embed": "https://www.youtube.com/embed/9qNcHMrqcc8",
+          "analysis": "ゴルゴダの丘へ向かうキリストと、彼に寄り添った聖ヴェロニカの逸話をもとにした歌。嘲りと痛みに満ちた道の途中で、ヴェロニカはただ静かに布を差し出し、彼の苦しみを拭う。その行いは奇跡ではなく、暴力の只中で“ひとりの人を愛する勇気”そのもの。世界が背を向けるときにも、そっと寄り添う手の温度が人を救うのだという、深い慈悲を描いた祈りの曲。",
+          "links": {
+            "youtube": "https://youtu.be/9qNcHMrqcc8",
+            "spotify": "https://open.spotify.com/intl-ja/track/2MtYTlxeSmprfdobjPUXXM?si=1bc0133990154381"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "風と、君と。",
+          "title_en": "With the Wind, With You",
+          "lyric_id": 66,
+          "audio_embed": "https://www.youtube.com/embed/2ev-f2oZ0zI",
+          "analysis": "長い時間を共に過ごしたペットが旅立つ瞬間、その小さな命の余韻が風となって世界を巡る様子を描いた歌。姿は消えても、頬をかすめる風のやわらかさや、ふと視界に差し込む光の角度に“君”の気配が生き続けている。別れの痛みの中にも、君は世界そのものへと溶け込み、どこにいてもそばで寄り添ってくれるという希望がある。喪失を抱えた心を優しく支えるレクイエム。",
+          "links": {
+            "youtube": "https://youtu.be/2ev-f2oZ0zI",
+            "spotify": "https://open.spotify.com/intl-ja/track/2FoSnwQwjzkDahTfcrvzKd?si=dea2a98ae94547b9"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "奏浄、愛のうた",
+          "title_en": "Sōjō - Song of Pure Love",
+          "lyric_id": 100,
+          "audio_embed": "https://www.youtube.com/embed/deZ5Z-ZyTZ8",
+          "analysis": "疲れて素直な気持ちを忘れかけたとき、向かい風が砂を飛ばして頬を打ち、止まっていた感覚を呼び覚ます。怒りや恐れはいつしか岩のように固まり、世界を閉ざしてしまうが、それを溶かしていくのはやはり愛の海だと歌われる。涙で満たされていく青い星と、一つだけの空の下で響き合う祈りの声。傷だらけの日常を浄めていくように、愛を思い出させる力強い賛歌。",
+          "links": {
+            "youtube": "https://youtu.be/deZ5Z-ZyTZ8",
+            "spotify": "https://open.spotify.com/intl-ja/track/55ncW5RclTfrViBhV2I20m?si=c99d66a1940e4ec8"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "自分世界",
+          "title_en": "My Own World",
+          "lyric_id": 96,
+          "audio_embed": "https://www.youtube.com/embed/Ya9PpI7iWoM",
+          "analysis": "周囲の目を気にして前例に従うよう求められるなかで、「何を守りたいのか」と自分に問う歌。大人たちが差し出す無難な行き先案内とは別に、誰も見向きもしない小さなカケラがもし光っていたなら、それを拾い集めて自分だけの世界をつくっていこうと呼びかける。冷たい縄に縛られた仲間を見てもなお進む勇気と、誰もまだ知らない新しい価値を信じるまなざしが交差する、反骨と希望のアンセム。",
+          "links": {
+            "youtube": "https://youtu.be/Ya9PpI7iWoM",
+            "spotify": "https://open.spotify.com/intl-ja/track/1HI7EwG5irJ4LNRRSitDIl?si=81064e44001541d7"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "サジタリウスの矢",
+          "title_en": "Arrow of Sagittarius",
+          "lyric_id": 102,
+          "audio_embed": "https://www.youtube.com/embed/gf6SOlZXDLE",
+          "analysis": "鏡に映る自分の顔や揺れる瞳さえ赦せず、怒りを正義だと信じて矢を放とうとする心の葛藤を描く歌。夜空に輝くサジタリウスの矢は、本当は力による裁きではなく、愛を届けるための矢として放たれるべきだと示される。壊し合い、祈り合う世界の中で、「力の世界にさようなら」と告げる決断は、弱さではなく新しい勇気の形。暴力的な正義から、共に痛みを引き受ける愛の方向へと向き直す祈りの宣言。",
+          "links": {
+            "youtube": "https://youtu.be/gf6SOlZXDLE",
+            "spotify": "https://open.spotify.com/intl-ja/track/2KS6CCRyNzxnORBUNS6jea?si=dc3b96f3b30e4e74"
+          }
+        },
+        {
+          "track_no": 11,
+          "title_ja": "こころのふるさと",
+          "title_en": "Home of the Heart",
+          "lyric_id": 17,
+          "audio_embed": "https://www.youtube.com/embed/tSe0XsM7Br0",
+          "analysis": "「ふるさとにいざ帰らん」という言葉から始まるこの歌は、地図にない場所としての“こころのふるさと”を描いている。傷ついた魂が母の胸のようなぬくもりを求めて帰っていく道は、外側ではなく内側に灯るともしびによって照らされる。絶やさず燃やし続ける愛の火こそが、迷ったときに立ち返る原点であり、祈りそのものでもあることを静かに示す、聖歌のような一曲。",
+          "links": {
+            "youtube": "https://youtu.be/tSe0XsM7Br0",
+            "spotify": "https://open.spotify.com/intl-ja/track/73r3jFGr0ckTLNjEc0hEGw?si=b9cf9ff9bb9c43da"
+          }
+        }
+      ]
+    },
+    {
       "key": "story",
       "title_ja": "ストーリー",
       "title_en": "STORY",
