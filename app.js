@@ -156,7 +156,7 @@ function pickMessageForTrack(track) {
    おみくじ永続化 (1日1回／5時リセット)
    ========================= */
 
-const OMIKUJI_STORAGE_KEY = "omikuji_result_v1";
+const OMIKUJI_STORAGE_KEY = "omikuji_result_v2";
 
 function getOmikujiDayKey(now = new Date()) {
   const d = new Date(now);
@@ -169,11 +169,32 @@ function getOmikujiDayKey(now = new Date()) {
   return `${y}-${m}-${day}`;
 }
 
+function normalizeStored(raw) {
+  if (!raw) return null;
+  // v2: { dayKey, draws: [{albumKey, trackNo, message}] }
+  if (raw.dayKey && Array.isArray(raw.draws)) return raw;
+  // v1互換: { dayKey, albumKey, trackNo, message }
+  if (raw.dayKey && raw.albumKey && raw.trackNo != null) {
+    return {
+      dayKey: raw.dayKey,
+      draws: [
+        {
+          albumKey: raw.albumKey,
+          trackNo: raw.trackNo,
+          message: raw.message || "",
+        },
+      ],
+    };
+  }
+  return null;
+}
+
 function loadStoredOmikuji() {
   try {
     const raw = localStorage.getItem(OMIKUJI_STORAGE_KEY);
     if (!raw) return null;
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    return normalizeStored(parsed);
   } catch (_e) {
     return null;
   }
@@ -283,39 +304,70 @@ function initOmikuji(disc) {
 
   // 既存の結果が当日かどうかチェック
   const stored = loadStoredOmikuji();
-  if (stored && stored.dayKey === todayKey) {
-    const found = findTrackByAlbumAndNo(
-      disc,
-      stored.albumKey,
-      stored.trackNo
-    );
-    if (found) {
-      renderOmikujiResult(result, found, stored.message);
-      button.textContent = "また明日";
-      button.disabled = true;
-      return;
+  if (stored) {
+    if (stored.dayKey === todayKey) {
+      const last = stored.draws && stored.draws[stored.draws.length - 1];
+      if (last) {
+        const found = findTrackByAlbumAndNo(
+          disc,
+          last.albumKey,
+          last.trackNo
+        );
+        if (found) {
+          renderOmikujiResult(result, found, last.message);
+          if (stored.draws.length >= 3) {
+            button.textContent = "また明日";
+            button.disabled = true;
+            return;
+          } else {
+            button.textContent = `もう一度ひく (残り ${3 - stored.draws.length}回)`;
+          }
+        } else {
+          clearStoredOmikuji();
+        }
+      }
     } else {
-      // 参照できない場合はクリア
       clearStoredOmikuji();
     }
-  } else if (stored && stored.dayKey !== todayKey) {
-    clearStoredOmikuji();
   }
 
   button.addEventListener("click", () => {
+    const latest = loadStoredOmikuji();
+    let draws = [];
+    if (latest && latest.dayKey === todayKey && Array.isArray(latest.draws)) {
+      draws = latest.draws;
+      if (draws.length >= 3) {
+        button.textContent = "また明日";
+        button.disabled = true;
+        return;
+      }
+    }
+
     const pick = pickRandom();
     const message = pickMessageForTrack(pick ? pick.track : null);
     renderOmikujiResult(result, pick, message);
 
     if (pick) {
+      const newDraws = [
+        ...draws,
+        {
+          albumKey: pick.album.key,
+          trackNo: pick.track.track_no,
+          message,
+        },
+      ].slice(-3); // 念のため上限を守る
+
       saveStoredOmikuji({
         dayKey: todayKey,
-        albumKey: pick.album.key,
-        trackNo: pick.track.track_no,
-        message,
+        draws: newDraws,
       });
-      button.textContent = "また明日";
-      button.disabled = true;
+
+      if (newDraws.length >= 3) {
+        button.textContent = "また明日";
+        button.disabled = true;
+      } else {
+        button.textContent = `もう一度ひく (残り ${3 - newDraws.length}回)`;
+      }
     }
   });
 }
