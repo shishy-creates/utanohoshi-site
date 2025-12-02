@@ -13,6 +13,17 @@ async function loadDiscography() {
   return res.json();
 }
 
+// 全曲をアルバム情報付きで平坦化
+function flattenTracksWithAlbum(disc) {
+  const out = [];
+  (disc.albums || []).forEach((album) => {
+    (album.tracks || []).forEach((track) => {
+      out.push({ album, track });
+    });
+  });
+  return out;
+}
+
 // lyric_id から歌詞ファイル名を決める
 function getLyricsFileForId(id) {
   const n = Number(id);
@@ -57,6 +68,143 @@ function extractIntroFromLyrics(lyrics, lineCount = 2) {
   return picked.join(" / ");
 }
 
+// おみくじ結果の描画
+function renderOmikujiResult(target, pick, message) {
+  if (!pick) {
+    target.innerHTML =
+      '<p class="omikuji-placeholder">曲データが見つかりませんでした。</p>';
+    return;
+  }
+
+  const { album, track } = pick;
+  const songUrl =
+    track && track.track_no != null
+      ? `song.html?album=${encodeURIComponent(
+          album.key
+        )}&track=${encodeURIComponent(track.track_no)}`
+      : null;
+  const youtube = track.links && track.links.youtube;
+  const spotify = track.links && track.links.spotify;
+
+  target.innerHTML = `
+    <div class="omikuji-track">
+      <h3 class="omikuji-track-title">
+        ${track.title_ja}
+        ${track.title_en ? `<span>${track.title_en}</span>` : ""}
+      </h3>
+      <p class="omikuji-track-meta">
+        アルバム：${album.title_ja || ""}${album.title_en ? ` / ${album.title_en}` : ""} ${
+    track.track_no ? ` / トラック ${track.track_no}` : ""
+  }
+      </p>
+      ${
+        message
+          ? `<p class="omikuji-message">おみくじ：${message}</p>`
+          : ""
+      }
+      <div class="omikuji-links">
+        ${
+          songUrl
+            ? `<a class="omikuji-link-btn" href="${songUrl}">曲ページへ</a>`
+            : ""
+        }
+        ${
+          youtube
+            ? `<a class="omikuji-link-btn" href="${youtube}" target="_blank" rel="noopener">YouTube</a>`
+            : ""
+        }
+        ${
+          spotify
+            ? `<a class="omikuji-link-btn" href="${spotify}" target="_blank" rel="noopener">Spotify</a>`
+            : ""
+        }
+      </div>
+    </div>
+  `;
+}
+
+// おみくじメッセージ（前向きな短文）
+function getOmikujiMessages() {
+  return [
+    "風が背中を押しています。",
+    "静かな祈りが届く日。",
+    "あたたかな光に包まれます。",
+    "小さな一歩が、大きな道を開きます。",
+    "心の鼓動に素直でいてください。",
+    "今日の空は味方をしています。",
+    "澄んだ風が、新しい始まりを告げます。",
+    "あなたの声が誰かを照らしています。",
+    "やさしい時間が、すぐそばにあります。",
+    "想いは遠くまで届いています。",
+    "深呼吸の先に、ひらめきが待っています。",
+    "静けさの中に、力強いリズムが響いています。"
+  ];
+}
+
+// 曲に紐づくおみくじメッセージ（あれば優先）
+function pickMessageForTrack(track) {
+  if (track && track.omikuji_message && track.omikuji_message.trim() !== "") {
+    return track.omikuji_message;
+  }
+  const messages = getOmikujiMessages();
+  return messages.length
+    ? messages[Math.floor(Math.random() * messages.length)]
+    : "";
+}
+
+/* =========================
+   おみくじ永続化 (1日1回／5時リセット)
+   ========================= */
+
+const OMIKUJI_STORAGE_KEY = "omikuji_result_v1";
+
+function getOmikujiDayKey(now = new Date()) {
+  const d = new Date(now);
+  if (d.getHours() < 5) {
+    d.setDate(d.getDate() - 1);
+  }
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function loadStoredOmikuji() {
+  try {
+    const raw = localStorage.getItem(OMIKUJI_STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (_e) {
+    return null;
+  }
+}
+
+function saveStoredOmikuji(data) {
+  try {
+    localStorage.setItem(OMIKUJI_STORAGE_KEY, JSON.stringify(data));
+  } catch (_e) {
+    // noop
+  }
+}
+
+function clearStoredOmikuji() {
+  try {
+    localStorage.removeItem(OMIKUJI_STORAGE_KEY);
+  } catch (_e) {
+    // noop
+  }
+}
+
+function findTrackByAlbumAndNo(disc, albumKey, trackNo) {
+  const album = (disc.albums || []).find((a) => a.key === albumKey);
+  if (!album) return null;
+  const track = (album.tracks || []).find(
+    (t) => Number(t.track_no) === Number(trackNo)
+  );
+  if (!track) return null;
+  return { album, track };
+}
+
 /* =========================
    index.html アルバム一覧
    ========================= */
@@ -67,6 +215,9 @@ async function initIndexPage() {
 
   try {
     const disc = await loadDiscography();
+    // おみくじはここで disc を共有して使う
+    initOmikuji(disc);
+
     const albums = disc.albums || [];
 
     if (!albums.length) {
@@ -112,6 +263,61 @@ async function initIndexPage() {
     console.error(e);
     listEl.textContent = "ディスコグラフィー情報の読み込みに失敗しました。";
   }
+}
+
+/* =========================
+   index.html 今日の一曲おみくじ
+   ========================= */
+
+function initOmikuji(disc) {
+  const button = document.getElementById("omikuji-button");
+  const result = document.getElementById("omikuji-result");
+  if (!button || !result) return;
+
+  const todayKey = getOmikujiDayKey();
+  const pool = flattenTracksWithAlbum(disc).filter(
+    (item) => item.track && item.album
+  );
+  const pickRandom = () =>
+    pool.length ? pool[Math.floor(Math.random() * pool.length)] : null;
+
+  // 既存の結果が当日かどうかチェック
+  const stored = loadStoredOmikuji();
+  if (stored && stored.dayKey === todayKey) {
+    const found = findTrackByAlbumAndNo(
+      disc,
+      stored.albumKey,
+      stored.trackNo
+    );
+    if (found) {
+      renderOmikujiResult(result, found, stored.message);
+      button.textContent = "また明日";
+      button.disabled = true;
+      return;
+    } else {
+      // 参照できない場合はクリア
+      clearStoredOmikuji();
+    }
+  } else if (stored && stored.dayKey !== todayKey) {
+    clearStoredOmikuji();
+  }
+
+  button.addEventListener("click", () => {
+    const pick = pickRandom();
+    const message = pickMessageForTrack(pick ? pick.track : null);
+    renderOmikujiResult(result, pick, message);
+
+    if (pick) {
+      saveStoredOmikuji({
+        dayKey: todayKey,
+        albumKey: pick.album.key,
+        trackNo: pick.track.track_no,
+        message,
+      });
+      button.textContent = "また明日";
+      button.disabled = true;
+    }
+  });
 }
 
 /* =========================

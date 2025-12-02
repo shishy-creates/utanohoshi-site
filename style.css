@@ -101,6 +101,130 @@ body {
   text-decoration: none;
 }
 
+/* 今日の一曲おみくじ */
+
+.omikuji-section {
+  max-width: 960px;
+  margin: 16px auto 8px;
+  padding: 0 16px;
+}
+
+.omikuji-card {
+  background: linear-gradient(135deg, #fdf7ff 0%, #f4f8ff 100%);
+  border: 1px solid rgba(150, 120, 200, 0.14);
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  padding: 18px 16px;
+  backdrop-filter: blur(6px);
+}
+
+.omikuji-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.omikuji-label {
+  font-size: 0.85rem;
+  color: #7a6c9b;
+  margin: 0 0 2px;
+}
+
+.omikuji-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.omikuji-note {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.omikuji-button {
+  background: linear-gradient(90deg, #c77ad9, #6fa8ff);
+  border: none;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(110, 130, 220, 0.25);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+}
+
+.omikuji-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px rgba(110, 130, 220, 0.3);
+}
+
+.omikuji-button:active {
+  transform: translateY(0);
+  opacity: 0.9;
+}
+
+.omikuji-result {
+  margin-top: 12px;
+  border-top: 1px dashed rgba(120, 120, 160, 0.3);
+  padding-top: 12px;
+}
+
+.omikuji-placeholder {
+  margin: 0;
+  color: #666;
+}
+
+.omikuji-track-title {
+  font-size: 1.05rem;
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+
+.omikuji-track-title span {
+  font-size: 0.9rem;
+  color: #6c6c6c;
+  margin-left: 6px;
+}
+
+.omikuji-track-meta {
+  font-size: 0.88rem;
+  color: #555;
+  margin: 0 0 6px;
+}
+
+.omikuji-message {
+  margin: 4px 0 10px;
+  font-size: 0.95rem;
+  color: #4a4a6f;
+  font-weight: 600;
+}
+
+.omikuji-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.omikuji-link-btn {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(120, 120, 160, 0.2);
+  color: #4a4a6f;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.omikuji-link-btn:hover {
+  background: #f7f9ff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
 /* アルバムインデックス（index.html） */
 
 .album-index-section {
