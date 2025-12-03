@@ -663,7 +663,7 @@ async function initSongPage() {
 
     const noticeP = document.createElement("p");
     noticeP.className = "notice";
-    noticeP.textContent = "※ 歌詞は公式JSONアーカイブからの引用です。";
+    noticeP.textContent = "※ うたのほし公式歌詞アーカイブより引用しています。";
 
     lyricsPanel.appendChild(lyricsDiv);
     lyricsPanel.appendChild(noticeP);
