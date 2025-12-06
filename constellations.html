@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>うたのほし星座マップ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="constellation-body">
+  <header class="site-header">
+    <h1>うたのほし星座マップ</h1>
+    <p class="subtitle-en">Uta no Hoshi Constellation Map</p>
+  </header>
+
+  <main class="page-inner constellation-page">
+    <a class="back-link" href="index.html">← ディスコグラフィへ戻る</a>
+
+    <section class="constellation-panel">
+      <div class="constellation-controls">
+        <div class="control-meta">
+          <div id="metaInfo">読み込み中...</div>
+        </div>
+        <div class="control-filters">
+          <label>
+            アルバムの星座を見る
+            <select id="albumSelect">
+              <option value="none">選択しない</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="constellation-canvas-wrap">
+        <canvas id="constellationCanvas"></canvas>
+        <div id="constellationTooltip" class="constellation-tooltip" style="display:none;"></div>
+      </div>
+
+      <div class="constellation-legend">
+        <div class="legend-title">うたの星雲分布</div>
+        <div id="legendQuadrants" class="legend-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    うたのほし / Constellations auto map
+  </footer>
+
+  <script src="constellations.js"></script>
+</body>
+</html>

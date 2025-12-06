@@ -2,14 +2,50 @@
 
 :root {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #222;
-  background: #f5f5fa;
+  color: #1f2230;
+  background: #f7f6ff;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at top, #fdfbff, #f0f2ff);
+  background: radial-gradient(120% 100% at 50% 0%, #fefaff 0%, #f6f2ff 55%, #f9f8ff 100%);
+  color: #1f2230;
+  min-height: 100vh;
+}
+
+.constellation-body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(140% 100% at 50% 0%, #141b33 0%, #0b1024 50%, #060813 100%);
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+  color: #e9ecff;
+}
+
+/* full-screen starry overlay */
+.constellation-body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(180% 160% at 20% 20%, rgba(80, 110, 200, 0.12), transparent 45%),
+    radial-gradient(200% 140% at 80% 10%, rgba(180, 120, 200, 0.1), transparent 40%),
+    url("images/night-sky.jpg") center/cover no-repeat;
+  mix-blend-mode: normal;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* keep main content above the overlay */
+.site-header,
+.page-inner,
+.site-footer,
+.constellation-panel {
+  position: relative;
+  z-index: 1;
 }
 
 /* 共通ヘッダー・フッター */
@@ -20,18 +56,51 @@ body {
   z-index: 100;
   padding: 80px 16px 32px;
   text-align: center;
-  /* ↓ここを変更します */
   background:
-    linear-gradient(135deg, rgba(220,210,255,0.92) 0%, rgba(240,230,255,0.92) 100%),
+    linear-gradient(135deg, rgba(220, 210, 255, 0.92) 0%, rgba(240, 230, 255, 0.92) 100%),
     url("images/top.jpg") center/cover no-repeat;
   background-blend-mode: lighten;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(160,120,255,0.08);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(160, 120, 255, 0.08);
+}
+
+.header-flex {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.site-title-block {
+  text-align: left;
+}
+
+.hero-link {
+  white-space: nowrap;
+  background: linear-gradient(135deg, #0f1b47 0%, #15295f 100%);
+  border: 1px solid #24366f;
+  color: #ffe48a !important;
+  box-shadow: 0 3px 12px rgba(15, 27, 71, 0.25);
+}
+
+.hero-link:hover {
+  background: linear-gradient(135deg, #12225a 0%, #1c3375 100%);
+  color: #fff2bf !important;
+  border-color: #2d468a;
+  box-shadow: 0 6px 16px rgba(15, 27, 71, 0.35);
 }
 
 @media (max-width: 600px) {
   .site-header {
     padding: 16px 12px 12px;   /* ← かなりスリムに */
+  }
+
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 
   .site-header h1 {
@@ -48,12 +117,46 @@ body {
   margin: 0;
   font-size: 1.8rem;
   letter-spacing: 0.1em;
+  color: #1f1f2e;
 }
 
 .site-header p {
   margin: 6px 0 0;
   font-size: 0.9rem;
-  color: #555;
+  color: #6f6c85;
+}
+
+.subtitle-en {
+  margin: 4px 0 0;
+  font-size: 0.82rem;
+  color: #a7b2e8;
+}
+
+.constellation-body .site-header {
+  background:
+    linear-gradient(135deg, rgba(25,35,70,0.8) 0%, rgba(15,20,40,0.9) 100%),
+    radial-gradient(circle at 20% 20%, rgba(90,120,200,0.25), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(200,120,200,0.18), transparent 35%);
+  background-blend-mode: screen;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(120,150,255,0.14);
+  padding: 36px 16px 16px;
+}
+
+.constellation-body .site-header h1 {
+  font-size: 1.45rem;
+  letter-spacing: 0.08em;
+  color: #e9ecff;
+}
+
+.constellation-body .site-header p {
+  font-size: 0.82rem;
+  color: #b8c0ff;
+}
+
+.constellation-body .subtitle-en {
+  font-size: 0.75rem;
+  color: #a7b2e8;
 }
 
 .site-footer {
@@ -99,6 +202,21 @@ body {
   box-shadow: 0 4px 16px rgba(200,90,140,0.13);
   transform: translateY(-2px) scale(1.03);
   text-decoration: none;
+}
+
+/* ヘッダー右側の星座マップリンク用の上書き */
+.back-link.hero-link {
+  background: linear-gradient(135deg, #0f1b47 0%, #15295f 100%) !important;
+  border: 1px solid #24366f !important;
+  color: #ffe48a !important;
+  box-shadow: 0 3px 12px rgba(15, 27, 71, 0.25);
+}
+
+.back-link.hero-link:hover {
+  background: linear-gradient(135deg, #12225a 0%, #1c3375 100%) !important;
+  color: #fff2bf !important;
+  border-color: #2d468a !important;
+  box-shadow: 0 6px 16px rgba(15, 27, 71, 0.35);
 }
 
 /* 今日の一曲おみくじ */
@@ -656,6 +774,204 @@ body {
 .analysis-block h3 {
   margin-top: 0;
   font-size: 1rem;
+}
+
+.constellation-page {
+  padding-top: 12px;
+}
+
+.constellation-panel {
+  background: rgba(12, 16, 35, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  padding: 16px;
+  margin-top: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(120, 150, 255, 0.15);
+}
+
+.constellation-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.constellation-controls label {
+  display: block;
+  font-size: 0.85rem;
+  color: #d3b98a;
+  margin-bottom: 4px;
+}
+
+.constellation-controls select {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #f3d472;
+  background: linear-gradient(135deg, #fff7d9 0%, #ffe9a8 100%);
+  box-shadow: 0 2px 8px rgba(243, 212, 114, 0.35);
+  min-width: 180px;
+  color: #4a3b14;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.control-meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.constellation-canvas-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 360px;
+  border-radius: 12px;
+  border: 1px solid rgba(120, 140, 200, 0.25);
+  overflow: hidden;
+  background:
+    radial-gradient(160% 120% at 20% 20%, rgba(80, 110, 200, 0.1), transparent 50%),
+    radial-gradient(200% 140% at 80% 10%, rgba(180, 120, 200, 0.08), transparent 40%),
+    url("images/night-sky.jpg"),
+    #070b18;
+  background-size: auto, auto, cover, auto;
+  background-position: center, center, center, center;
+  background-repeat: no-repeat;
+  background-blend-mode: screen, screen, normal, normal;
+}
+
+#constellationCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.constellation-tooltip {
+  position: absolute;
+  background: rgba(10, 14, 30, 0.9);
+  border: 1px solid rgba(120, 150, 255, 0.25);
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  color: #e8edff;
+  pointer-events: auto;
+  min-width: 180px;
+  max-width: 280px;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+.constellation-tooltip .tt-title {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.constellation-tooltip .tt-meta {
+  color: #a0a8d8;
+  margin-bottom: 4px;
+}
+
+.constellation-tooltip .tt-const {
+  font-size: 0.82rem;
+  color: #7a6c9b;
+  margin-bottom: 4px;
+}
+
+.constellation-tooltip .tt-coord {
+  font-size: 0.78rem;
+  color: #777;
+}
+
+.constellation-tooltip .tt-link {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border: 1px solid #a8b3e6;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #fefeff 0%, #e6ecff 100%);
+  color: #2f365b;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.constellation-tooltip .tt-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.constellation-legend {
+  margin-top: 12px;
+}
+
+.legend-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #d0d6ff;
+  margin-bottom: 6px;
+}
+
+.legend-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.legend-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(18, 24, 50, 0.8);
+  border: 1px solid rgba(120, 150, 255, 0.18);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.legend-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.legend-name {
+  font-weight: 600;
+  color: #e8edff;
+}
+
+.legend-keywords {
+  font-size: 0.82rem;
+  color: #a8b3e6;
+  margin-left: auto;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.legend-tooltip {
+  position: fixed;
+  background: rgba(20, 24, 44, 0.92);
+  color: #f7f2e8;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 220, 140, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  font-size: 0.82rem;
+  max-width: 240px;
+  z-index: 10;
+  pointer-events: none;
+  display: none;
 }
 
 /* ==== Album Index – Jacket Image Fix ==== */

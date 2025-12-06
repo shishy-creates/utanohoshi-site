@@ -40,6 +40,7 @@ function getLyricsFileForId(id) {
   if (n >= 101 && n <= 110) return "utahoshi_lyrics_101-110.json";
   if (n >= 111 && n <= 120) return "utahoshi_lyrics_111-120.json";
   if (n >= 121 && n <= 130) return "utahoshi_lyrics_121-130.json";
+  if (n >= 131 && n <= 140) return "utahoshi_lyrics_131-140.json";
   if (n >= 991 && n <= 1000) return "utahoshi_lyrics_991-1000.json";
   return null;
 }

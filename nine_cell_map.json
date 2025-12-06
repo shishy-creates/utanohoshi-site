@@ -1,0 +1,1904 @@
+{
+  "meta": {
+    "created_at": "2025-12-06T14:29:35",
+    "n_songs": 135,
+    "grid": "A1..C3 (rows counted from top)",
+    "axes_definition": {
+      "x": "warning_to_hope (0=警鐘,1=希望)",
+      "y": "reality_to_cosmos (0=日常,1=宇宙)",
+      "depth": "material_to_spiritual proxy from spiritual keywords"
+    }
+  },
+  "songs": [
+    {
+      "id": 1,
+      "title": "クワイエットワールド",
+      "album": "うたのほし The 1st",
+      "x": 0.735669,
+      "y": 0.448838,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.372,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOMO",
+      "album": "うたのほし The 1st",
+      "x": 0.680575,
+      "y": 0.328418,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 3,
+      "title": "ファントムシティ",
+      "album": "うたのほし The 1st",
+      "x": 0.189212,
+      "y": 0.110954,
+      "depth": 0.4,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 4,
+      "title": "こだま",
+      "album": "うたのほし The 1st",
+      "x": 0.789621,
+      "y": 0.180853,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 5,
+      "title": "桜散る前に",
+      "album": "うたのほし The 1st",
+      "x": 0.46629,
+      "y": 0.178748,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 6,
+      "title": "巡りの星",
+      "album": "うたのほし The 1st",
+      "x": 0.550154,
+      "y": 0.751333,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 7,
+      "title": "残存",
+      "album": "うたのほし The 1st",
+      "x": 0.105802,
+      "y": 0.142865,
+      "depth": 0.47,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.308,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 8,
+      "title": "声を聴かせて",
+      "album": "悲しみは影を知ること",
+      "x": 0.077031,
+      "y": 0.391965,
+      "depth": 0.47,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.244,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 9,
+      "title": "光の唄",
+      "album": "スタートライン",
+      "x": 0.89099,
+      "y": 0.735141,
+      "depth": 0.61,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 10,
+      "title": "サカナ",
+      "album": "スタートライン",
+      "x": 0.511436,
+      "y": 0.03058,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 11,
+      "title": "GOOD-BYE.",
+      "album": "悲しみは影を知ること",
+      "x": 0.518448,
+      "y": 0.048492,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 12,
+      "title": "遙かなるエトワール",
+      "album": "うたのほし The 1st",
+      "x": 0.62894,
+      "y": 0.829045,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 13,
+      "title": "雨上がりの朝に",
+      "album": "スタートライン",
+      "x": 0.523243,
+      "y": 0.026817,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 14,
+      "title": "スタートライン",
+      "album": "スタートライン",
+      "x": 0.857631,
+      "y": 0.223379,
+      "depth": 0.96,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.9600000000000001
+      }
+    },
+    {
+      "id": 15,
+      "title": "月の夢",
+      "album": "うたのほし The 1st",
+      "x": 0.55531,
+      "y": 0.876858,
+      "depth": 0.47,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.692,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 16,
+      "title": "悲槍",
+      "album": "悲しみは影を知ること",
+      "x": 0.028504,
+      "y": 0.238218,
+      "depth": 0.47,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.11599999999999999,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 17,
+      "title": "こころのふるさと",
+      "album": "イノリ",
+      "x": 0.86495,
+      "y": 0.794889,
+      "depth": 0.47,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 18,
+      "title": "真夏のペガサス",
+      "album": "ベガ",
+      "x": 0.828429,
+      "y": 0.521475,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 19,
+      "title": "いつか帰る日まで",
+      "album": "悲しみは影を知ること",
+      "x": 0.52322,
+      "y": 0.293251,
+      "depth": 0.54,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.692,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 20,
+      "title": "ドライビングスターズ",
+      "album": "うたのほし The 1st",
+      "x": 0.916665,
+      "y": 0.502354,
+      "depth": 0.75,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 21,
+      "title": "約束の場所 2025",
+      "album": "悲しみは影を知ること",
+      "x": 0.289644,
+      "y": 0.202412,
+      "depth": 0.54,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 22,
+      "title": "竜の鐘",
+      "album": "悲しみは影を知ること",
+      "x": 0.267356,
+      "y": 0.746494,
+      "depth": 0.61,
+      "cell": "A1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 23,
+      "title": "レクイエム０",
+      "album": "悲しみは影を知ること",
+      "x": 0.331449,
+      "y": 0.064769,
+      "depth": 0.54,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 24,
+      "title": "小さな愛",
+      "album": "コイカハルカ",
+      "x": 0.526392,
+      "y": 0.033033,
+      "depth": 0.4,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 25,
+      "title": "羊の影",
+      "album": "悲しみは影を知ること",
+      "x": 0.078437,
+      "y": 0.491693,
+      "depth": 0.4,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.244,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 26,
+      "title": "たそがれ",
+      "album": "悲しみは影を知ること",
+      "x": 0.560824,
+      "y": 0.20115,
+      "depth": 0.54,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 27,
+      "title": "祝福のレシテーション",
+      "album": "ベガ",
+      "x": 0.915928,
+      "y": 0.334204,
+      "depth": 0.75,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 28,
+      "title": "追憶のマリオネット",
+      "album": "悲しみは影を知ること",
+      "x": 0.25043,
+      "y": 0.174484,
+      "depth": 0.54,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 29,
+      "title": "メリークリスマスをわたしから",
+      "album": "未生",
+      "x": 0.851734,
+      "y": 0.086088,
+      "depth": 0.4,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 30,
+      "title": "愛さずに",
+      "album": "うたのほし The 1st",
+      "x": 0.657816,
+      "y": 0.892724,
+      "depth": 0.47,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.692,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 31,
+      "title": "ひことみこ",
+      "album": "コイカハルカ",
+      "x": 0.549595,
+      "y": 0.708569,
+      "depth": 0.61,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 32,
+      "title": "みのり",
+      "album": "コイカハルカ",
+      "x": 0.496022,
+      "y": 0.16897,
+      "depth": 0.4,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 33,
+      "title": "恋のお星さま",
+      "album": "コイカハルカ",
+      "x": 0.491779,
+      "y": 0.17772,
+      "depth": 0.4,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 34,
+      "title": "パラレルワールドで待ち合わせしましょう",
+      "album": "コイカハルカ",
+      "x": 0.198337,
+      "y": 0.032278,
+      "depth": 0.47,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 35,
+      "title": "リフ",
+      "album": "コイカハルカ",
+      "x": 0.52599,
+      "y": 0.359125,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 36,
+      "title": "旅立ち",
+      "album": "コイカハルカ",
+      "x": 0.792544,
+      "y": 0.138777,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 37,
+      "title": "やまびこ",
+      "album": "ベガ",
+      "x": 0.513078,
+      "y": 0.35963,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 38,
+      "title": "桜ふらり",
+      "album": "コイカハルカ",
+      "x": 0.539665,
+      "y": 0.376771,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 39,
+      "title": "BE LOVE EXPRESS",
+      "album": "コイカハルカ",
+      "x": 0.476082,
+      "y": 0.030019,
+      "depth": 0.4,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 40,
+      "title": "負けたって。",
+      "album": "ベガ",
+      "x": 0.809953,
+      "y": 0.162514,
+      "depth": 0.68,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 41,
+      "title": "ほしのうた",
+      "album": "ベガ",
+      "x": 0.533895,
+      "y": 0.659973,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 42,
+      "title": "青い星の人たちへ",
+      "album": "悲しみは影を知ること",
+      "x": 0.93636,
+      "y": 0.93387,
+      "depth": 0.75,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.8200000000000001,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 43,
+      "title": "コドウ・サイキドウ",
+      "album": "ベガ",
+      "x": 0.180014,
+      "y": 0.052438,
+      "depth": 0.4,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 44,
+      "title": "Chocolate",
+      "album": "ベガ",
+      "x": 0.524803,
+      "y": 0.088915,
+      "depth": 0.54,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 45,
+      "title": "Hello マイ フレンド",
+      "album": "ベガ",
+      "x": 0.503821,
+      "y": 0.322892,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 46,
+      "title": "夏のEYES",
+      "album": "ベガ",
+      "x": 0.765196,
+      "y": 0.36259,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 47,
+      "title": "忘却のエターナルランド",
+      "album": "ベガ",
+      "x": 0.222772,
+      "y": 0.327253,
+      "depth": 0.54,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 48,
+      "title": "Flower",
+      "album": "未生",
+      "x": 0.718461,
+      "y": 0.023162,
+      "depth": 0.54,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.308,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 49,
+      "title": "流星群",
+      "album": "未生",
+      "x": 0.975936,
+      "y": 0.968367,
+      "depth": 0.68,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.884,
+        "reality_to_cosmos": 0.9,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 50,
+      "title": "OKAERI 8.15",
+      "album": "ストーリー",
+      "x": 0.675906,
+      "y": 0.539183,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 51,
+      "title": "ハート to ハート",
+      "album": "ベガ",
+      "x": 0.883597,
+      "y": 0.053096,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 52,
+      "title": "ブーゲンビリアの花束を",
+      "album": "ストーリー",
+      "x": 0.527291,
+      "y": 0.149024,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 53,
+      "title": "なみのうた",
+      "album": "ストーリー",
+      "x": 0.526892,
+      "y": 0.505211,
+      "depth": 0.54,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 54,
+      "title": "Dancing Shadow",
+      "album": "未生",
+      "x": 0.11319,
+      "y": 0.047329,
+      "depth": 0.61,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.308,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 55,
+      "title": "ゆうやけ小路",
+      "album": "未生",
+      "x": 0.632764,
+      "y": 0.030675,
+      "depth": 0.54,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 56,
+      "title": "クジラレジューム",
+      "album": "未生",
+      "x": 0.50676,
+      "y": 0.564059,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 57,
+      "title": "アカシアの安息",
+      "album": "未生",
+      "x": 0.906063,
+      "y": 0.314353,
+      "depth": 0.61,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 58,
+      "title": "ココロセカイのこどもたち",
+      "album": "未生",
+      "x": 0.881106,
+      "y": 0.366538,
+      "depth": 0.4,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 59,
+      "title": "夜明け",
+      "album": "未生",
+      "x": 0.234812,
+      "y": 0.150959,
+      "depth": 0.54,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 60,
+      "title": "君たちの物語",
+      "album": "未生",
+      "x": 0.808617,
+      "y": 0.022495,
+      "depth": 0.61,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 61,
+      "title": "norma   ノーマ  -誰も知らない国-",
+      "album": "未生",
+      "x": 0.937063,
+      "y": 0.408509,
+      "depth": 0.61,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 62,
+      "title": "スノータウン",
+      "album": "悲しみは影を知ること",
+      "x": 0.837983,
+      "y": 0.094466,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 63,
+      "title": "はじまりのパルス",
+      "album": "メッセージ",
+      "x": 0.573939,
+      "y": 0.860189,
+      "depth": 0.75,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 64,
+      "title": "悠奏ヒストリア",
+      "album": "メッセージ",
+      "x": 0.549328,
+      "y": 0.413863,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 65,
+      "title": "アイコトバ",
+      "album": "メッセージ",
+      "x": 0.908191,
+      "y": 0.03083,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 66,
+      "title": "風と、君と。",
+      "album": "イノリ",
+      "x": 0.579555,
+      "y": 0.324227,
+      "depth": 0.61,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 67,
+      "title": "ラストフラッグ",
+      "album": "メッセージ",
+      "x": 0.475823,
+      "y": 0.408689,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.372,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 68,
+      "title": "神サピエンス",
+      "album": "メッセージ",
+      "x": 0.285454,
+      "y": 0.762748,
+      "depth": 0.89,
+      "cell": "A1",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.8900000000000001
+      }
+    },
+    {
+      "id": 69,
+      "title": "Re BIRTH -リバース",
+      "album": "メッセージ",
+      "x": 0.818634,
+      "y": 0.491568,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 70,
+      "title": "ニライカナイに誘われて",
+      "album": "メッセージ",
+      "x": 0.859585,
+      "y": 0.834725,
+      "depth": 0.82,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.8200000000000001
+      }
+    },
+    {
+      "id": 71,
+      "title": "山の精霊",
+      "album": "メッセージ",
+      "x": 0.546726,
+      "y": 0.834467,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 72,
+      "title": "さすらいの輪舞曲（ロンド）",
+      "album": "メッセージ",
+      "x": 0.85481,
+      "y": 0.47419,
+      "depth": 0.61,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 73,
+      "title": "僕らの別れ",
+      "album": "コイカハルカ",
+      "x": 0.678874,
+      "y": 0.067205,
+      "depth": 0.54,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.244,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 74,
+      "title": "プラトニカ",
+      "album": "メッセージ",
+      "x": 0.971892,
+      "y": 0.838702,
+      "depth": 0.54,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 75,
+      "title": "春とルルリラ",
+      "album": "メッセージ",
+      "x": 0.638462,
+      "y": 0.518151,
+      "depth": 0.54,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 76,
+      "title": "セカンド",
+      "album": "歌の星",
+      "x": 0.281623,
+      "y": 0.509306,
+      "depth": 0.82,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.8200000000000001
+      }
+    },
+    {
+      "id": 77,
+      "title": "うろこ雲",
+      "album": "歌の星",
+      "x": 0.499865,
+      "y": 0.507864,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 78,
+      "title": "幻影",
+      "album": "ストーリー",
+      "x": 0.280211,
+      "y": 0.206207,
+      "depth": 0.54,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 79,
+      "title": "砂の惑星",
+      "album": "歌の星",
+      "x": 0.516636,
+      "y": 0.694375,
+      "depth": 0.75,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 80,
+      "title": "リヴァイアサン",
+      "album": "歌の星",
+      "x": 0.080341,
+      "y": 0.693174,
+      "depth": 0.47,
+      "cell": "A1",
+      "scores": {
+        "warning_to_hope": 0.244,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 81,
+      "title": "歌の星",
+      "album": "歌の星",
+      "x": 0.974149,
+      "y": 0.70731,
+      "depth": 0.54,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 82,
+      "title": "照ラ  Terra",
+      "album": "歌の星",
+      "x": 0.838292,
+      "y": 0.682806,
+      "depth": 0.61,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 83,
+      "title": "バベル",
+      "album": "歌の星",
+      "x": 0.162787,
+      "y": 0.491289,
+      "depth": 0.47,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 84,
+      "title": "燦  Sun",
+      "album": "歌の星",
+      "x": 0.835922,
+      "y": 0.859072,
+      "depth": 0.4,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 85,
+      "title": "黎明 reimei",
+      "album": "歌の星",
+      "x": 0.384234,
+      "y": 0.391298,
+      "depth": 0.82,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.8200000000000001
+      }
+    },
+    {
+      "id": 86,
+      "title": "瑠璃色の雨",
+      "album": "歌の星",
+      "x": 0.407032,
+      "y": 0.332619,
+      "depth": 0.47,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.308,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 87,
+      "title": "こころのキラリ",
+      "album": "ストーリー",
+      "x": 0.801124,
+      "y": 0.150283,
+      "depth": 0.4,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 88,
+      "title": "やまと風来",
+      "album": "ストーリー",
+      "x": 0.564807,
+      "y": 0.722565,
+      "depth": 0.75,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 89,
+      "title": "オリーブの夏日（かじつ）",
+      "album": "ストーリー",
+      "x": 0.232835,
+      "y": 0.218606,
+      "depth": 0.4,
+      "cell": "A3",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 90,
+      "title": "ハートで魂(ソウル)",
+      "album": "ストーリー",
+      "x": 0.606788,
+      "y": 0.110203,
+      "depth": 0.61,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 91,
+      "title": "D",
+      "album": "ストーリー",
+      "x": 0.563194,
+      "y": 0.803237,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 92,
+      "title": "ホウセンカ",
+      "album": "ストーリー",
+      "x": 0.509524,
+      "y": 0.463398,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 93,
+      "title": "ストーリー",
+      "album": "ストーリー",
+      "x": 0.938583,
+      "y": 0.558739,
+      "depth": 0.54,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 94,
+      "title": "ベロニカ",
+      "album": "イノリ",
+      "x": 0.879418,
+      "y": 0.408709,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 95,
+      "title": "夢人の華",
+      "album": "イノリ",
+      "x": 0.219149,
+      "y": 0.474416,
+      "depth": 0.47,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 96,
+      "title": "自分世界 - じぶんせかい",
+      "album": "イノリ",
+      "x": 0.794145,
+      "y": 0.095093,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 97,
+      "title": "Singing Stars -シンギングスターズ",
+      "album": "イノリ",
+      "x": 0.97762,
+      "y": 0.575979,
+      "depth": 0.89,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.692,
+        "material_to_spiritual": 0.8900000000000001
+      }
+    },
+    {
+      "id": 98,
+      "title": "マイユニバース",
+      "album": "イノリ",
+      "x": 0.477912,
+      "y": 0.85066,
+      "depth": 0.4,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 99,
+      "title": "めぐみいのりし",
+      "album": "イノリ",
+      "x": 0.507494,
+      "y": 0.801535,
+      "depth": 0.4,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 100,
+      "title": "奏浄（そうじょう） 愛のうた",
+      "album": "イノリ",
+      "x": 0.978096,
+      "y": 0.59189,
+      "depth": 0.68,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.692,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 101,
+      "title": "青い鼓動",
+      "album": "イノリ",
+      "x": 0.859844,
+      "y": 0.461324,
+      "depth": 0.61,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 102,
+      "title": "サジタリウスの矢",
+      "album": "イノリ",
+      "x": 0.223557,
+      "y": 0.936101,
+      "depth": 0.61,
+      "cell": "A1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.8200000000000001,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 103,
+      "title": "あいのしるし",
+      "album": "歌の癒しシリーズ",
+      "x": 0.918772,
+      "y": 0.832233,
+      "depth": 0.61,
+      "cell": "C1",
+      "scores": {
+        "warning_to_hope": 0.756,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 105,
+      "title": "君となら",
+      "album": "イノチ",
+      "x": 0.865303,
+      "y": 0.020582,
+      "depth": 0.4,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 106,
+      "title": "メロディ",
+      "album": "イノチ",
+      "x": 0.507034,
+      "y": 0.37618,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 107,
+      "title": "鏡の国",
+      "album": "イノチ",
+      "x": 0.1717,
+      "y": 0.404525,
+      "depth": 0.61,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 108,
+      "title": "便り",
+      "album": "歌の癒しシリーズ",
+      "x": 0.525057,
+      "y": 0.503238,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 109,
+      "title": "帰り道",
+      "album": "イノチ",
+      "x": 0.373542,
+      "y": 0.031432,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.17999999999999994,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 110,
+      "title": "アワノウミ",
+      "album": "イノチ",
+      "x": 0.560042,
+      "y": 0.77819,
+      "depth": 0.4,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 111,
+      "title": "揺れる声のバラード",
+      "album": "イノチ",
+      "x": 0.478686,
+      "y": 0.349302,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 112,
+      "title": "ふたば",
+      "album": "イノチ",
+      "x": 0.635923,
+      "y": 0.140248,
+      "depth": 0.47,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 113,
+      "title": "スタート",
+      "album": "イノチ",
+      "x": 0.971325,
+      "y": 0.324471,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 114,
+      "title": "いたみ",
+      "album": "イノチ",
+      "x": 0.1526,
+      "y": 0.325598,
+      "depth": 0.54,
+      "cell": "A2",
+      "scores": {
+        "warning_to_hope": 0.372,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 115,
+      "title": "サリュー（Salut）",
+      "album": "イブキ",
+      "x": 0.859189,
+      "y": 0.022401,
+      "depth": 0.47,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.11599999999999999,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 116,
+      "title": "color",
+      "album": "イブキ",
+      "x": 0.748117,
+      "y": 0.407481,
+      "depth": 0.47,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.372,
+        "reality_to_cosmos": 0.308,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 117,
+      "title": "gene",
+      "album": "イブキ",
+      "x": 0.974996,
+      "y": 0.567406,
+      "depth": 0.68,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.9,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 118,
+      "title": "雨、さらさ",
+      "album": "イブキ",
+      "x": 0.544363,
+      "y": 0.32363,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 119,
+      "title": "山の聲（こえ）",
+      "album": "イブキ",
+      "x": 0.093742,
+      "y": 0.663882,
+      "depth": 0.68,
+      "cell": "A1",
+      "scores": {
+        "warning_to_hope": 0.244,
+        "reality_to_cosmos": 0.17999999999999994,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 120,
+      "title": "いざない",
+      "album": "イブキ",
+      "x": 0.538061,
+      "y": 0.789893,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 121,
+      "title": "カナン − canaan",
+      "album": "イブキ",
+      "x": 0.933374,
+      "y": 0.526927,
+      "depth": 0.82,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.8200000000000001,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.8200000000000001
+      }
+    },
+    {
+      "id": 122,
+      "title": "BURN THE HEART",
+      "album": "イブキ",
+      "x": 0.571217,
+      "y": 0.170872,
+      "depth": 0.68,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 123,
+      "title": "星影のメヌエット − Minuet of Starshadows",
+      "album": "イブキ",
+      "x": 0.50405,
+      "y": 0.975974,
+      "depth": 0.68,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.9,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 124,
+      "title": "ヒソカモリ",
+      "album": "イブキ",
+      "x": 0.139697,
+      "y": 0.630212,
+      "depth": 0.54,
+      "cell": "A1",
+      "scores": {
+        "warning_to_hope": 0.372,
+        "reality_to_cosmos": 0.09999999999999998,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 125,
+      "title": "海の底 - DEEP SEA",
+      "album": "歌の癒しシリーズ",
+      "x": 0.462558,
+      "y": 0.793309,
+      "depth": 0.47,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 126,
+      "title": "こころのとびら",
+      "album": "",
+      "x": 0.480799,
+      "y": 0.166801,
+      "depth": 0.82,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.8200000000000001
+      }
+    },
+    {
+      "id": 127,
+      "title": "ライドオン - Ride On",
+      "album": "",
+      "x": 0.865975,
+      "y": 0.58402,
+      "depth": 0.54,
+      "cell": "C2",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.692,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 128,
+      "title": "使徒、アトラスよ",
+      "album": "",
+      "x": 0.561594,
+      "y": 0.943167,
+      "depth": 0.54,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.8200000000000001,
+        "material_to_spiritual": 0.54
+      }
+    },
+    {
+      "id": 129,
+      "title": "花が咲いてる",
+      "album": "",
+      "x": 0.543614,
+      "y": 0.235674,
+      "depth": 0.75,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.564,
+        "material_to_spiritual": 0.75
+      }
+    },
+    {
+      "id": 130,
+      "title": "刹那、いとしき",
+      "album": "",
+      "x": 0.514267,
+      "y": 0.779116,
+      "depth": 0.4,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.436,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 131,
+      "title": "NORTH LAND -北辰の祈り-",
+      "album": "",
+      "x": 0.559594,
+      "y": 0.907468,
+      "depth": 0.68,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.692,
+        "reality_to_cosmos": 0.756,
+        "material_to_spiritual": 0.68
+      }
+    },
+    {
+      "id": 132,
+      "title": "冬空のメリーゴーラウンド",
+      "album": "",
+      "x": 0.507491,
+      "y": 0.151395,
+      "depth": 0.61,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 133,
+      "title": "クオンタム　久遠魂夢",
+      "album": "",
+      "x": 0.492128,
+      "y": 0.735775,
+      "depth": 0.61,
+      "cell": "B1",
+      "scores": {
+        "warning_to_hope": 0.436,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 997,
+      "title": "お誕生日ありがとう",
+      "album": "イノチ",
+      "x": 0.850377,
+      "y": 0.195933,
+      "depth": 0.4,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.5,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 998,
+      "title": "おやすみ",
+      "album": "未生",
+      "x": 0.538286,
+      "y": 0.557681,
+      "depth": 0.4,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.564,
+        "reality_to_cosmos": 0.628,
+        "material_to_spiritual": 0.4
+      }
+    },
+    {
+      "id": 999,
+      "title": "マイステージ",
+      "album": "ストーリー",
+      "x": 0.864877,
+      "y": 0.084676,
+      "depth": 0.61,
+      "cell": "C3",
+      "scores": {
+        "warning_to_hope": 0.628,
+        "reality_to_cosmos": 0.244,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    }
+  ]
+}

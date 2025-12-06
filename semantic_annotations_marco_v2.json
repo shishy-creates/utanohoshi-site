@@ -1,0 +1,3141 @@
+[
+  {
+    "id": 1,
+    "title": "クワイエットワールド",
+    "axes": {
+      "reality_to_cosmos": 0.7976469861591782,
+      "material_to_spiritual": 0.38333325555558145,
+      "warning_to_hope": 0.6616665888889018
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "海",
+      "つながり",
+      "星",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 2,
+    "title": "TOMO",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.24999998571428772,
+      "warning_to_hope": 0.8449999535714319
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 3,
+    "title": "ファントムシティ",
+    "axes": {
+      "reality_to_cosmos": 0.7399998880000223,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449999125000218
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 4,
+    "title": "こだま",
+    "axes": {
+      "reality_to_cosmos": 0.8799997666667443,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.6616665888889018
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "春",
+      "つながり",
+      "星",
+      "宇宙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 5,
+    "title": "桜散る前に",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.23749998906250136,
+      "warning_to_hope": 0.5449999125000218
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "春",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 6,
+    "title": "巡りの星",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.28999998600000143,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 7,
+    "title": "残存",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.42833325555558144
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 8,
+    "title": "声を聴かせて",
+    "axes": {
+      "reality_to_cosmos": 0.879999720000112,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449999416666764
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "星",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 9,
+    "title": "光の唄",
+    "axes": {
+      "reality_to_cosmos": 0.8799998000000571,
+      "material_to_spiritual": 0.26666664722222544,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 10,
+    "title": "サカナ",
+    "axes": {
+      "reality_to_cosmos": 0.8799997666667443,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 11,
+    "title": "GOOD-BYE.",
+    "axes": {
+      "reality_to_cosmos": 0.8799986000028,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 12,
+    "title": "遙かなるエトワール",
+    "axes": {
+      "reality_to_cosmos": 0.8799997666667443,
+      "material_to_spiritual": 0.49999991250002185,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 13,
+    "title": "雨上がりの朝に",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.6149999160000168
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 14,
+    "title": "スタートライン",
+    "axes": {
+      "reality_to_cosmos": 0.8163635785124019,
+      "material_to_spiritual": 0.28999998600000143,
+      "warning_to_hope": 0.6404545049586814
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "海",
+      "つながり",
+      "星",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 15,
+    "title": "月の夢",
+    "axes": {
+      "reality_to_cosmos": 0.879999906666679,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 16,
+    "title": "悲槍",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.3116666472222255
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "涙",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 17,
+    "title": "こころのふるさと",
+    "axes": {
+      "reality_to_cosmos": 0.6,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.6616665111111629
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "葛藤",
+      "内省"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 18,
+    "title": "真夏のペガサス",
+    "axes": {
+      "reality_to_cosmos": 0.8799995333336446,
+      "material_to_spiritual": 0.2136363578512402,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "夏",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 19,
+    "title": "いつか帰る日まで",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.2899999720000056,
+      "warning_to_hope": 0.7199999343750083
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 20,
+    "title": "ドライビングスターズ",
+    "axes": {
+      "reality_to_cosmos": 0.8799999416666715,
+      "material_to_spiritual": 0.41249996718750415,
+      "warning_to_hope": 0.894999860000028
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 21,
+    "title": "約束の場所 2025",
+    "axes": {
+      "reality_to_cosmos": 0.7049998687500327,
+      "material_to_spiritual": 0.2136363578512402,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 22,
+    "title": "竜の鐘",
+    "axes": {
+      "reality_to_cosmos": 0.8799995333336446,
+      "material_to_spiritual": 0.3499999714285755,
+      "warning_to_hope": 0.5838888456790172
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 23,
+    "title": "レクイエム０",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 24,
+    "title": "小さな愛",
+    "axes": {
+      "reality_to_cosmos": 0.6466665111111629,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.49499995714286327
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "自然",
+      "つながり",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 25,
+    "title": "羊の影",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.195
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "警鐘",
+      "夏",
+      "つながり",
+      "星",
+      "宇宙",
+      "現実の心"
+    ],
+    "summary": "警鐘と痛み、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 26,
+    "title": "たそがれ",
+    "axes": {
+      "reality_to_cosmos": 0.6799998571428979,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "星",
+      "現実の心"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 27,
+    "title": "祝福のレシテーション",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.44999997857143004,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "海",
+      "つながり",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 28,
+    "title": "追憶のマリオネット",
+    "axes": {
+      "reality_to_cosmos": 0.47999991428573874,
+      "material_to_spiritual": 0.4299999440000112,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "内省"
+    ],
+    "summary": "光と希望、自然と人のあいだで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 29,
+    "title": "メリークリスマスをわたしから",
+    "axes": {
+      "reality_to_cosmos": 0.5299998250000875,
+      "material_to_spiritual": 0.38333325555558145,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 1.0
+    },
+    "tags": [
+      "自然",
+      "つながり",
+      "希望",
+      "内省",
+      "冬"
+    ],
+    "summary": "光と希望、自然と人のあいだで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 30,
+    "title": "愛さずに",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.8172221530864274
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "星",
+      "希望",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 31,
+    "title": "ひことみこ",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.7333332361111272,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.5,
+      "autumn": 0.0,
+      "winter": 0.5
+    },
+    "tags": [
+      "春",
+      "海",
+      "つながり",
+      "宇宙",
+      "希望",
+      "霊性"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、霊的な気配を見つめる歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 32,
+    "title": "みのり",
+    "axes": {
+      "reality_to_cosmos": 0.6,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "自然",
+      "春",
+      "つながり",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 33,
+    "title": "恋のお星さま",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 34,
+    "title": "パラレルワールドで待ち合わせしましょう",
+    "axes": {
+      "reality_to_cosmos": 0.45999994400001115,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.195
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "警鐘",
+      "自然",
+      "春",
+      "つながり",
+      "星",
+      "現実の心"
+    ],
+    "summary": "警鐘と痛み、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 35,
+    "title": "リフ",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.65
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 36,
+    "title": "旅立ち",
+    "axes": {
+      "reality_to_cosmos": 0.5999998320000671,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 37,
+    "title": "やまびこ",
+    "axes": {
+      "reality_to_cosmos": 0.879999720000112,
+      "material_to_spiritual": 0.26666664722222544,
+      "warning_to_hope": 0.894999860000028
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "つながり",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 38,
+    "title": "桜ふらり",
+    "axes": {
+      "reality_to_cosmos": 0.6799999285714386,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.894999912500011
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.14285714285714285,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "春",
+      "海",
+      "つながり",
+      "希望",
+      "内省"
+    ],
+    "summary": "光と希望、自然と人のあいだで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 39,
+    "title": "BE LOVE EXPRESS",
+    "axes": {
+      "reality_to_cosmos": 0.3709090561983534,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "春",
+      "つながり",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 40,
+    "title": "負けたって。",
+    "axes": {
+      "reality_to_cosmos": 0.8799995333336446,
+      "material_to_spiritual": 0.2136363578512402,
+      "warning_to_hope": 0.6149999160000168
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "春",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 41,
+    "title": "ほしのうた",
+    "axes": {
+      "reality_to_cosmos": 0.7399998880000223,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.6149999160000168
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "祈り",
+      "つながり",
+      "星",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 42,
+    "title": "青い星の人たちへ",
+    "axes": {
+      "reality_to_cosmos": 0.8799999440000046,
+      "material_to_spiritual": 0.5388888456790172,
+      "warning_to_hope": 0.8949998833333528
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 1.0,
+      "winter": 1.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "冬",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙",
+      "秋"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 43,
+    "title": "コドウ・サイキドウ",
+    "axes": {
+      "reality_to_cosmos": 0.7049998687500327,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 44,
+    "title": "Chocolate",
+    "axes": {
+      "reality_to_cosmos": 0.8799986000028,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 45,
+    "title": "Hello マイ フレンド",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.6616665111111629
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 46,
+    "title": "夏のEYES",
+    "axes": {
+      "reality_to_cosmos": 0.41333328148149295,
+      "material_to_spiritual": 0.3833332944444509,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "自然",
+      "海",
+      "つながり",
+      "希望",
+      "涙",
+      "内省"
+    ],
+    "summary": "光と希望、自然と人のあいだで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 47,
+    "title": "忘却のエターナルランド",
+    "axes": {
+      "reality_to_cosmos": 0.6799998571428979,
+      "material_to_spiritual": 0.28999998600000143,
+      "warning_to_hope": 0.6149999160000168
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "葛藤",
+      "つながり",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 48,
+    "title": "Flower",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "涙",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 49,
+    "title": "流星群",
+    "axes": {
+      "reality_to_cosmos": 0.8411110743827179,
+      "material_to_spiritual": 0.3499999714285755,
+      "warning_to_hope": 0.8949999222222309
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 50,
+    "title": "OKAERI 8.15",
+    "axes": {
+      "reality_to_cosmos": 0.8799998833333527,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949999000000142
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 51,
+    "title": "ハート to ハート",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.26666664722222544,
+      "warning_to_hope": 0.8172221530864274
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 52,
+    "title": "ブーゲンビリアの花束を",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.24999998571428772,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "春",
+      "星",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 53,
+    "title": "なみのうた",
+    "axes": {
+      "reality_to_cosmos": 0.8799998000000571,
+      "material_to_spiritual": 0.3499999714285755,
+      "warning_to_hope": 0.49499995714286327
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "海",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 54,
+    "title": "Dancing Shadow",
+    "axes": {
+      "reality_to_cosmos": 0.8799998000000571,
+      "material_to_spiritual": 0.26666665694444525,
+      "warning_to_hope": 0.6149999160000168
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "祈り",
+      "海",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 55,
+    "title": "ゆうやけ小路",
+    "axes": {
+      "reality_to_cosmos": 0.879999720000112,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 56,
+    "title": "クジラレジューム",
+    "axes": {
+      "reality_to_cosmos": 0.8063157235457132,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "海",
+      "星",
+      "宇宙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 57,
+    "title": "アカシアの安息",
+    "axes": {
+      "reality_to_cosmos": 0.8799998000000571,
+      "material_to_spiritual": 0.6749999343750083,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 1.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "秋",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 58,
+    "title": "ココロセカイのこどもたち",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 59,
+    "title": "夜明け",
+    "axes": {
+      "reality_to_cosmos": 0.6466665111111629,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.8949998250000437
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "内省",
+      "星"
+    ],
+    "summary": "光と希望、自然と人のあいだで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 60,
+    "title": "君たちの物語",
+    "axes": {
+      "reality_to_cosmos": 0.7633332361111271,
+      "material_to_spiritual": 0.23749998906250136,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 61,
+    "title": "norma   ノーマ  -誰も知らない国-",
+    "axes": {
+      "reality_to_cosmos": 0.7049998687500327,
+      "material_to_spiritual": 0.3833332944444509,
+      "warning_to_hope": 0.7549999440000057
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 62,
+    "title": "スノータウン",
+    "axes": {
+      "reality_to_cosmos": 0.5299999125000219,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 1.0
+    },
+    "tags": [
+      "現実の心",
+      "自然",
+      "つながり",
+      "希望",
+      "冬"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 63,
+    "title": "はじまりのパルス",
+    "axes": {
+      "reality_to_cosmos": 0.8799999000000143,
+      "material_to_spiritual": 0.41249996718750415,
+      "warning_to_hope": 0.7783332361111273
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "海",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 64,
+    "title": "悠奏ヒストリア",
+    "axes": {
+      "reality_to_cosmos": 0.5299998250000875,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "つながり",
+      "現実の心"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 65,
+    "title": "アイコトバ",
+    "axes": {
+      "reality_to_cosmos": 0.6,
+      "material_to_spiritual": 0.24999998571428772,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 66,
+    "title": "風と、君と。",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.4045454314049608,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 1.0
+    },
+    "tags": [
+      "つながり",
+      "宇宙",
+      "希望",
+      "内省",
+      "冬"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 67,
+    "title": "ラストフラッグ",
+    "axes": {
+      "reality_to_cosmos": 0.8799998000000571,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.6033332993055585
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "星",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 68,
+    "title": "神サピエンス",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.3653845988165693,
+      "warning_to_hope": 0.7199998687500329
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 69,
+    "title": "Re BIRTH -リバース",
+    "axes": {
+      "reality_to_cosmos": 0.8799998727272957,
+      "material_to_spiritual": 0.49999982500008744,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 70,
+    "title": "ニライカナイに誘われて",
+    "axes": {
+      "reality_to_cosmos": 0.8799998600000278,
+      "material_to_spiritual": 0.6166665888889018,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 71,
+    "title": "山の精霊",
+    "axes": {
+      "reality_to_cosmos": 0.8799999000000143,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 0.5,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 1.0
+    },
+    "tags": [
+      "星",
+      "宇宙",
+      "希望",
+      "内省",
+      "冬"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 72,
+    "title": "さすらいの輪舞曲（ロンド）",
+    "axes": {
+      "reality_to_cosmos": 0.7924999234375096,
+      "material_to_spiritual": 0.26666664722222544,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 73,
+    "title": "僕らの別れ",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.3833333074074103,
+      "warning_to_hope": 0.6949999285714388
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "星",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 74,
+    "title": "プラトニカ",
+    "axes": {
+      "reality_to_cosmos": 0.8799998600000278,
+      "material_to_spiritual": 0.4999999416666764,
+      "warning_to_hope": 0.8949999000000142
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "海",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 75,
+    "title": "春とルルリラ",
+    "axes": {
+      "reality_to_cosmos": 0.8799999176470685,
+      "material_to_spiritual": 0.38333325555558145,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "春",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 76,
+    "title": "セカンド",
+    "axes": {
+      "reality_to_cosmos": 0.8799998600000278,
+      "material_to_spiritual": 0.5388888456790172,
+      "warning_to_hope": 0.739444383950624
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 77,
+    "title": "うろこ雲",
+    "axes": {
+      "reality_to_cosmos": 0.7633332361111271,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "海",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 78,
+    "title": "幻影",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.4299999440000112,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 79,
+    "title": "砂の惑星",
+    "axes": {
+      "reality_to_cosmos": 0.8281481001371778,
+      "material_to_spiritual": 0.5269230479289962,
+      "warning_to_hope": 0.5449999708333357
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "祈り",
+      "海",
+      "つながり",
+      "星",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 80,
+    "title": "リヴァイアサン",
+    "axes": {
+      "reality_to_cosmos": 0.47999991428573874,
+      "material_to_spiritual": 0.32499997812500275,
+      "warning_to_hope": 0.195
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "警鐘",
+      "自然",
+      "海",
+      "内省"
+    ],
+    "summary": "警鐘と痛み、自然と人のあいだで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 81,
+    "title": "歌の星",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 82,
+    "title": "照ラ  Terra",
+    "axes": {
+      "reality_to_cosmos": 0.6329411231833972,
+      "material_to_spiritual": 0.41249996718750415,
+      "warning_to_hope": 0.6949999285714388
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "葛藤",
+      "内省",
+      "春"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 83,
+    "title": "バベル",
+    "axes": {
+      "reality_to_cosmos": 0.4133332555555814,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.195
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "警鐘",
+      "戦争への警鐘",
+      "自然",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "警鐘と痛み、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「戦争への警鐘」が印象的です。"
+  },
+  {
+    "id": 84,
+    "title": "燦  Sun",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "つながり",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 85,
+    "title": "黎明 reimei",
+    "axes": {
+      "reality_to_cosmos": 0.8799998833333527,
+      "material_to_spiritual": 0.5437499753906265,
+      "warning_to_hope": 0.8949998833333528
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 86,
+    "title": "瑠璃色の雨",
+    "axes": {
+      "reality_to_cosmos": 0.724444323456817,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.4283332944444509
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "涙",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 87,
+    "title": "こころのキラリ",
+    "axes": {
+      "reality_to_cosmos": 0.8799986000028,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.7199998687500329
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 88,
+    "title": "やまと風来",
+    "axes": {
+      "reality_to_cosmos": 0.772307601183446,
+      "material_to_spiritual": 0.3599999790000021,
+      "warning_to_hope": 0.8074999234375095
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "祈り",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 89,
+    "title": "オリーブの夏日（かじつ）",
+    "axes": {
+      "reality_to_cosmos": 0.8799997666667443,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "宇宙",
+      "希望",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 90,
+    "title": "ハートで魂(ソウル)",
+    "axes": {
+      "reality_to_cosmos": 0.8799995333336446,
+      "material_to_spiritual": 0.4999999416666764,
+      "warning_to_hope": 0.8074999234375095
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 91,
+    "title": "D",
+    "axes": {
+      "reality_to_cosmos": 0.879999844444479,
+      "material_to_spiritual": 0.30555553827160686,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 92,
+    "title": "ホウセンカ",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.65
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "海",
+      "葛藤",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 93,
+    "title": "ストーリー",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.3833333074074103,
+      "warning_to_hope": 0.739444383950624
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "星",
+      "希望",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 94,
+    "title": "ベロニカ",
+    "axes": {
+      "reality_to_cosmos": 0.18,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.6616666148148206
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "つながり",
+      "日常",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、日常の風景のなかで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 95,
+    "title": "夢人の華",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.49999982500008744,
+      "warning_to_hope": 0.3699999562500109
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 96,
+    "title": "自分世界 - じぶんせかい",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.24999998571428772,
+      "warning_to_hope": 0.5449999562500055
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 97,
+    "title": "Singing Stars -シンギングスターズ",
+    "axes": {
+      "reality_to_cosmos": 0.879999930000007,
+      "material_to_spiritual": 0.3499999857142867,
+      "warning_to_hope": 0.8074999234375095
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "星",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 98,
+    "title": "マイユニバース",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.24999998571428772,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "涙",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 99,
+    "title": "めぐみいのりし",
+    "axes": {
+      "reality_to_cosmos": 0.7399998880000223,
+      "material_to_spiritual": 0.26666664722222544,
+      "warning_to_hope": 0.7549999440000057
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 100,
+    "title": "奏浄（そうじょう） 愛のうた",
+    "axes": {
+      "reality_to_cosmos": 0.8799999263157972,
+      "material_to_spiritual": 0.4611110765432137,
+      "warning_to_hope": 0.7549999626666692
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "海",
+      "つながり",
+      "星",
+      "希望",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 101,
+    "title": "青い鼓動",
+    "axes": {
+      "reality_to_cosmos": 0.7399998880000223,
+      "material_to_spiritual": 0.24999999285714336,
+      "warning_to_hope": 0.6616665888889018
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 102,
+    "title": "サジタリウスの矢",
+    "axes": {
+      "reality_to_cosmos": 0.879999906666679,
+      "material_to_spiritual": 0.49999991250002185,
+      "warning_to_hope": 0.6149999160000168
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "祈り",
+      "星",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 103,
+    "title": "ドン・キホーテの槍",
+    "axes": {
+      "reality_to_cosmos": 0.5999998320000671,
+      "material_to_spiritual": 0.49999982500008744,
+      "warning_to_hope": 0.47499994400001117
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "葛藤",
+      "内省"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 103,
+    "title": "あいのしるし",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.5699999160000168,
+      "warning_to_hope": 0.7199999343750083
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 105,
+    "title": "君となら",
+    "axes": {
+      "reality_to_cosmos": 0.4133331777778815,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.7199998687500329
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "希望",
+      "つながり",
+      "現実の心"
+    ],
+    "summary": "光と希望、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 106,
+    "title": "メロディ",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "宇宙",
+      "希望",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 107,
+    "title": "鏡の国",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.5449999562500055
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 108,
+    "title": "便り",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.5,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "つながり",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 109,
+    "title": "帰り道",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.6616665111111629
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "春",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 110,
+    "title": "アワノウミ",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.8499993000007,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "海",
+      "つながり",
+      "宇宙",
+      "希望",
+      "霊性"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、霊的な気配を見つめる歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 111,
+    "title": "揺れる声のバラード",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.49499995714286327
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "現実の心",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 112,
+    "title": "ふたば",
+    "axes": {
+      "reality_to_cosmos": 0.8799998600000278,
+      "material_to_spiritual": 0.6166665111111629,
+      "warning_to_hope": 0.6616665888889018
+    },
+    "seasons": {
+      "spring": 1.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "春",
+      "つながり",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 113,
+    "title": "スタート",
+    "axes": {
+      "reality_to_cosmos": 0.8799986000028,
+      "material_to_spiritual": 0.32499997812500275,
+      "warning_to_hope": 0.8949999500000037
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "つながり",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 114,
+    "title": "いたみ",
+    "axes": {
+      "reality_to_cosmos": 0.8799986000028,
+      "material_to_spiritual": 0.20833332847222263,
+      "warning_to_hope": 0.45749996718750413
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 115,
+    "title": "サリュー（Salut）",
+    "axes": {
+      "reality_to_cosmos": 0.2799999714285796,
+      "material_to_spiritual": 0.4299999440000112,
+      "warning_to_hope": 0.894999860000028
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "内省",
+      "日常"
+    ],
+    "summary": "光と希望、日常の風景のなかで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 116,
+    "title": "color",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449999125000218
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "海",
+      "つながり",
+      "星",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 117,
+    "title": "gene",
+    "axes": {
+      "reality_to_cosmos": 0.879999906666679,
+      "material_to_spiritual": 0.468181789256201,
+      "warning_to_hope": 0.8949999000000142
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 118,
+    "title": "雨、さらさ",
+    "axes": {
+      "reality_to_cosmos": 0.8163635785124019,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "海",
+      "つながり",
+      "宇宙",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、現実の心の揺れを描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 119,
+    "title": "山の聲（こえ）",
+    "axes": {
+      "reality_to_cosmos": 0.8799998000000571,
+      "material_to_spiritual": 0.41249996718750415,
+      "warning_to_hope": 0.195
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "夏",
+      "内省",
+      "警鐘",
+      "宇宙"
+    ],
+    "summary": "警鐘と痛み、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 120,
+    "title": "いざない",
+    "axes": {
+      "reality_to_cosmos": 0.8799998600000278,
+      "material_to_spiritual": 0.5499999428571509,
+      "warning_to_hope": 0.7199998687500329
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 121,
+    "title": "カナン − canaan",
+    "axes": {
+      "reality_to_cosmos": 0.8799993000007,
+      "material_to_spiritual": 0.311538449112427,
+      "warning_to_hope": 0.8172221530864274
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "祈り",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 122,
+    "title": "BURN THE HEART",
+    "axes": {
+      "reality_to_cosmos": 0.45999994400001115,
+      "material_to_spiritual": 0.22777776913580344,
+      "warning_to_hope": 0.47499994400001117
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "自然",
+      "つながり",
+      "星",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、現実の心の揺れを描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 123,
+    "title": "星影のメヌエット − Minuet of Starshadows",
+    "axes": {
+      "reality_to_cosmos": 0.8799999461538504,
+      "material_to_spiritual": 0.32499997812500275,
+      "warning_to_hope": 0.7549998880000224
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 124,
+    "title": "ヒソカモリ",
+    "axes": {
+      "reality_to_cosmos": 0.7527271685950603,
+      "material_to_spiritual": 0.4299999440000112,
+      "warning_to_hope": 0.8949996500001749
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "希望",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「つながり」が印象的です。"
+  },
+  {
+    "id": 125,
+    "title": "海の底 - DEEP SEA",
+    "axes": {
+      "reality_to_cosmos": 0.879999650000175,
+      "material_to_spiritual": 0.49999982500008744,
+      "warning_to_hope": 0.6616665111111629
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 1.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "夏",
+      "海",
+      "涙",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "葛藤と祈り、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「海」が印象的です。"
+  },
+  {
+    "id": 126,
+    "title": "こころのとびら",
+    "axes": {
+      "reality_to_cosmos": 0.6,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449998250000875
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "自然",
+      "葛藤",
+      "涙",
+      "現実の心"
+    ],
+    "summary": "葛藤と祈り、自然と人のあいだで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 127,
+    "title": "ライドオン - Ride On",
+    "axes": {
+      "reality_to_cosmos": 0.8799999263157972,
+      "material_to_spiritual": 0.3249999562500109,
+      "warning_to_hope": 0.7199998687500329
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 1.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "つながり",
+      "星",
+      "希望",
+      "内省",
+      "宇宙",
+      "秋"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「星」が印象的です。"
+  },
+  {
+    "id": 128,
+    "title": "使徒、アトラスよ",
+    "axes": {
+      "reality_to_cosmos": 0.8799998600000278,
+      "material_to_spiritual": 0.6166665111111629,
+      "warning_to_hope": 0.8949997666667444
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "祈り",
+      "星",
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。モチーフとして「祈り」が印象的です。"
+  },
+  {
+    "id": 129,
+    "title": "花が咲いてる",
+    "axes": {
+      "reality_to_cosmos": 0.8799998250000436,
+      "material_to_spiritual": 0.4045454314049608,
+      "warning_to_hope": 0.8949993000006999
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "希望",
+      "内省",
+      "宇宙"
+    ],
+    "summary": "光と希望、宇宙や星のまなざしで、内側の静かな対話を描く歌です。"
+  },
+  {
+    "id": 130,
+    "title": "刹那、いとしき",
+    "axes": {
+      "reality_to_cosmos": 0.18,
+      "material_to_spiritual": 0.15,
+      "warning_to_hope": 0.5449999416666764
+    },
+    "seasons": {
+      "spring": 0.0,
+      "summer": 0.0,
+      "autumn": 0.0,
+      "winter": 0.0
+    },
+    "tags": [
+      "葛藤",
+      "現実の心",
+      "日常"
+    ],
+    "summary": "葛藤と祈り、日常の風景のなかで、現実の心の揺れを描く歌です。"
+  },
+  {
+    "id": 131,
+    "title": "NORTH LAND -北辰の祈り-",
+    "axes": {
+      "reality_to_cosmos": 0.72,
+      "material_to_spiritual": 0.86,
+      "warning_to_hope": 0.55
+    },
+    "seasons": {
+      "spring": 0.05,
+      "summer": 0.05,
+      "autumn": 0.15,
+      "winter": 0.9
+    },
+    "tags": [
+      "北風",
+      "祈り",
+      "白銀",
+      "耐える",
+      "星",
+      "再生",
+      "光"
+    ],
+    "summary": "凍てつく大地で祈りを抱きしめ、白い静寂の中から光を待つ歌。北の星に願いを託し、凍った記憶を解かしていく。"
+  },
+  {
+    "id": 132,
+    "title": "冬空のメリーゴーラウンド",
+    "axes": {
+      "reality_to_cosmos": 0.8,
+      "material_to_spiritual": 0.82,
+      "warning_to_hope": 0.72
+    },
+    "seasons": {
+      "spring": 0.1,
+      "summer": 0.05,
+      "autumn": 0.2,
+      "winter": 0.9
+    },
+    "tags": [
+      "冬空",
+      "久遠",
+      "祈り",
+      "記憶",
+      "再会",
+      "宇宙の音",
+      "旅"
+    ],
+    "summary": "冬空の下、悲しみを越えて久遠の夢に身を委ねる祈りの歌。響きあう宇宙の音に導かれ、いつかの再会を信じて進む。"
+  },
+  {
+    "id": 133,
+    "title": "クオンタム　久遠魂夢",
+    "axes": {
+      "reality_to_cosmos": 0.82,
+      "material_to_spiritual": 0.85,
+      "warning_to_hope": 0.75
+    },
+    "seasons": {
+      "spring": 0.1,
+      "summer": 0.05,
+      "autumn": 0.2,
+      "winter": 0.85
+    },
+    "tags": [
+      "量子",
+      "久遠",
+      "祈り",
+      "魂",
+      "宇宙の音",
+      "絆",
+      "光"
+    ],
+    "summary": "胸の奥から届く久遠の夢が、量子のように重なり合う祈りの歌。宇宙の音に溶けて、離れても結ばれる絆をたどる。"
+  },
+  {
+    "id": 997,
+    "title": "お誕生日ありがとう",
+    "axes": {
+      "reality_to_cosmos": 0.3,
+      "material_to_spiritual": 0.62,
+      "warning_to_hope": 0.95
+    },
+    "seasons": {
+      "spring": 0.35,
+      "summer": 0.25,
+      "autumn": 0.2,
+      "winter": 0.3
+    },
+    "tags": [
+      "誕生日",
+      "感謝",
+      "祝福",
+      "出会い",
+      "生まれる",
+      "光"
+    ],
+    "summary": "生まれてくれたことへの感謝をそっと手渡す、小さな祝福の歌。出会いの光を抱きしめ、いのちにありがとうを伝える。"
+  },
+  {
+    "id": 998,
+    "title": "おやすみ",
+    "axes": {
+      "reality_to_cosmos": 0.6,
+      "material_to_spiritual": 0.8,
+      "warning_to_hope": 0.8
+    },
+    "seasons": {
+      "spring": 0.25,
+      "summer": 0.15,
+      "autumn": 0.3,
+      "winter": 0.6
+    },
+    "tags": [
+      "子守歌",
+      "感謝",
+      "眠り",
+      "星",
+      "癒し",
+      "やさしさ"
+    ],
+    "summary": "眠りに落ちる前の静かな感謝と癒しの子守歌。星に見守られながら、痛みを風に預け、あしたの歌を育てる。"
+  },
+  {
+    "id": 999,
+    "title": "マイステージ",
+    "axes": {
+      "reality_to_cosmos": 0.35,
+      "material_to_spiritual": 0.42,
+      "warning_to_hope": 0.9
+    },
+    "seasons": {
+      "spring": 0.6,
+      "summer": 0.45,
+      "autumn": 0.2,
+      "winter": 0.1
+    },
+    "tags": [
+      "朝",
+      "街",
+      "ワルツ",
+      "光",
+      "ステージ",
+      "小鳥",
+      "躍動"
+    ],
+    "summary": "朝の街をステージに見立て、光のワルツを踊る歌。小鳥のリズムに背中を押され、日常が静かに輝きはじめる。"
+  }
+]
