@@ -630,6 +630,20 @@ body {
   color: #fff;
   box-shadow: 0 4px 12px rgba(30,185,84,0.18);
 }
+.track-go-button.youtube {
+  background: linear-gradient(90deg, #ff4d4d 0%, #ff7a59 100%);
+  color: #fff;
+  border: none;
+  font-size: 0.98rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 8px rgba(255,77,77,0.12);
+}
+.track-go-button.youtube:hover {
+  background: linear-gradient(90deg, #e84545 0%, #ff5f45 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(255,77,77,0.18);
+}
 
 .track-links {
   margin-top: 4px;
@@ -660,6 +674,29 @@ body {
 .song-header {
   margin-top: 4px;
   margin-bottom: 10px;
+}
+.song-player.pending {
+  background: #f8f8ff;
+  border: 1px dashed #c7ccff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+.pending-title {
+  margin: 0 0 4px;
+  font-weight: 700;
+  color: #4c5cff;
+}
+.pending-text {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+.song-links {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0 12px;
 }
 
 .song-title {

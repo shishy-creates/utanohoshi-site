@@ -45,6 +45,32 @@ function getLyricsFileForId(id) {
   return null;
 }
 
+// YouTube URL を埋め込み用に整形
+function toYouTubeEmbed(url) {
+  if (!url || typeof url !== "string") return null;
+  // すでに embed 形式ならそのまま返す
+  if (url.includes("youtube.com/embed/")) return url;
+  try {
+    const u = new URL(url);
+    let id = null;
+    if (u.hostname === "youtu.be") {
+      id = u.pathname.replace("/", "");
+    } else if (u.hostname.includes("youtube.com")) {
+      if (u.pathname === "/watch") {
+        id = u.searchParams.get("v");
+      } else if (u.pathname.startsWith("/embed/")) {
+        id = u.pathname.split("/")[2];
+      }
+    }
+    if (!id) return null;
+    const start = u.searchParams.get("t") || u.searchParams.get("start");
+    const qp = start ? `?start=${start}` : "";
+    return `https://www.youtube.com/embed/${id}${qp}`;
+  } catch (_e) {
+    return null;
+  }
+}
+
 // lyric_id から歌詞データを取得
 async function fetchSongByLyricId(lyricId) {
   const file = getLyricsFileForId(lyricId);
@@ -598,38 +624,71 @@ async function initSongPage() {
 
     container.appendChild(headerDiv);
 
+    const youtubeLink =
+      (foundTrack && foundTrack.links && foundTrack.links.youtube) ||
+      songData.youtube ||
+      null;
+
     // プレイヤー
-    if (foundTrack && foundTrack.audio_embed) {
+    const embedSrc =
+      (foundTrack && foundTrack.audio_embed) || toYouTubeEmbed(youtubeLink);
+    if (embedSrc) {
       const playerDiv = document.createElement("div");
       playerDiv.className = "song-player";
 
       const iframe = document.createElement("iframe");
-      iframe.src = foundTrack.audio_embed;
+      iframe.src = embedSrc;
       iframe.allow =
         "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.allowFullscreen = true;
 
       playerDiv.appendChild(iframe);
       container.appendChild(playerDiv);
+    } else {
+      // 未公開の新星発見メッセージ
+      const pendingDiv = document.createElement("div");
+      pendingDiv.className = "song-player pending";
+      pendingDiv.innerHTML = `
+        <p class="pending-title">驚きです、よくぞ新星を発見されましたね！</p>
+        <p class="pending-text">只今動画準備中です。もう少しお待ちください。</p>
+      `;
+      container.appendChild(pendingDiv);
     }
 
-    // Spotifyリンクボタン
+    // リンクボタン
+    const linksWrap = document.createElement("div");
+    linksWrap.className = "song-links";
+    let hasLink = false;
+
+    if (youtubeLink) {
+      const ytBtn = document.createElement("a");
+      ytBtn.href = youtubeLink;
+      ytBtn.target = "_blank";
+      ytBtn.rel = "noopener";
+      ytBtn.className = "track-go-button youtube";
+      ytBtn.textContent = "YouTubeで見る";
+      linksWrap.appendChild(ytBtn);
+      hasLink = true;
+    }
+
     if (
       foundTrack &&
       foundTrack.links &&
       foundTrack.links.spotify &&
       foundTrack.links.spotify.trim() !== ""
     ) {
-      const spotifyDiv = document.createElement("div");
-      spotifyDiv.className = "song-spotify-link";
       const spBtn = document.createElement("a");
       spBtn.href = foundTrack.links.spotify;
       spBtn.target = "_blank";
       spBtn.rel = "noopener";
       spBtn.className = "track-go-button spotify";
       spBtn.textContent = "Spotifyで聴く";
-      spotifyDiv.appendChild(spBtn);
-      container.appendChild(spotifyDiv);
+      linksWrap.appendChild(spBtn);
+      hasLink = true;
+    }
+
+    if (hasLink) {
+      container.appendChild(linksWrap);
     }
 
     // タブ構造

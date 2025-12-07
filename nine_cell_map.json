@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_at": "2025-12-06T14:29:35",
-    "n_songs": 135,
+    "n_songs": 136,
     "grid": "A1..C3 (rows counted from top)",
     "axes_definition": {
       "x": "warning_to_hope (0=警鐘,1=希望)",
@@ -1855,6 +1855,20 @@
       "scores": {
         "warning_to_hope": 0.436,
         "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.6100000000000001
+      }
+    },
+    {
+      "id": 134,
+      "title": "マイライフ",
+      "album": "",
+      "x": 0.55,
+      "y": 0.55,
+      "depth": 0.61,
+      "cell": "B2",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.5,
         "material_to_spiritual": 0.6100000000000001
       }
     },
