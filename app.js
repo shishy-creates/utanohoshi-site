@@ -427,6 +427,13 @@ async function initAlbumPage() {
     if (pageTitleSpan) {
       pageTitleSpan.textContent = album.title_ja;
     }
+    // 星座マップへの導線にアルバム指定を付与
+    const heroLink = document.querySelector(".hero-link[href='constellations.html']");
+    if (heroLink) {
+      heroLink.href = `constellations.html?albumName=${encodeURIComponent(
+        album.title_ja
+      )}`;
+    }
 
     // --- アルバムカード（上部に固定したい部分） ---
     const headerCard = document.createElement("section");
@@ -601,6 +608,16 @@ async function initSongPage() {
 
     // 歌詞データはこれまで通り lyric_id から取得
     const songData = await fetchSongByLyricId(lyricId);
+
+    // 星座マップへの導線にアルバム指定を付与（アルバムが判明している場合）
+    if (foundAlbum) {
+      const heroLink = document.querySelector(".hero-link[href='constellations.html']");
+      if (heroLink) {
+        heroLink.href = `constellations.html?albumName=${encodeURIComponent(
+          foundAlbum.title_ja
+        )}`;
+      }
+    }
 
     const headerDiv = document.createElement("div");
     headerDiv.className = "song-header";

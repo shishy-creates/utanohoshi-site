@@ -58,13 +58,26 @@
     return `rgb(${m(r)},${m(g)},${m(b)})`;
   }
 
+  function normalizeAlbumName(name) {
+    return typeof name === "string" ? name.trim() : "";
+  }
+
+  function getQueryParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+
+  const initialAlbumParam = normalizeAlbumName(
+    getQueryParam("album") || getQueryParam("albumName")
+  );
+
   let state = {
     stars: [],
     extent: { minX: 0, maxX: 1, minY: 0, maxY: 1 },
     hoverId: null,
     albumOptions: [],
-    selectedAlbum: "none",
-    showAlbumLinks: false,
+    selectedAlbum: initialAlbumParam || "none",
+    showAlbumLinks: !!initialAlbumParam,
   };
 
   function fetchData() {
@@ -102,6 +115,12 @@
     buildAlbumOptions(state.stars);
     renderMeta(meta);
     renderQuadrantLegend(state.stars);
+    // ensure initial album selection is applied after options are ready
+    const desired = activeAlbumKey();
+    if (desired && albumSelect) {
+      albumSelect.value = desired;
+    }
+    state.showAlbumLinks = !!desired;
     resizeCanvas();
   }
 
@@ -110,9 +129,11 @@
     songs.forEach((s) => {
       if (isFinite(s.x) && isFinite(s.y)) {
         const depth = typeof s.depth === "number" ? s.depth : 0.5;
+        const albumName = normalizeAlbumName(s.album);
         stars.push({
           ...s,
           depth,
+          album: albumName,
           // quadrant/color will be assigned after repulsion to reflect final coords
         });
       }
@@ -163,6 +184,16 @@
     return state.stars;
   }
 
+  function activeAlbumKey() {
+    const sel = albumSelect ? normalizeAlbumName(albumSelect.value) : normalizeAlbumName(state.selectedAlbum);
+    return sel && sel !== "none" ? sel : null;
+  }
+
+  function isInteractiveStar(star) {
+    const active = activeAlbumKey();
+    return !active || normalizeAlbumName(star.album) === active;
+  }
+
   function computeQuadrant(x, y) {
     const xRight = x >= 0.5;
     const yUp = y >= 0.5;
@@ -191,7 +222,7 @@
   function buildAlbumOptions(stars) {
     const present = new Set(
       stars
-        .map((s) => s.album && s.album.trim())
+        .map((s) => normalizeAlbumName(s.album))
         .filter((a) => a && allowedAlbums.has(a))
     );
     const albums = albumOrder.filter((a) => present.has(a));
@@ -204,7 +235,8 @@
       opt.textContent = a;
       albumSelect.appendChild(opt);
     });
-    albumSelect.value = state.selectedAlbum || "none";
+    const desired = normalizeAlbumName(state.selectedAlbum);
+    albumSelect.value = desired && albums.includes(desired) ? desired : "none";
   }
 
   // simple repulsion to prevent stars from sitting exactly on top of each other
@@ -303,7 +335,7 @@
       }
     }
 
-    const activeAlbum = state.showAlbumLinks && state.selectedAlbum !== "none" ? state.selectedAlbum : null;
+    const activeAlbum = activeAlbumKey();
 
     stars.forEach((s) => {
       const { cx, cy } = project(s.x, s.y);
@@ -342,6 +374,7 @@
     let nearest = null;
     let minDist = 16 * dpr; // widen hover hit box for small stars
     stars.forEach((s) => {
+      if (!isInteractiveStar(s)) return;
       if (!s._cx) return;
       const dx = s._cx - x;
       const dy = s._cy - y;
@@ -354,9 +387,11 @@
     if (nearest) {
       state.hoverId = nearest.id;
       showTooltip(nearest, evt.clientX - rect.left, evt.clientY - rect.top);
+      canvas.style.cursor = "pointer";
     } else {
       state.hoverId = null;
       hideTooltip();
+      canvas.style.cursor = "default";
     }
     draw();
   }
@@ -411,6 +446,7 @@
       if (!tooltipLocked) {
         state.hoverId = null;
         hideTooltip();
+        canvas.style.cursor = "default";
         draw();
       }
     });
@@ -418,6 +454,11 @@
       albumSelect.addEventListener("change", (e) => {
         state.selectedAlbum = e.target.value;
         state.showAlbumLinks = state.selectedAlbum !== "none";
+        tooltipLocked = false;
+        selectedStarId = null;
+        state.hoverId = null;
+        hideTooltip();
+        canvas.style.cursor = "default";
         draw();
       });
     }
@@ -443,6 +484,7 @@
     let nearest = null;
     let minDist = 16 * dpr; // match hover sensitivity
     stars.forEach((s) => {
+      if (!isInteractiveStar(s)) return;
       if (!s._cx) return;
       const dx = s._cx - x;
       const dy = s._cy - y;
