@@ -1048,6 +1048,9 @@ body {
 
 .secret-header .subtitle-en {
   color: #c8d6ff;
+  text-align: left;
+  display: block;
+  margin-left: 0;
 }
 
 .secret-header-flex {
