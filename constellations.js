@@ -9,6 +9,7 @@
   let selectedStarId = null;
   const albumSelect = document.getElementById("albumSelect");
   const allowedAlbums = new Set([
+    "星環",
     "イブキ",
     "イノチ",
     "イノリ",
@@ -25,6 +26,7 @@
     "歌の癒しシリーズ",
   ]);
   const albumOrder = [
+    "星環",
     "イブキ",
     "イノチ",
     "イノリ",

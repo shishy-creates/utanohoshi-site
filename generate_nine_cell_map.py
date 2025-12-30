@@ -167,35 +167,37 @@ def score_from_lyrics(text: str) -> Tuple[float, float, float]:
 CELL_SIZE = 1.0 / 3.0
 
 
-def place_in_cell(col: int, row: int, x_score: float, y_score: float) -> Tuple[float, float]:
+def place_in_cell(
+    col: int, row: int, x_score: float, y_score: float, rng: random.Random
+) -> Tuple[float, float]:
     """Map normalized scores into the specified cell, allowing slight overlap across borders then clamping to [0,1]."""
     base_x = col * CELL_SIZE
     base_y = (2 - row) * CELL_SIZE  # row: 0=top, 2=bottom
-    overlap = 0.08  # allow a larger bleed outside the cell
+    overlap = 0.12  # allow a larger bleed outside the cell
     jitter = 0.012
     # expand cell bounds slightly, then clamp later to global [0,1]
     eff_x = base_x - overlap
     eff_y = base_y - overlap
     eff_size = CELL_SIZE + overlap * 2
-    x = eff_x + eff_size * x_score + random.uniform(-jitter, jitter)
-    y = eff_y + eff_size * y_score + random.uniform(-jitter, jitter)
+    x = eff_x + eff_size * x_score + rng.uniform(-jitter, jitter)
+    y = eff_y + eff_size * y_score + rng.uniform(-jitter, jitter)
     # pull gently toward global center to avoid corner piling
-    bias = 0.1
+    bias = 0.05
     x = x + (0.5 - x) * bias
     y = y + (0.5 - y) * bias
     # widen horizontal spread for middle column (B)
     if col == 1:
-        x += random.uniform(-0.035, 0.035)
+        x += rng.uniform(-0.06, 0.06)
     # soft margin to avoid piling on edges
-    margin = 0.02
+    margin = 0.015
     if x < margin:
-        x = margin + random.uniform(0, margin * 0.5)
+        x = margin + rng.uniform(0, margin * 0.5)
     elif x > 1 - margin:
-        x = 1 - margin - random.uniform(0, margin * 0.5)
+        x = 1 - margin - rng.uniform(0, margin * 0.5)
     if y < margin:
-        y = margin + random.uniform(0, margin * 0.5)
+        y = margin + rng.uniform(0, margin * 0.5)
     elif y > 1 - margin:
-        y = 1 - margin - random.uniform(0, margin * 0.5)
+        y = 1 - margin - rng.uniform(0, margin * 0.5)
     # final clamp
     x = max(0.0, min(1.0, x))
     y = max(0.0, min(1.0, y))
@@ -243,7 +245,8 @@ def build_map():
 
         x_score = narrow(x_score)
         y_score = narrow(y_score)
-        x, y = place_in_cell(col, row, x_score, y_score)
+        rng = random.Random(sid)
+        x, y = place_in_cell(col, row, x_score, y_score, rng)
         album_name = manual_album.get(sid) or albums.get(sid) or meta.get("album") or ""
         results.append(
             {

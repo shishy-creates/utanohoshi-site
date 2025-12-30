@@ -1,0 +1,55 @@
+{
+  "albums": [
+    {
+      "key": "stellar_ring",
+      "title_ja": "星環",
+      "title_en": "Stellar Ring",
+      "year": "2025",
+      "type": "Album",
+      "album_jacket": "images/stellar_ring.jpg",
+      "description": "星と心が環を結ぶ、祈りと連帯の10曲",
+      "tracks": [
+        {
+          "track_no": 1,
+          "lyric_id": 128
+        },
+        {
+          "track_no": 2,
+          "lyric_id": 126
+        },
+        {
+          "track_no": 3,
+          "lyric_id": 131
+        },
+        {
+          "track_no": 4,
+          "lyric_id": 127
+        },
+        {
+          "track_no": 5,
+          "lyric_id": 129
+        },
+        {
+          "track_no": 6,
+          "lyric_id": 130
+        },
+        {
+          "track_no": 7,
+          "lyric_id": 132
+        },
+        {
+          "track_no": 8,
+          "lyric_id": 133
+        },
+        {
+          "track_no": 9,
+          "lyric_id": 134
+        },
+        {
+          "track_no": 10,
+          "lyric_id": 135
+        }
+      ]
+    }
+  ]
+}

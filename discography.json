@@ -1,6 +1,147 @@
 {
   "albums": [
     {
+      "key": "stellar_ring",
+      "title_ja": "星環",
+      "title_en": "Stellar Ring",
+      "year": "2025",
+      "type": "Album",
+      "album_jacket": "images/stellar_ring.jpg",
+      "description": "星と心が環を結ぶ、祈りと連帯の10曲",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "使徒、アトラスよ",
+          "title_en": "Apostle, O Atlas",
+          "lyric_id": 128,
+          "audio_embed": "https://www.youtube.com/embed/qNO0t3GevU4",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/qNO0t3GevU4",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "こころのとびら",
+          "title_en": "Door of My Heart",
+          "lyric_id": 126,
+          "audio_embed": "https://www.youtube.com/embed/SG4t9p-7qgE",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/SG4t9p-7qgE",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "NORTH LAND -北辰の祈り-",
+          "title_en": "NORTH LAND – Prayer of the Polaris",
+          "lyric_id": 131,
+          "audio_embed": "https://www.youtube.com/embed/-iK3ORsXhno",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/-iK3ORsXhno",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "ライドオン - Ride On",
+          "title_en": "Ride On",
+          "lyric_id": 127,
+          "audio_embed": "https://www.youtube.com/embed/R7KMtw1d7po",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/R7KMtw1d7po",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "花が咲いてる",
+          "title_en": "Flowers Are Blooming",
+          "lyric_id": 129,
+          "audio_embed": "https://www.youtube.com/embed/BYJcdGT10mw",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/BYJcdGT10mw",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "刹那、いとしき",
+          "title_en": "Beloved Moment",
+          "lyric_id": 130,
+          "audio_embed": "https://www.youtube.com/embed/5FQli7lw3sw",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/5FQli7lw3sw",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "冬空のメリーゴーラウンド",
+          "title_en": "Winter Sky Merry-Go-Round",
+          "lyric_id": 132,
+          "audio_embed": "https://www.youtube.com/embed/s8sUs1N2DgQ",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/s8sUs1N2DgQ",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "クオンタム　久遠魂夢",
+          "title_en": "Quantum – Eternal Soul Dream",
+          "lyric_id": 133,
+          "audio_embed": "https://www.youtube.com/embed/W2VHRso2io8",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/W2VHRso2io8",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "マイライフ",
+          "title_en": "My Life",
+          "lyric_id": 134,
+          "audio_embed": "https://www.youtube.com/embed/nhzIppjSyMw",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/nhzIppjSyMw",
+            "spotify": ""
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "みんなステラ",
+          "title_en": "Everyone Is Stella",
+          "lyric_id": 135,
+          "audio_embed": "https://www.youtube.com/embed/sXI1tWX3yjw",
+          "analysis": "",
+          "omikuji_message": "",
+          "links": {
+            "youtube": "https://youtu.be/sXI1tWX3yjw",
+            "spotify": ""
+          }
+        }
+      ]
+    },
+    {
       "key": "ibuki",
       "title_ja": "イブキ",
       "title_en": "ibuki",
