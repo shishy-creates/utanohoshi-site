@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_at": "2026-01-12T17:05:09",
-    "n_songs": 138,
+    "created_at": "2026-02-04T21:21:35",
+    "n_songs": 139,
     "grid": "A1..C3 (rows counted from top)",
     "axes_definition": {
       "x": "warning_to_hope (0=警鐘,1=希望)",
@@ -1898,6 +1898,20 @@
         "warning_to_hope": 0.564,
         "reality_to_cosmos": 0.372,
         "material_to_spiritual": 0.47000000000000003
+      }
+    },
+    {
+      "id": 137,
+      "title": "汚れたけど、僕の青さ",
+      "album": "",
+      "x": 0.549081,
+      "y": 0.111566,
+      "depth": 0.54,
+      "cell": "B3",
+      "scores": {
+        "warning_to_hope": 0.5,
+        "reality_to_cosmos": 0.372,
+        "material_to_spiritual": 0.54
       }
     },
     {
