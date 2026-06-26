@@ -17,7 +17,10 @@
     "マイライフ": 134,
     "みんなステラ": 135,
     "反転世界の渦の外": 136,
-    "汚れたけど、僕の青さ": 137
+    "汚れたけど、僕の青さ": 137,
+    "レラカムイの風刃（ふうじん）": 138,
+    "エンシェント・ワンワールド": 139,
+    "CODE:GIZA　コード・ギザ": 140
   },
   "songs": [
     {
@@ -93,7 +96,7 @@
     {
       "id": 136,
       "title": "反転世界の渦の外",
-      "title_en": "Outside the Vortex of the Inverted World",
+      "title_en": "Beyond the Inverted World",
       "credits": "作詞・作曲：shishy",
       "date": "2026/1/11",
       "album": null,
@@ -116,6 +119,48 @@
       "theme_keywords": null,
       "tone": null,
       "notes": null,
+      "source_file": null
+    },
+    {
+      "id": 138,
+      "title": "レラカムイの風刃（ふうじん）",
+      "title_en": "The Windblade of Rera Kamuy",
+      "credits": "作詞・作曲：Shishy",
+      "date": "2026/2/8",
+      "album": null,
+      "youtube": "https://youtu.be/mEVtejrpMCw",
+      "lyrics": "曇りなき刃に映る瞳には　嘘が滲み出す\n身削がれた己の　真心に問い詰められてゆく\n\n風よ　神よ　刃よ\n驕る人の知恵\n風よ　神よ　刃よ\n見え透いた欺瞞散らす\n\n大風烈浄（たいふうれつじょう）　\n空駆ける　森と大地揺らす\n神風白霊（じんぷうはくりょう）　\n世をひらく　来るレラカムイ\n　\n祓え給え　清め給え　風の刃　罠を裂いて\n祓え給え　清め給え　祈り祀れ鏡を前に\n陰謀のサガと　誠実の誓いを暴く\n\n澄みわたる刃に映る瞳には　涙溢れ出す\n禊がれた己の　魂は風に乗ってゆく\n\n大風烈浄（たいふうれつじょう）　\n空駆ける　森と大地揺らす\n神風白霊（じんぷうはくりょう）　\n世をひらく　来るレラカムイ\n\n祓え給え　清め給え　風の刃　命守る\n祓え給え　清め給え　祈り祀れ神代を前に\n忘れられていた　いにしえの誓いを果たす",
+      "theme_keywords": null,
+      "tone": null,
+      "notes": "English translation provided separately.",
+      "source_file": null
+    },
+    {
+      "id": 139,
+      "title": "エンシェント・ワンワールド",
+      "title_en": "Ancient One World",
+      "credits": "作詞・作曲：Shishy",
+      "date": "2026/2/22",
+      "album": null,
+      "youtube": "https://youtu.be/6n3uVyxBo-8",
+      "lyrics": "fu fu\n\n思い出したのは雨土の香り\nさすらいゆく海の航路嵐の中\nたどり着いた大地の精霊と生きる糧\n恵み与えられたら\n踊り明かして歌捧げる祈りの時\n愛している\n\nほら　一緒に手をとって\n踊ろう　明日も生きますように\n雨　降ったら天の神見守ってる\nひとつだけの世界\n\nfu fu\n\n夜は星を見つめて暗闇と息をする\n今は亡き人たちも一緒に手を重ねて\n明日の朝日待って眠ろう　もう\n\n朝　大地の向こうから\n光が昇りゆく太陽の神\n今日も私は生きている　ありがとう\nひとつだけの世界　みな",
+      "theme_keywords": null,
+      "tone": null,
+      "notes": "English translation provided separately.",
+      "source_file": null
+    },
+    {
+      "id": 140,
+      "title": "CODE:GIZA　コード・ギザ",
+      "title_en": "Code: Giza",
+      "credits": "作詞・作曲：Shishy",
+      "date": "2026/3/14",
+      "album": null,
+      "youtube": "https://youtu.be/5GZ16xQaYJg",
+      "lyrics": "星の火写して\n積まれた永遠の門 \n日の目が捉える\n隠れた印世に\n\n（永遠の玉座　謀の間\n　永遠の玉座　嘆きを喰らう）\n\n石造りの間で眠りについた王よ\nその目で見たもの　乾いたままのホルス\n\n幾千年後の今日に　　秘めたままで\n囚われ続ける人の声　この世を嘆く\n\n奪われていた真実映す目を\n取り戻す時　終末の扉が　開かれてゆく\n逃げ場を無くすように\n暴かれてゆくは　仕組まれていたコード\n喰われた魂の声　救い出す時\n思い出すは　隠されてたコード\n\n（永遠の玉座　作られた世界\n　永遠の玉座　暴かれる時）\n\n見上げた空から太陽見ている　ずっと\n闇を照らして\n\n奪われていた世界を創る声\n取り戻す時　創造の扉が　開かれてゆく\n祈りを無くす世に　\n暴かれてゆくは　恐れていたこの心\n喰らった魂の声　赦し合う時\n思い出すは　隠されてたコード\n\n歌声　選んで世界を決めるコード",
+      "theme_keywords": null,
+      "tone": null,
+      "notes": "English translation provided separately.",
       "source_file": null
     }
   ]

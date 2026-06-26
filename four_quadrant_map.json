@@ -1,17 +1,17 @@
 {
   "meta": {
-    "created_at": "2025-12-05T22:27:45",
-    "n_songs": 135,
+    "created_at": "2026-06-26T21:34:45",
+    "n_songs": 148,
     "axes_definition": {
       "x": "warning_to_hope (0=警鐘,1=希望)",
       "y": "reality_to_cosmos (0=日常,1=宇宙)",
       "depth": "material_to_spiritual (0=物質,1=霊性)"
     },
     "quadrant_counts": {
-      "3": 28,
-      "4": 44,
-      "1": 40,
-      "2": 23
+      "3": 30,
+      "4": 46,
+      "1": 45,
+      "2": 27
     },
     "scaling": {
       "warning_to_hope_raw_minmax": [
@@ -19,12 +19,12 @@
         0.7969999766666692
       ],
       "reality_to_cosmos_raw_minmax": [
-        0.11127271685950602,
+        0.105,
         0.6108498950000525
       ],
       "material_to_spiritual_raw_minmax": [
         0.15,
-        0.86
+        0.95
       ],
       "jitter": "±0.004 (deterministic by id)"
     }
@@ -35,13 +35,13 @@
       "title": "クワイエットワールド",
       "album": "うたのほし The 1st",
       "x": 0.4884174091024318,
-      "y": 0.2981233035999586,
-      "depth": 0.3286383881064528,
+      "y": 0.3067030663229391,
+      "depth": 0.29166656944447683,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2981233035999586,
-        "material_to_spiritual": 0.3286383881064528,
+        "reality_to_cosmos": 0.3067030663229391,
+        "material_to_spiritual": 0.29166656944447683,
         "warning_to_hope": 0.4884174091024318
       },
       "tags": [
@@ -60,13 +60,13 @@
       "title": "TOMO",
       "album": "うたのほし The 1st",
       "x": 0.7,
-      "y": 0.29575288045824144,
-      "depth": 0.1408450503018137,
+      "y": 0.30436228527009185,
+      "depth": 0.12499998214285966,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.29575288045824144,
-        "material_to_spiritual": 0.1408450503018137,
+        "reality_to_cosmos": 0.30436228527009185,
+        "material_to_spiritual": 0.12499998214285966,
         "warning_to_hope": 0.7
       },
       "tags": [
@@ -80,12 +80,12 @@
       "title": "ファントムシティ",
       "album": "うたのほし The 1st",
       "x": 0.15,
-      "y": 0.2117019291862641,
+      "y": 0.22135384340387085,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2117019291862641,
+        "reality_to_cosmos": 0.22135384340387085,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.15
       },
@@ -100,12 +100,12 @@
       "title": "こだま",
       "album": "うたのほし The 1st",
       "x": 0.4163620206347297,
-      "y": 0.2957929505174281,
+      "y": 0.3044023544605199,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2957929505174281,
+        "reality_to_cosmos": 0.3044023544605199,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.4163620206347297
       },
@@ -123,12 +123,12 @@
       "album": "うたのほし The 1st",
       "x": 0.581446125339014,
       "y": 0.28,
-      "depth": 0.12323942121479066,
+      "depth": 0.10937498632812671,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.28,
-        "material_to_spiritual": 0.12323942121479066,
+        "material_to_spiritual": 0.10937498632812671,
         "warning_to_hope": 0.581446125339014
       },
       "tags": [
@@ -145,12 +145,12 @@
       "album": "うたのほし The 1st",
       "x": 0.8122353516087364,
       "y": 0.7,
-      "depth": 0.19718307887324146,
+      "depth": 0.17499998250000182,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
         "reality_to_cosmos": 0.7,
-        "material_to_spiritual": 0.19718307887324146,
+        "material_to_spiritual": 0.17499998250000182,
         "warning_to_hope": 0.8122353516087364
       },
       "tags": [
@@ -168,12 +168,12 @@
       "title": "残存",
       "album": "うたのほし The 1st",
       "x": 0.275396372075677,
-      "y": 0.42756426136020986,
+      "y": 0.43454039865982225,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.42756426136020986,
+        "reality_to_cosmos": 0.43454039865982225,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.275396372075677
       },
@@ -189,12 +189,12 @@
       "title": "声を聴かせて",
       "album": "悲しみは影を知ること",
       "x": 0.42765998330662713,
-      "y": 0.2958729224937507,
+      "y": 0.30448232678434595,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2958729224937507,
+        "reality_to_cosmos": 0.30448232678434595,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.42765998330662713
       },
@@ -210,13 +210,13 @@
       "title": "光の唄",
       "album": "スタートライン",
       "x": 0.7353722273073027,
-      "y": 0.4759452305971401,
-      "depth": 0.16431922143975417,
+      "y": 0.48232192285241315,
+      "depth": 0.14583330902778183,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.4759452305971401,
-        "material_to_spiritual": 0.16431922143975417,
+        "reality_to_cosmos": 0.48232192285241315,
+        "material_to_spiritual": 0.14583330902778183,
         "warning_to_hope": 0.7353722273073027
       },
       "tags": [
@@ -234,12 +234,12 @@
       "album": "スタートライン",
       "x": 0.6200076057589797,
       "y": 0.22,
-      "depth": 0.10954615371239923,
+      "depth": 0.09722221141975432,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.22,
-        "material_to_spiritual": 0.10954615371239923,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.6200076057589797
       },
       "tags": [
@@ -255,13 +255,13 @@
       "title": "GOOD-BYE.",
       "album": "悲しみは影を知ること",
       "x": 0.605604407873215,
-      "y": 0.4374519251510665,
-      "depth": 0.10954615371239923,
+      "y": 0.4443064439653904,
+      "depth": 0.09722221141975432,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.4374519251510665,
-        "material_to_spiritual": 0.10954615371239923,
+        "reality_to_cosmos": 0.4443064439653904,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.605604407873215
       },
       "tags": [
@@ -275,13 +275,13 @@
       "title": "遙かなるエトワール",
       "album": "うたのほし The 1st",
       "x": 0.8796630042427065,
-      "y": 0.9145760852857154,
-      "depth": 0.4929576232394674,
+      "y": 0.9155143444771787,
+      "depth": 0.4374998906250273,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.9145760852857154,
-        "material_to_spiritual": 0.4929576232394674,
+        "reality_to_cosmos": 0.9155143444771787,
+        "material_to_spiritual": 0.4374998906250273,
         "warning_to_hope": 0.8796630042427065
       },
       "tags": [
@@ -297,12 +297,12 @@
       "album": "スタートライン",
       "x": 0.7691061377588817,
       "y": 0.35,
-      "depth": 0.10954615371239923,
+      "depth": 0.09722221141975432,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.35,
-        "material_to_spiritual": 0.10954615371239923,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.7691061377588817
       },
       "tags": [
@@ -317,13 +317,13 @@
       "title": "スタートライン",
       "album": "スタートライン",
       "x": 0.43564712884501583,
-      "y": 0.26548543913944644,
-      "depth": 0.19718307887324146,
+      "y": 0.27447314696844144,
+      "depth": 0.17499998250000182,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.26548543913944644,
-        "material_to_spiritual": 0.19718307887324146,
+        "reality_to_cosmos": 0.27447314696844144,
+        "material_to_spiritual": 0.17499998250000182,
         "warning_to_hope": 0.43564712884501583
       },
       "tags": [
@@ -340,12 +340,12 @@
       "title": "月の夢",
       "album": "うたのほし The 1st",
       "x": 0.7595305699376459,
-      "y": 0.3765811665231978,
+      "y": 0.38419149621150567,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.3765811665231978,
+        "reality_to_cosmos": 0.38419149621150567,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.7595305699376459
       },
@@ -364,13 +364,13 @@
       "title": "悲槍",
       "album": "悲しみは影を知ること",
       "x": 0.0,
-      "y": 0.6042933489875556,
-      "depth": 0.10954615371239923,
+      "y": 0.609080215419591,
+      "depth": 0.09722221141975432,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6042933489875556,
-        "material_to_spiritual": 0.10954615371239923,
+        "reality_to_cosmos": 0.609080215419591,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.0
       },
       "tags": [
@@ -384,13 +384,13 @@
       "title": "こころのふるさと",
       "album": "イノリ",
       "x": 0.3925835043933828,
-      "y": 0.7388275200509994,
-      "depth": 0.24647881161973365,
+      "y": 0.7419463633856453,
+      "depth": 0.21874994531251363,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7388275200509994,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.7419463633856453,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.3925835043933828
       },
       "tags": [
@@ -405,13 +405,13 @@
       "title": "真夏のペガサス",
       "album": "ベガ",
       "x": 0.5817060251787907,
-      "y": 0.7325419077497496,
-      "depth": 0.08962867302991577,
+      "y": 0.7357389428977823,
+      "depth": 0.07954544731405025,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7325419077497496,
-        "material_to_spiritual": 0.08962867302991577,
+        "reality_to_cosmos": 0.7357389428977823,
+        "material_to_spiritual": 0.07954544731405025,
         "warning_to_hope": 0.5817060251787907
       },
       "tags": [
@@ -425,13 +425,13 @@
       "title": "いつか帰る日まで",
       "album": "悲しみは影を知ること",
       "x": 0.49037998163728813,
-      "y": 0.5560127850929357,
-      "depth": 0.19718305915493747,
+      "y": 0.5613990915429231,
+      "depth": 0.17499996500000703,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5560127850929357,
-        "material_to_spiritual": 0.19718305915493747,
+        "reality_to_cosmos": 0.5613990915429231,
+        "material_to_spiritual": 0.17499996500000703,
         "warning_to_hope": 0.49037998163728813
       },
       "tags": [
@@ -448,12 +448,12 @@
       "album": "うたのほし The 1st",
       "x": 0.7692460992973488,
       "y": 0.6,
-      "depth": 0.36971826364437205,
+      "depth": 0.32812495898438016,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
         "reality_to_cosmos": 0.6,
-        "material_to_spiritual": 0.36971826364437205,
+        "material_to_spiritual": 0.32812495898438016,
         "warning_to_hope": 0.7692460992973488
       },
       "tags": [
@@ -469,13 +469,13 @@
       "title": "約束の場所 2025",
       "album": "悲しみは影を知ること",
       "x": 0.8750353116781933,
-      "y": 0.371796996592712,
-      "depth": 0.08962867302991577,
+      "y": 0.3794681397154179,
+      "depth": 0.07954544731405025,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.371796996592712,
-        "material_to_spiritual": 0.08962867302991577,
+        "reality_to_cosmos": 0.3794681397154179,
+        "material_to_spiritual": 0.07954544731405025,
         "warning_to_hope": 0.8750353116781933
       },
       "tags": [
@@ -489,13 +489,13 @@
       "title": "竜の鐘",
       "album": "悲しみは影を知ること",
       "x": 0.4402263191362595,
-      "y": 0.570785051428714,
-      "depth": 0.2816901006036274,
+      "y": 0.5759889205944435,
+      "depth": 0.24999996428571936,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.570785051428714,
-        "material_to_spiritual": 0.2816901006036274,
+        "reality_to_cosmos": 0.5759889205944435,
+        "material_to_spiritual": 0.24999996428571936,
         "warning_to_hope": 0.4402263191362595
       },
       "tags": [
@@ -511,12 +511,12 @@
       "title": "レクイエム０",
       "album": "悲しみは影を知ること",
       "x": 0.7548829975653567,
-      "y": 0.41106983234424044,
+      "y": 0.4182544744857317,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.41106983234424044,
+        "reality_to_cosmos": 0.4182544744857317,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.7548829975653567
       },
@@ -531,12 +531,12 @@
       "title": "小さな愛",
       "album": "コイカハルカ",
       "x": 0.2686393260834306,
-      "y": 0.15607450690233318,
+      "y": 0.16642142889629274,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.15607450690233318,
+        "reality_to_cosmos": 0.16642142889629274,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.2686393260834306
       },
@@ -553,12 +553,12 @@
       "title": "羊の影",
       "album": "悲しみは影を知ること",
       "x": 0.18280770258053855,
-      "y": 0.7992383658002923,
+      "y": 0.8016100774271595,
       "depth": 0.0,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7992383658002923,
+        "reality_to_cosmos": 0.8016100774271595,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.18280770258053855
       },
@@ -575,12 +575,12 @@
       "title": "たそがれ",
       "album": "悲しみは影を知ること",
       "x": 0.889558349307652,
-      "y": 0.4304465016496275,
+      "y": 0.43739161028835627,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.4304465016496275,
+        "reality_to_cosmos": 0.43739161028835627,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.889558349307652
       },
@@ -596,13 +596,13 @@
       "title": "祝福のレシテーション",
       "album": "ベガ",
       "x": 0.7501553050008433,
-      "y": 0.5575738649073595,
-      "depth": 0.42253518108652116,
+      "y": 0.5629427974741845,
+      "depth": 0.3749999732142876,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5575738649073595,
-        "material_to_spiritual": 0.42253518108652116,
+        "reality_to_cosmos": 0.5629427974741845,
+        "material_to_spiritual": 0.3749999732142876,
         "warning_to_hope": 0.7501553050008433
       },
       "tags": [
@@ -618,13 +618,13 @@
       "title": "追憶のマリオネット",
       "album": "悲しみは影を知ること",
       "x": 0.6684444913400331,
-      "y": 0.45400642541113007,
-      "depth": 0.3943661183098749,
+      "y": 0.46065987871144454,
+      "depth": 0.349999930000014,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.45400642541113007,
-        "material_to_spiritual": 0.3943661183098749,
+        "reality_to_cosmos": 0.46065987871144454,
+        "material_to_spiritual": 0.349999930000014,
         "warning_to_hope": 0.6684444913400331
       },
       "tags": [
@@ -639,13 +639,13 @@
       "title": "メリークリスマスをわたしから",
       "album": "未生",
       "x": 0.8126949477630265,
-      "y": 0.19540767251576177,
-      "depth": 0.3286383881064528,
+      "y": 0.20526808943810293,
+      "depth": 0.29166656944447683,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.19540767251576177,
-        "material_to_spiritual": 0.3286383881064528,
+        "reality_to_cosmos": 0.20526808943810293,
+        "material_to_spiritual": 0.29166656944447683,
         "warning_to_hope": 0.8126949477630265
       },
       "tags": [
@@ -662,13 +662,13 @@
       "title": "愛さずに",
       "album": "うたのほし The 1st",
       "x": 0.528527331679406,
-      "y": 0.7306803172194187,
-      "depth": 0.24647881161973365,
+      "y": 0.7339034128302125,
+      "depth": 0.21874994531251363,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7306803172194187,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.7339034128302125,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.528527331679406
       },
       "tags": [
@@ -687,13 +687,13 @@
       "title": "ひことみこ",
       "album": "コイカハルカ",
       "x": 0.606004407873215,
-      "y": 0.731400909671025,
-      "depth": 0.8215961071987707,
+      "y": 0.7346153176886687,
+      "depth": 0.7291665451389091,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.731400909671025,
-        "material_to_spiritual": 0.8215961071987707,
+        "reality_to_cosmos": 0.7346153176886687,
+        "material_to_spiritual": 0.7291665451389091,
         "warning_to_hope": 0.606004407873215
       },
       "tags": [
@@ -710,12 +710,12 @@
       "title": "みのり",
       "album": "コイカハルカ",
       "x": 0.3079475890656346,
-      "y": 0.4967225317952492,
+      "y": 0.5028472823598651,
       "depth": 0.0,
-      "quadrant_id": 3,
-      "quadrant_name": "警鐘×日常",
+      "quadrant_id": 2,
+      "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.4967225317952492,
+        "reality_to_cosmos": 0.5028472823598651,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.3079475890656346
       },
@@ -734,12 +734,12 @@
       "album": "コイカハルカ",
       "x": 0.6060441674889476,
       "y": 0.26,
-      "depth": 0.24647881161973365,
+      "depth": 0.21874994531251363,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.26,
-        "material_to_spiritual": 0.24647881161973365,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.6060441674889476
       },
       "tags": [
@@ -755,12 +755,12 @@
       "title": "パラレルワールドで待ち合わせしましょう",
       "album": "コイカハルカ",
       "x": 0.0724107735967289,
-      "y": 0.04417977442920365,
+      "y": 0.05591671058585456,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.04417977442920365,
+        "reality_to_cosmos": 0.05591671058585456,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.0724107735967289
       },
@@ -798,12 +798,12 @@
       "title": "旅立ち",
       "album": "コイカハルカ",
       "x": 0.8224506934685449,
-      "y": 0.48629354413588316,
+      "y": 0.492548609848765,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.48629354413588316,
+        "reality_to_cosmos": 0.492548609848765,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.8224506934685449
       },
@@ -818,13 +818,13 @@
       "title": "やまびこ",
       "album": "ベガ",
       "x": 0.606124552103891,
-      "y": 0.4849122919758223,
-      "depth": 0.16431922143975417,
+      "y": 0.4911847337090132,
+      "depth": 0.14583330902778183,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.4849122919758223,
-        "material_to_spiritual": 0.16431922143975417,
+        "reality_to_cosmos": 0.4911847337090132,
+        "material_to_spiritual": 0.14583330902778183,
         "warning_to_hope": 0.606124552103891
       },
       "tags": [
@@ -841,13 +841,13 @@
       "title": "桜ふらり",
       "album": "コイカハルカ",
       "x": 0.6974907468873295,
-      "y": 0.1763714846099686,
-      "depth": 0.24647881161973365,
+      "y": 0.1864701890303275,
+      "depth": 0.21874994531251363,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.1763714846099686,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.1864701890303275,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.6974907468873295
       },
       "tags": [
@@ -865,12 +865,12 @@
       "title": "BE LOVE EXPRESS",
       "album": "コイカハルカ",
       "x": 0.5821257046663803,
-      "y": 0.0,
+      "y": 0.0031803522023175837,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.0,
+        "reality_to_cosmos": 0.0031803522023175837,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.5821257046663803
       },
@@ -887,13 +887,13 @@
       "title": "負けたって。",
       "album": "ベガ",
       "x": 0.5244538169686951,
-      "y": 0.5711450514287141,
-      "depth": 0.08962867302991577,
+      "y": 0.5763489205944435,
+      "depth": 0.07954544731405025,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5711450514287141,
-        "material_to_spiritual": 0.08962867302991577,
+        "reality_to_cosmos": 0.5763489205944435,
+        "material_to_spiritual": 0.07954544731405025,
         "warning_to_hope": 0.5244538169686951
       },
       "tags": [
@@ -908,13 +908,13 @@
       "title": "ほしのうた",
       "album": "ベガ",
       "x": 0.42351227311391254,
-      "y": 0.3476762723462635,
-      "depth": 0.24647881161973365,
+      "y": 0.3556514810858813,
+      "depth": 0.21874994531251363,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.3476762723462635,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.3556514810858813,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.42351227311391254
       },
       "tags": [
@@ -931,13 +931,13 @@
       "title": "青い星の人たちへ",
       "album": "悲しみは影を知ること",
       "x": 0.788916885581039,
-      "y": 0.4499828039091978,
-      "depth": 0.547730768561996,
+      "y": 0.45668962363188176,
+      "depth": 0.4861110570987715,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.4499828039091978,
-        "material_to_spiritual": 0.547730768561996,
+        "reality_to_cosmos": 0.45668962363188176,
+        "material_to_spiritual": 0.4861110570987715,
         "warning_to_hope": 0.788916885581039
       },
       "tags": [
@@ -958,12 +958,12 @@
       "title": "コドウ・サイキドウ",
       "album": "ベガ",
       "x": 0.3658598998397961,
-      "y": 0.26224398169053625,
+      "y": 0.2712790769378238,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.26224398169053625,
+        "reality_to_cosmos": 0.2712790769378238,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.3658598998397961
       },
@@ -999,12 +999,12 @@
       "title": "Hello マイ フレンド",
       "album": "ベガ",
       "x": 0.6767973656996771,
-      "y": 0.29661288045824147,
+      "y": 0.3052222852700919,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.29661288045824147,
+        "reality_to_cosmos": 0.3052222852700919,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.6767973656996771
       },
@@ -1021,12 +1021,12 @@
       "album": "ベガ",
       "x": 0.48611225722182105,
       "y": 0.5,
-      "depth": 0.32863844287950833,
+      "depth": 0.29166661805556365,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
         "reality_to_cosmos": 0.5,
-        "material_to_spiritual": 0.32863844287950833,
+        "material_to_spiritual": 0.29166661805556365,
         "warning_to_hope": 0.48611225722182105
       },
       "tags": [
@@ -1045,13 +1045,13 @@
       "title": "忘却のエターナルランド",
       "album": "ベガ",
       "x": 0.39478611772683164,
-      "y": 0.3776214753275552,
-      "depth": 0.19718307887324146,
+      "y": 0.3852268410456993,
+      "depth": 0.17499998250000182,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.3776214753275552,
-        "material_to_spiritual": 0.19718307887324146,
+        "reality_to_cosmos": 0.3852268410456993,
+        "material_to_spiritual": 0.17499998250000182,
         "warning_to_hope": 0.39478611772683164
       },
       "tags": [
@@ -1066,12 +1066,12 @@
       "title": "Flower",
       "album": null,
       "x": 0.3563445147107692,
-      "y": 0.2966729972235657,
+      "y": 0.30528240058748496,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2966729972235657,
+        "reality_to_cosmos": 0.30528240058748496,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.3563445147107692
       },
@@ -1086,13 +1086,13 @@
       "title": "流星群",
       "album": "未生",
       "x": 0.99098,
-      "y": 0.49472720156754124,
-      "depth": 0.2816901006036274,
-      "quadrant_id": 4,
-      "quadrant_name": "希望×日常",
+      "y": 0.5008809110494894,
+      "depth": 0.24999996428571936,
+      "quadrant_id": 1,
+      "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.49472720156754124,
-        "material_to_spiritual": 0.2816901006036274,
+        "reality_to_cosmos": 0.5008809110494894,
+        "material_to_spiritual": 0.24999996428571936,
         "warning_to_hope": 0.99098
       },
       "tags": [
@@ -1108,12 +1108,12 @@
       "title": "OKAERI 8.15",
       "album": "ストーリー",
       "x": 0.9669615219149206,
-      "y": 0.5223037899938392,
+      "y": 0.5281157880738071,
       "depth": 0.0,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5223037899938392,
+        "reality_to_cosmos": 0.5281157880738071,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.9669615219149206
       },
@@ -1130,13 +1130,13 @@
       "title": "ハート to ハート",
       "album": "ベガ",
       "x": 0.8654858111953485,
-      "y": 0.2967326702808213,
-      "depth": 0.16431922143975417,
+      "y": 0.3053420776989457,
+      "depth": 0.14583330902778183,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.2967326702808213,
-        "material_to_spiritual": 0.16431922143975417,
+        "reality_to_cosmos": 0.3053420776989457,
+        "material_to_spiritual": 0.14583330902778183,
         "warning_to_hope": 0.8654858111953485
       },
       "tags": [
@@ -1150,13 +1150,13 @@
       "title": "ブーゲンビリアの花束を",
       "album": "ストーリー",
       "x": 0.6448857080050553,
-      "y": 0.33598616283697824,
-      "depth": 0.1408450503018137,
+      "y": 0.3441090611292793,
+      "depth": 0.12499998214285966,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.33598616283697824,
-        "material_to_spiritual": 0.1408450503018137,
+        "reality_to_cosmos": 0.3441090611292793,
+        "material_to_spiritual": 0.12499998214285966,
         "warning_to_hope": 0.6448857080050553
       },
       "tags": [
@@ -1173,12 +1173,12 @@
       "album": "ストーリー",
       "x": 0.31729625172856524,
       "y": 0.4,
-      "depth": 0.2816901006036274,
+      "depth": 0.24999996428571936,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
         "reality_to_cosmos": 0.4,
-        "material_to_spiritual": 0.2816901006036274,
+        "material_to_spiritual": 0.24999996428571936,
         "warning_to_hope": 0.31729625172856524
       },
       "tags": [
@@ -1194,13 +1194,13 @@
       "title": "Dancing Shadow",
       "album": "未生",
       "x": 0.428579965678426,
-      "y": 0.48034819285517116,
-      "depth": 0.1643192351330215,
+      "y": 0.4866814471446932,
+      "depth": 0.14583332118055659,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.48034819285517116,
-        "material_to_spiritual": 0.1643192351330215,
+        "reality_to_cosmos": 0.4866814471446932,
+        "material_to_spiritual": 0.14583332118055659,
         "warning_to_hope": 0.428579965678426
       },
       "tags": [
@@ -1216,15 +1216,15 @@
     {
       "id": 55,
       "title": "ゆうやけ小路",
-      "album": "未生",
+      "album": null,
       "x": 0.7939845813506826,
       "y": 0.24,
-      "depth": 0.10954615371239923,
+      "depth": 0.09722221141975432,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.24,
-        "material_to_spiritual": 0.10954615371239923,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.7939845813506826
       },
       "tags": [
@@ -1239,13 +1239,13 @@
       "title": "クジラレジューム",
       "album": "未生",
       "x": 0.3613122072752827,
-      "y": 0.6785453173102168,
-      "depth": 0.10954615371239923,
+      "y": 0.6824213534650978,
+      "depth": 0.09722221141975432,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6785453173102168,
-        "material_to_spiritual": 0.10954615371239923,
+        "reality_to_cosmos": 0.6824213534650978,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.3613122072752827
       },
       "tags": [
@@ -1262,13 +1262,13 @@
       "title": "アカシアの安息",
       "album": "未生",
       "x": 0.6209476057589798,
-      "y": 0.29685297053434295,
-      "depth": 0.7394365272887441,
+      "y": 0.30546237422921796,
+      "depth": 0.6562499179687603,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.29685297053434295,
-        "material_to_spiritual": 0.7394365272887441,
+        "reality_to_cosmos": 0.30546237422921796,
+        "material_to_spiritual": 0.6562499179687603,
         "warning_to_hope": 0.6209476057589798
       },
       "tags": [
@@ -1283,12 +1283,12 @@
       "title": "ココロセカイのこどもたち",
       "album": "未生",
       "x": 0.8421214637265987,
-      "y": 0.3501179067803138,
+      "y": 0.3580670545127488,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.3501179067803138,
+        "reality_to_cosmos": 0.3580670545127488,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.8421214637265987
       },
@@ -1304,13 +1304,13 @@
       "title": "夜明け",
       "album": "未生",
       "x": 0.9382953150168679,
-      "y": 0.6766141059941443,
-      "depth": 0.24647881161973365,
+      "y": 0.6805148338706538,
+      "depth": 0.21874994531251363,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6766141059941443,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.6805148338706538,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.9382953150168679
       },
       "tags": [
@@ -1326,13 +1326,13 @@
       "title": "君たちの物語",
       "album": "未生",
       "x": 0.6979306467271135,
-      "y": 0.2268537870925557,
-      "depth": 0.12323942121479066,
+      "y": 0.2363319493371156,
+      "depth": 0.10937498632812671,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.2268537870925557,
-        "material_to_spiritual": 0.12323942121479066,
+        "reality_to_cosmos": 0.2363319493371156,
+        "material_to_spiritual": 0.10937498632812671,
         "warning_to_hope": 0.6979306467271135
       },
       "tags": [
@@ -1346,13 +1346,13 @@
       "title": "norma   ノーマ  -誰も知らない国-",
       "album": null,
       "x": 0.5921815321026462,
-      "y": 0.6290138338805863,
-      "depth": 0.32863844287950833,
+      "y": 0.6335053179103182,
+      "depth": 0.29166661805556365,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6290138338805863,
-        "material_to_spiritual": 0.32863844287950833,
+        "reality_to_cosmos": 0.6335053179103182,
+        "material_to_spiritual": 0.29166661805556365,
         "warning_to_hope": 0.5921815321026462
       },
       "tags": [
@@ -1367,12 +1367,12 @@
       "title": "スノータウン",
       "album": "悲しみは影を知ること",
       "x": 0.6354706433884385,
-      "y": 0.08677530260958674,
+      "y": 0.09799098341179045,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.08677530260958674,
+        "reality_to_cosmos": 0.09799098341179045,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.6354706433884385
       },
@@ -1389,13 +1389,13 @@
       "title": "はじまりのパルス",
       "album": "メッセージ",
       "x": 0.5457471423337228,
-      "y": 0.7740764901289309,
-      "depth": 0.36971826364437205,
+      "y": 0.7767696421438677,
+      "depth": 0.32812495898438016,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7740764901289309,
-        "material_to_spiritual": 0.36971826364437205,
+        "reality_to_cosmos": 0.7767696421438677,
+        "material_to_spiritual": 0.32812495898438016,
         "warning_to_hope": 0.5457471423337228
       },
       "tags": [
@@ -1412,12 +1412,12 @@
       "title": "悠奏ヒストリア",
       "album": "メッセージ",
       "x": 0.635510563260296,
-      "y": 0.27387343464405156,
+      "y": 0.28276952872672034,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.27387343464405156,
+        "reality_to_cosmos": 0.28276952872672034,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.635510563260296
       },
@@ -1433,13 +1433,13 @@
       "title": "アイコトバ",
       "album": "メッセージ",
       "x": 0.8326461218667903,
-      "y": 0.1288709022503804,
-      "depth": 0.1408450503018137,
+      "y": 0.13956532681200262,
+      "depth": 0.12499998214285966,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.1288709022503804,
-        "material_to_spiritual": 0.1408450503018137,
+        "reality_to_cosmos": 0.13956532681200262,
+        "material_to_spiritual": 0.12499998214285966,
         "warning_to_hope": 0.8326461218667903
       },
       "tags": [
@@ -1454,12 +1454,12 @@
       "album": "イノリ",
       "x": 0.7124738077539537,
       "y": 0.21,
-      "depth": 0.3585146921196631,
+      "depth": 0.318181789256201,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.21,
-        "material_to_spiritual": 0.3585146921196631,
+        "material_to_spiritual": 0.318181789256201,
         "warning_to_hope": 0.7124738077539537
       },
       "tags": [
@@ -1475,12 +1475,12 @@
       "title": "ラストフラッグ",
       "album": "メッセージ",
       "x": 0.2717887095592263,
-      "y": 0.29705297053434293,
+      "y": 0.30566237422921794,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.29705297053434293,
+        "reality_to_cosmos": 0.30566237422921794,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.2717887095592263
       },
@@ -1497,13 +1497,13 @@
       "title": "神サピエンス",
       "album": "メッセージ",
       "x": 0.4673214737426198,
-      "y": 0.7790804871633171,
-      "depth": 0.30335858988249204,
+      "y": 0.7817128278878284,
+      "depth": 0.26923074852071166,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7790804871633171,
-        "material_to_spiritual": 0.30335858988249204,
+        "reality_to_cosmos": 0.7817128278878284,
+        "material_to_spiritual": 0.26923074852071166,
         "warning_to_hope": 0.4673214737426198
       },
       "tags": [
@@ -1519,13 +1519,13 @@
       "title": "Re BIRTH -リバース",
       "album": "メッセージ",
       "x": 0.5779184159475768,
-      "y": 0.4687381648511408,
-      "depth": 0.49295750000012317,
+      "y": 0.47521910768265224,
+      "depth": 0.4374997812501093,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.4687381648511408,
-        "material_to_spiritual": 0.49295750000012317,
+        "reality_to_cosmos": 0.47521910768265224,
+        "material_to_spiritual": 0.4374997812501093,
         "warning_to_hope": 0.5779184159475768
       },
       "tags": [
@@ -1544,13 +1544,13 @@
       "title": "ニライカナイに誘われて",
       "album": "メッセージ",
       "x": 0.6692844913400331,
-      "y": 0.7286779567542224,
-      "depth": 0.6572768857590167,
+      "y": 0.7319358026217826,
+      "depth": 0.5833332361111273,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7286779567542224,
-        "material_to_spiritual": 0.6572768857590167,
+        "reality_to_cosmos": 0.7319358026217826,
+        "material_to_spiritual": 0.5833332361111273,
         "warning_to_hope": 0.6692844913400331
       },
       "tags": [
@@ -1567,13 +1567,13 @@
       "title": "山の精霊",
       "album": "メッセージ",
       "x": 0.6356503228760283,
-      "y": 0.908049648385718,
-      "depth": 0.24647881161973365,
+      "y": 0.9090834701089661,
+      "depth": 0.21874994531251363,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.908049648385718,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.9090834701089661,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.6356503228760283
       },
       "tags": [
@@ -1590,13 +1590,13 @@
       "title": "さすらいの輪舞曲（ロンド）",
       "album": "メッセージ",
       "x": 0.6693244913400331,
-      "y": 0.42606205575504147,
-      "depth": 0.16431922143975417,
+      "y": 0.43307294139110125,
+      "depth": 0.14583330902778183,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.42606205575504147,
-        "material_to_spiritual": 0.16431922143975417,
+        "reality_to_cosmos": 0.43307294139110125,
+        "material_to_spiritual": 0.14583330902778183,
         "warning_to_hope": 0.6693244913400331
       },
       "tags": [
@@ -1613,12 +1613,12 @@
       "album": "コイカハルカ",
       "x": 0.7483281232410391,
       "y": 0.25,
-      "depth": 0.32863846113719763,
+      "depth": 0.29166663425926287,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.25,
-        "material_to_spiritual": 0.32863846113719763,
+        "material_to_spiritual": 0.29166663425926287,
         "warning_to_hope": 0.7483281232410391
       },
       "tags": [
@@ -1636,12 +1636,12 @@
       "album": "メッセージ",
       "x": 0.6549415052215456,
       "y": 0.9,
-      "depth": 0.4929576643192625,
+      "depth": 0.4374999270833455,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
         "reality_to_cosmos": 0.9,
-        "material_to_spiritual": 0.4929576643192625,
+        "material_to_spiritual": 0.4374999270833455,
         "warning_to_hope": 0.6549415052215456
       },
       "tags": [
@@ -1659,13 +1659,13 @@
       "title": "春とルルリラ",
       "album": "メッセージ",
       "x": 0.6934229541626001,
-      "y": 0.617383791566333,
-      "depth": 0.3286383881064528,
+      "y": 0.6220229643155062,
+      "depth": 0.29166656944447683,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.617383791566333,
-        "material_to_spiritual": 0.3286383881064528,
+        "reality_to_cosmos": 0.6220229643155062,
+        "material_to_spiritual": 0.29166656944447683,
         "warning_to_hope": 0.6934229541626001
       },
       "tags": [
@@ -1681,13 +1681,13 @@
       "title": "セカンド",
       "album": "歌の星",
       "x": 0.6010285380198066,
-      "y": 0.7561210623668648,
-      "depth": 0.547730768561996,
+      "y": 0.7590400921015671,
+      "depth": 0.4861110570987715,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7561210623668648,
-        "material_to_spiritual": 0.547730768561996,
+        "reality_to_cosmos": 0.7590400921015671,
+        "material_to_spiritual": 0.4861110570987715,
         "warning_to_hope": 0.6010285380198066
       },
       "tags": [
@@ -1701,12 +1701,12 @@
       "title": "うろこ雲",
       "album": "歌の星",
       "x": 0.34250143701722885,
-      "y": 0.6475492580562843,
+      "y": 0.6518148644107229,
       "depth": 0.0,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6475492580562843,
+        "reality_to_cosmos": 0.6518148644107229,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.34250143701722885
       },
@@ -1724,12 +1724,12 @@
       "album": "ストーリー",
       "x": 0.406,
       "y": 0.304,
-      "depth": 0.3943661183098749,
+      "depth": 0.349999930000014,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
         "reality_to_cosmos": 0.304,
-        "material_to_spiritual": 0.3943661183098749,
+        "material_to_spiritual": 0.349999930000014,
         "warning_to_hope": 0.406
       },
       "tags": [
@@ -1743,13 +1743,13 @@
       "title": "砂の惑星",
       "album": "歌の星",
       "x": 0.34254153717743213,
-      "y": 0.2661556195112994,
-      "depth": 0.5308775322943609,
+      "y": 0.2751511373255073,
+      "depth": 0.47115380991124534,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2661556195112994,
-        "material_to_spiritual": 0.5308775322943609,
+        "reality_to_cosmos": 0.2751511373255073,
+        "material_to_spiritual": 0.47115380991124534,
         "warning_to_hope": 0.34254153717743213
       },
       "tags": [
@@ -1769,13 +1769,13 @@
       "title": "リヴァイアサン",
       "album": "歌の星",
       "x": 0.0012153851290270124,
-      "y": 0.3919931047665707,
-      "depth": 0.24647884242958137,
+      "y": 0.39942844145040335,
+      "depth": 0.21874997265625346,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.3919931047665707,
-        "material_to_spiritual": 0.24647884242958137,
+        "reality_to_cosmos": 0.39942844145040335,
+        "material_to_spiritual": 0.21874997265625346,
         "warning_to_hope": 0.0012153851290270124
       },
       "tags": [
@@ -1814,12 +1814,12 @@
       "album": "歌の星",
       "x": 0.5850465760475813,
       "y": 0.65,
-      "depth": 0.36971826364437205,
+      "depth": 0.32812495898438016,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
         "reality_to_cosmos": 0.65,
-        "material_to_spiritual": 0.36971826364437205,
+        "material_to_spiritual": 0.32812495898438016,
         "warning_to_hope": 0.5850465760475813
       },
       "tags": [
@@ -1835,12 +1835,12 @@
       "title": "バベル",
       "album": "歌の星",
       "x": 0.1358907769354039,
-      "y": 0.5832147641850595,
+      "y": 0.5882796289645235,
       "depth": 0.0,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5832147641850595,
+        "reality_to_cosmos": 0.5882796289645235,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.1358907769354039
       },
@@ -1857,12 +1857,12 @@
       "title": "燦  Sun",
       "album": "歌の星",
       "x": 0.5445644846626827,
-      "y": 0.6560962156806234,
+      "y": 0.6602575727995702,
       "depth": 0.0,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6560962156806234,
+        "reality_to_cosmos": 0.6602575727995702,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.5445644846626827
       },
@@ -1879,13 +1879,13 @@
       "title": "黎明 reimei",
       "album": "歌の星",
       "x": 0.6,
-      "y": 0.7156667141855483,
-      "depth": 0.554577430127643,
+      "y": 0.7190896241492105,
+      "depth": 0.49218746923828316,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7156667141855483,
-        "material_to_spiritual": 0.554577430127643,
+        "reality_to_cosmos": 0.7190896241492105,
+        "material_to_spiritual": 0.49218746923828316,
         "warning_to_hope": 0.6
       },
       "tags": [
@@ -1900,12 +1900,12 @@
       "title": "瑠璃色の雨",
       "album": "歌の星",
       "x": 0.3346687095592284,
-      "y": 0.20402069110102736,
+      "y": 0.21378843996089678,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.20402069110102736,
+        "reality_to_cosmos": 0.21378843996089678,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.3346687095592284
       },
@@ -1920,12 +1920,12 @@
       "title": "こころのキラリ",
       "album": "ストーリー",
       "x": 0.5205860919522678,
-      "y": 0.5069293929568692,
+      "y": 0.5129412152356235,
       "depth": 0.0,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5069293929568692,
+        "reality_to_cosmos": 0.5129412152356235,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.5205860919522678
       },
@@ -1941,13 +1941,13 @@
       "title": "やまと風来",
       "album": "ストーリー",
       "x": 0.5614715163107146,
-      "y": 0.5074352044887277,
-      "depth": 0.2957746183098621,
+      "y": 0.5134410025333829,
+      "depth": 0.2624999737500026,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5074352044887277,
-        "material_to_spiritual": 0.2957746183098621,
+        "reality_to_cosmos": 0.5134410025333829,
+        "material_to_spiritual": 0.2624999737500026,
         "warning_to_hope": 0.5614715163107146
       },
       "tags": [
@@ -1962,12 +1962,12 @@
       "title": "オリーブの夏日（かじつ）",
       "album": "ストーリー",
       "x": 0.8138949477630265,
-      "y": 0.8313443986413634,
+      "y": 0.8333338566040012,
       "depth": 0.0,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.8313443986413634,
+        "reality_to_cosmos": 0.8333338566040012,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.8138949477630265
       },
@@ -1983,13 +1983,13 @@
       "title": "ハートで魂(ソウル)",
       "album": "ストーリー",
       "x": 0.8403576850524953,
-      "y": 0.6204859305895429,
-      "depth": 0.4929576643192625,
+      "y": 0.6250903558279084,
+      "depth": 0.4374999270833455,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6204859305895429,
-        "material_to_spiritual": 0.4929576643192625,
+        "reality_to_cosmos": 0.6250903558279084,
+        "material_to_spiritual": 0.4374999270833455,
         "warning_to_hope": 0.8403576850524953
       },
       "tags": [
@@ -2006,13 +2006,13 @@
       "title": "D",
       "album": "ストーリー",
       "x": 0.7033583392916273,
-      "y": 0.46007044599620756,
-      "depth": 0.2190923074247984,
+      "y": 0.4666643277492799,
+      "depth": 0.1944444228395086,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.46007044599620756,
-        "material_to_spiritual": 0.2190923074247984,
+        "reality_to_cosmos": 0.4666643277492799,
+        "material_to_spiritual": 0.1944444228395086,
         "warning_to_hope": 0.7033583392916273
       },
       "tags": [
@@ -2028,12 +2028,12 @@
       "title": "ホウセンカ",
       "album": "ストーリー",
       "x": 0.467801563886833,
-      "y": 0.7424288770507674,
+      "y": 0.7455216628185133,
       "depth": 0.0,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7424288770507674,
+        "reality_to_cosmos": 0.7455216628185133,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.467801563886833
       },
@@ -2049,12 +2049,12 @@
       "album": "ストーリー",
       "x": 0.8657916290680472,
       "y": 0.4,
-      "depth": 0.32863846113719763,
+      "depth": 0.29166663425926287,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.4,
-        "material_to_spiritual": 0.32863846113719763,
+        "material_to_spiritual": 0.29166663425926287,
         "warning_to_hope": 0.8657916290680472
       },
       "tags": [
@@ -2092,13 +2092,13 @@
       "title": "夢人の華",
       "album": "イノリ",
       "x": 0.26113075356468307,
-      "y": 0.9260440993715956,
-      "depth": 0.49295750000012317,
+      "y": 0.9268607357339886,
+      "depth": 0.4374997812501093,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.9260440993715956,
-        "material_to_spiritual": 0.49295750000012317,
+        "reality_to_cosmos": 0.9268607357339886,
+        "material_to_spiritual": 0.4374997812501093,
         "warning_to_hope": 0.26113075356468307
       },
       "tags": [
@@ -2113,13 +2113,13 @@
       "title": "自分世界 - じぶんせかい",
       "album": "イノリ",
       "x": 0.3476892197259216,
-      "y": 0.5722651214878777,
-      "depth": 0.1408450503018137,
+      "y": 0.5774689897848487,
+      "depth": 0.12499998214285966,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5722651214878777,
-        "material_to_spiritual": 0.1408450503018137,
+        "reality_to_cosmos": 0.5774689897848487,
+        "material_to_spiritual": 0.12499998214285966,
         "warning_to_hope": 0.3476892197259216
       },
       "tags": [
@@ -2132,13 +2132,13 @@
       "title": "Singing Stars -シンギングスターズ",
       "album": "イノリ",
       "x": 0.7924207594073609,
-      "y": 0.6339374253713119,
-      "depth": 0.28169012072434746,
+      "y": 0.6383767833860442,
+      "depth": 0.2499999821428584,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6339374253713119,
-        "material_to_spiritual": 0.28169012072434746,
+        "reality_to_cosmos": 0.6383767833860442,
+        "material_to_spiritual": 0.2499999821428584,
         "warning_to_hope": 0.7924207594073609
       },
       "tags": [
@@ -2153,13 +2153,13 @@
       "title": "マイユニバース",
       "album": "イノリ",
       "x": 0.4727291795282805,
-      "y": 0.6129394836810379,
-      "depth": 0.1408450503018137,
+      "y": 0.6176394715752973,
+      "depth": 0.12499998214285966,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6129394836810379,
-        "material_to_spiritual": 0.1408450503018137,
+        "reality_to_cosmos": 0.6176394715752973,
+        "material_to_spiritual": 0.12499998214285966,
         "warning_to_hope": 0.4727291795282805
       },
       "tags": [
@@ -2174,13 +2174,13 @@
       "title": "めぐみいのりし",
       "album": "イノリ",
       "x": 0.6987107685219425,
-      "y": 0.8119278828579712,
-      "depth": 0.16431922143975417,
+      "y": 0.8141605925253054,
+      "depth": 0.14583330902778183,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.8119278828579712,
-        "material_to_spiritual": 0.16431922143975417,
+        "reality_to_cosmos": 0.8141605925253054,
+        "material_to_spiritual": 0.14583330902778183,
         "warning_to_hope": 0.6987107685219425
       },
       "tags": [
@@ -2193,13 +2193,13 @@
       "title": "奏浄（そうじょう） 愛のうた",
       "album": "イノリ",
       "x": 0.8718077136649386,
-      "y": 0.3145272652264813,
-      "depth": 0.43818461484959675,
+      "y": 0.3229281657451402,
+      "depth": 0.38888884567901716,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.3145272652264813,
-        "material_to_spiritual": 0.43818461484959675,
+        "reality_to_cosmos": 0.3229281657451402,
+        "material_to_spiritual": 0.38888884567901716,
         "warning_to_hope": 0.8718077136649386
       },
       "tags": [
@@ -2218,13 +2218,13 @@
       "title": "青い鼓動",
       "album": "イノリ",
       "x": 0.4375327908927837,
-      "y": 0.5051083890544492,
-      "depth": 0.14084506036217376,
+      "y": 0.5111462645215719,
+      "depth": 0.12499999107142921,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5051083890544492,
-        "material_to_spiritual": 0.14084506036217376,
+        "reality_to_cosmos": 0.5111462645215719,
+        "material_to_spiritual": 0.12499999107142921,
         "warning_to_hope": 0.4375327908927837
       },
       "tags": [
@@ -2237,13 +2237,13 @@
       "title": "サジタリウスの矢",
       "album": "イノリ",
       "x": 0.39588611772683163,
-      "y": 0.7692517545194656,
-      "depth": 0.4929576232394674,
+      "y": 0.7720144072299606,
+      "depth": 0.4374998906250273,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7692517545194656,
-        "material_to_spiritual": 0.4929576232394674,
+        "reality_to_cosmos": 0.7720144072299606,
+        "material_to_spiritual": 0.4374998906250273,
         "warning_to_hope": 0.39588611772683163
       },
       "tags": [
@@ -2256,17 +2256,38 @@
     },
     {
       "id": 103,
-      "title": "あいのしるし",
+      "title": "ドン・キホーテの槍",
       "album": "イノチ",
-      "x": 0.7997523057661498,
-      "y": 0.99206,
-      "depth": 0.5915491774648123,
+      "x": 0.29013690053830193,
+      "y": 0.5603114762605423,
+      "depth": 0.4374997812501093,
+      "quadrant_id": 2,
+      "quadrant_name": "警鐘×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.5603114762605423,
+        "material_to_spiritual": 0.4374997812501093,
+        "warning_to_hope": 0.29013690053830193
+      },
+      "tags": [
+        "自然",
+        "葛藤",
+        "内省"
+      ],
+      "summary": "葛藤と祈り、自然と人のあいだで、内側の静かな対話を描く歌です。"
+    },
+    {
+      "id": 104,
+      "title": "あいのしるし",
+      "album": null,
+      "x": 0.7997723057661497,
+      "y": 0.99208,
+      "depth": 0.524999895000021,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.99206,
-        "material_to_spiritual": 0.5915491774648123,
-        "warning_to_hope": 0.7997523057661498
+        "reality_to_cosmos": 0.99208,
+        "material_to_spiritual": 0.524999895000021,
+        "warning_to_hope": 0.7997723057661497
       },
       "tags": [
         "祈り",
@@ -2281,12 +2302,12 @@
       "title": "君となら",
       "album": "イノチ",
       "x": 0.7757537978714816,
-      "y": 0.017576016581121453,
+      "y": 0.029660457205121043,
       "depth": 0.0,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.017576016581121453,
+        "reality_to_cosmos": 0.029660457205121043,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.7757537978714816
       },
@@ -2302,12 +2323,12 @@
       "title": "メロディ",
       "album": "イノチ",
       "x": 0.8382736509698613,
-      "y": 0.5563516001897234,
+      "y": 0.5617552818260112,
       "depth": 0.0,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5563516001897234,
+        "reality_to_cosmos": 0.5617552818260112,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.8382736509698613
       },
@@ -2324,13 +2345,13 @@
       "title": "鏡の国",
       "album": "イノチ",
       "x": 0.24213998330662534,
-      "y": 0.6607595602128404,
-      "depth": 0.10954615371239923,
+      "y": 0.6648687943791601,
+      "depth": 0.09722221141975432,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6607595602128404,
-        "material_to_spiritual": 0.10954615371239923,
+        "reality_to_cosmos": 0.6648687943791601,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.24213998330662534
       },
       "tags": [
@@ -2345,13 +2366,13 @@
       "title": "便り",
       "album": null,
       "x": 0.5835059450506479,
-      "y": 0.8240178116145084,
-      "depth": 0.49295774647887325,
+      "y": 0.826102833970557,
+      "depth": 0.4375,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.8240178116145084,
-        "material_to_spiritual": 0.49295774647887325,
+        "reality_to_cosmos": 0.826102833970557,
+        "material_to_spiritual": 0.4375,
         "warning_to_hope": 0.5835059450506479
       },
       "tags": [
@@ -2388,13 +2409,13 @@
       "title": "アワノウミ",
       "album": "イノチ",
       "x": 0.5835459450506478,
-      "y": 0.8373690681950265,
-      "depth": 0.9859145070432395,
+      "y": 0.8392890262812212,
+      "depth": 0.8749991250008751,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.8373690681950265,
-        "material_to_spiritual": 0.9859145070432395,
+        "reality_to_cosmos": 0.8392890262812212,
+        "material_to_spiritual": 0.8749991250008751,
         "warning_to_hope": 0.5835459450506478
       },
       "tags": [
@@ -2409,12 +2430,12 @@
       "title": "揺れる声のバラード",
       "album": "イノチ",
       "x": 0.25595624838989023,
-      "y": 0.7407073098733689,
+      "y": 0.7438261558142915,
       "depth": 0.0,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7407073098733689,
+        "reality_to_cosmos": 0.7438261558142915,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.25595624838989023
       },
@@ -2429,12 +2450,12 @@
       "album": "イノチ",
       "x": 0.7742912704087259,
       "y": 0.23,
-      "depth": 0.6572767762129055,
+      "depth": 0.5833331388889537,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
         "reality_to_cosmos": 0.23,
-        "material_to_spiritual": 0.6572767762129055,
+        "material_to_spiritual": 0.5833331388889537,
         "warning_to_hope": 0.7742912704087259
       },
       "tags": [
@@ -2452,13 +2473,13 @@
       "title": "スタート",
       "album": "イノチ",
       "x": 0.8047600090621166,
-      "y": 0.47101858547334613,
-      "depth": 0.24647884242958137,
+      "y": 0.47748216259591086,
+      "depth": 0.21874997265625346,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.47101858547334613,
-        "material_to_spiritual": 0.24647884242958137,
+        "reality_to_cosmos": 0.47748216259591086,
+        "material_to_spiritual": 0.21874997265625346,
         "warning_to_hope": 0.8047600090621166
       },
       "tags": [
@@ -2474,13 +2495,13 @@
       "title": "いたみ",
       "album": "イノチ",
       "x": 0.13891460068160455,
-      "y": 0.460529698699253,
-      "depth": 0.08215961756651076,
+      "y": 0.46712358971907075,
+      "depth": 0.0729166605902783,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.460529698699253,
-        "material_to_spiritual": 0.08215961756651076,
+        "reality_to_cosmos": 0.46712358971907075,
+        "material_to_spiritual": 0.0729166605902783,
         "warning_to_hope": 0.13891460068160455
       },
       "tags": [
@@ -2495,13 +2516,13 @@
       "title": "サリュー（Salut）",
       "album": "イブキ",
       "x": 0.968261494442401,
-      "y": 0.21514299491708977,
-      "depth": 0.3943661183098749,
+      "y": 0.22478001549661616,
+      "depth": 0.349999930000014,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.21514299491708977,
-        "material_to_spiritual": 0.3943661183098749,
+        "reality_to_cosmos": 0.22478001549661616,
+        "material_to_spiritual": 0.349999930000014,
         "warning_to_hope": 0.968261494442401
       },
       "tags": [
@@ -2539,13 +2560,13 @@
       "title": "gene",
       "album": "イブキ",
       "x": 0.8192630524150031,
-      "y": 0.5103325474251661,
-      "depth": 0.44814336514957887,
+      "y": 0.516309609601236,
+      "depth": 0.3977272365702513,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5103325474251661,
-        "material_to_spiritual": 0.44814336514957887,
+        "reality_to_cosmos": 0.516309609601236,
+        "material_to_spiritual": 0.3977272365702513,
         "warning_to_hope": 0.8192630524150031
       },
       "tags": [
@@ -2562,12 +2583,12 @@
       "title": "雨、さらさ",
       "album": "イブキ",
       "x": 0.3673598998397961,
-      "y": 0.2598589221717781,
+      "y": 0.26894219352542525,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.2598589221717781,
+        "reality_to_cosmos": 0.26894219352542525,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.3673598998397961
       },
@@ -2585,13 +2606,13 @@
       "title": "山の聲（こえ）",
       "album": "イブキ",
       "x": 0.0,
-      "y": 0.5895394304025281,
-      "depth": 0.36971826364437205,
+      "y": 0.594534795346919,
+      "depth": 0.32812495898438016,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5895394304025281,
-        "material_to_spiritual": 0.36971826364437205,
+        "reality_to_cosmos": 0.594534795346919,
+        "material_to_spiritual": 0.32812495898438016,
         "warning_to_hope": 0.0
       },
       "tags": [
@@ -2607,13 +2628,13 @@
       "title": "いざない",
       "album": "イブキ",
       "x": 0.511630706823241,
-      "y": 0.7079595907544299,
-      "depth": 0.5633802012072548,
+      "y": 0.7114867520096463,
+      "depth": 0.49999992857143866,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7079595907544299,
-        "material_to_spiritual": 0.5633802012072548,
+        "reality_to_cosmos": 0.7114867520096463,
+        "material_to_spiritual": 0.49999992857143866,
         "warning_to_hope": 0.511630706823241
       },
       "tags": [
@@ -2631,13 +2652,13 @@
       "title": "カナン − canaan",
       "album": "イブキ",
       "x": 0.8284242706792406,
-      "y": 0.5055080359562608,
-      "depth": 0.22751894241186904,
+      "y": 0.5115459158019253,
+      "depth": 0.2019230613905338,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5055080359562608,
-        "material_to_spiritual": 0.22751894241186904,
+        "reality_to_cosmos": 0.5115459158019253,
+        "material_to_spiritual": 0.2019230613905338,
         "warning_to_hope": 0.8284242706792406
       },
       "tags": [
@@ -2652,13 +2673,13 @@
       "title": "BURN THE HEART",
       "album": "イブキ",
       "x": 0.24724766745768068,
-      "y": 0.3289791248781142,
-      "depth": 0.10954615371239923,
+      "y": 0.3372062734020835,
+      "depth": 0.09722221141975432,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.3289791248781142,
-        "material_to_spiritual": 0.10954615371239923,
+        "reality_to_cosmos": 0.3372062734020835,
+        "material_to_spiritual": 0.09722221141975432,
         "warning_to_hope": 0.24724766745768068
       },
       "tags": [
@@ -2675,12 +2696,12 @@
       "album": "イブキ",
       "x": 0.48765225722182104,
       "y": 0.75,
-      "depth": 0.24647884242958137,
+      "depth": 0.21874997265625346,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
         "reality_to_cosmos": 0.75,
-        "material_to_spiritual": 0.24647884242958137,
+        "material_to_spiritual": 0.21874997265625346,
         "warning_to_hope": 0.48765225722182104
       },
       "tags": [
@@ -2697,13 +2718,13 @@
       "title": "ヒソカモリ",
       "album": "イブキ",
       "x": 0.6319028706957825,
-      "y": 0.2217647606557137,
-      "depth": 0.3943661183098749,
+      "y": 0.23132190107127634,
+      "depth": 0.349999930000014,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.2217647606557137,
-        "material_to_spiritual": 0.3943661183098749,
+        "reality_to_cosmos": 0.23132190107127634,
+        "material_to_spiritual": 0.349999930000014,
         "warning_to_hope": 0.6319028706957825
       },
       "tags": [
@@ -2720,13 +2741,13 @@
       "title": "海の底 - DEEP SEA",
       "album": null,
       "x": 0.4620512002965715,
-      "y": 0.949763860452021,
-      "depth": 0.49295750000012317,
+      "y": 0.9502938036341834,
+      "depth": 0.4374997812501093,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.949763860452021,
-        "material_to_spiritual": 0.49295750000012317,
+        "reality_to_cosmos": 0.9502938036341834,
+        "material_to_spiritual": 0.4374997812501093,
         "warning_to_hope": 0.4620512002965715
       },
       "tags": [
@@ -2741,14 +2762,14 @@
     {
       "id": 126,
       "title": "こころのとびら",
-      "album": null,
+      "album": "星環",
       "x": 0.63675068345255,
-      "y": 0.5728653316655079,
+      "y": 0.5780691973562024,
       "depth": 0.0,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5728653316655079,
+        "reality_to_cosmos": 0.5780691973562024,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.63675068345255
       },
@@ -2762,15 +2783,15 @@
     {
       "id": 127,
       "title": "ライドオン - Ride On",
-      "album": null,
+      "album": "星環",
       "x": 0.5550399399038619,
-      "y": 0.7949730945767383,
-      "depth": 0.24647881161973365,
+      "y": 0.7974229937875086,
+      "depth": 0.21874994531251363,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.7949730945767383,
-        "material_to_spiritual": 0.24647881161973365,
+        "reality_to_cosmos": 0.7974229937875086,
+        "material_to_spiritual": 0.21874994531251363,
         "warning_to_hope": 0.5550399399038619
       },
       "tags": [
@@ -2785,15 +2806,15 @@
     {
       "id": 128,
       "title": "使徒、アトラスよ",
-      "album": null,
+      "album": "星環",
       "x": 0.5790983326142772,
-      "y": 0.9232014733975377,
-      "depth": 0.6572767762129055,
+      "y": 0.9240615435556421,
+      "depth": 0.5833331388889537,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.9232014733975377,
-        "material_to_spiritual": 0.6572767762129055,
+        "reality_to_cosmos": 0.9240615435556421,
+        "material_to_spiritual": 0.5833331388889537,
         "warning_to_hope": 0.5790983326142772
       },
       "tags": [
@@ -2807,15 +2828,15 @@
     {
       "id": 129,
       "title": "花が咲いてる",
-      "album": null,
+      "album": "星環",
       "x": 0.6127718600534612,
-      "y": 0.5007642040612262,
-      "depth": 0.3585146921196631,
+      "y": 0.5068628931495303,
+      "depth": 0.318181789256201,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5007642040612262,
-        "material_to_spiritual": 0.3585146921196631,
+        "reality_to_cosmos": 0.5068628931495303,
+        "material_to_spiritual": 0.318181789256201,
         "warning_to_hope": 0.6127718600534612
       },
       "tags": [
@@ -2827,14 +2848,14 @@
     {
       "id": 130,
       "title": "刹那、いとしき",
-      "album": null,
+      "album": "星環",
       "x": 0.3435615171453847,
-      "y": 0.39919840366716663,
+      "y": 0.40655679245911125,
       "depth": 0.0,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
-        "reality_to_cosmos": 0.39919840366716663,
+        "reality_to_cosmos": 0.40655679245911125,
         "material_to_spiritual": 0.0,
         "warning_to_hope": 0.3435615171453847
       },
@@ -2846,15 +2867,15 @@
     {
       "id": 131,
       "title": "NORTH LAND -北辰の祈り-",
-      "album": null,
+      "album": "星環",
       "x": 0.4912464002623963,
-      "y": 0.6193045181074618,
-      "depth": 1.0,
+      "y": 0.6239337615655072,
+      "depth": 0.8875000000000001,
       "quadrant_id": 2,
       "quadrant_name": "警鐘×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.6193045181074618,
-        "material_to_spiritual": 1.0,
+        "reality_to_cosmos": 0.6239337615655072,
+        "material_to_spiritual": 0.8875000000000001,
         "warning_to_hope": 0.4912464002623963
       },
       "tags": [
@@ -2871,15 +2892,15 @@
     {
       "id": 132,
       "title": "冬空のメリーゴーラウンド",
-      "album": null,
+      "album": "星環",
       "x": 0.46860156388683283,
       "y": 0.4,
-      "depth": 0.9436619718309859,
+      "depth": 0.8375,
       "quadrant_id": 3,
       "quadrant_name": "警鐘×日常",
       "axes": {
         "reality_to_cosmos": 0.4,
-        "material_to_spiritual": 0.9436619718309859,
+        "material_to_spiritual": 0.8375,
         "warning_to_hope": 0.46860156388683283
       },
       "tags": [
@@ -2896,15 +2917,15 @@
     {
       "id": 133,
       "title": "クオンタム　久遠魂夢",
-      "album": null,
+      "album": "星環",
       "x": 0.5132644234144577,
       "y": 0.8,
-      "depth": 0.9859154929577465,
+      "depth": 0.875,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
         "reality_to_cosmos": 0.8,
-        "material_to_spiritual": 0.9859154929577465,
+        "material_to_spiritual": 0.875,
         "warning_to_hope": 0.5132644234144577
       },
       "tags": [
@@ -2919,17 +2940,305 @@
       "summary": "胸の奥から届く久遠の夢が、量子のように重なり合う祈りの歌。宇宙の音に溶けて、離れても結ばれる絆をたどる。"
     },
     {
+      "id": 134,
+      "title": "マイライフ",
+      "album": "星環",
+      "x": 0.6142459672692405,
+      "y": 0.1476666882941469,
+      "depth": 0.8375,
+      "quadrant_id": 4,
+      "quadrant_name": "希望×日常",
+      "axes": {
+        "reality_to_cosmos": 0.1476666882941469,
+        "material_to_spiritual": 0.8375,
+        "warning_to_hope": 0.6142459672692405
+      },
+      "tags": [
+        "命",
+        "祈り",
+        "光",
+        "赦し",
+        "生きる",
+        "祝福"
+      ],
+      "summary": "生きていることへの問いを、朝の光と天への祈りへ返していく歌。罪ではなく祝福として命を抱きしめる。"
+    },
+    {
+      "id": 135,
+      "title": "みんなステラ",
+      "album": "星環",
+      "x": 0.8498429029304002,
+      "y": 0.6996290782396284,
+      "depth": 0.625,
+      "quadrant_id": 1,
+      "quadrant_name": "希望×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.6996290782396284,
+        "material_to_spiritual": 0.625,
+        "warning_to_hope": 0.8498429029304002
+      },
+      "tags": [
+        "星",
+        "つながり",
+        "光",
+        "ありがとう",
+        "冬空",
+        "奇跡"
+      ],
+      "summary": "一人ひとりを星として見つめ、つながりの重力と感謝を歌う曲。寒空の下でも互いの光を信じる。"
+    },
+    {
+      "id": 136,
+      "title": "反転世界の渦の外",
+      "album": null,
+      "x": 0.31208814892839437,
+      "y": 0.19208744278653966,
+      "depth": 0.7875000000000001,
+      "quadrant_id": 3,
+      "quadrant_name": "警鐘×日常",
+      "axes": {
+        "reality_to_cosmos": 0.19208744278653966,
+        "material_to_spiritual": 0.7875000000000001,
+        "warning_to_hope": 0.31208814892839437
+      },
+      "tags": [
+        "反転世界",
+        "渦",
+        "権力",
+        "祈り",
+        "手放す",
+        "再生"
+      ],
+      "summary": "力の世界に呑まれる渦の外へ出て、祈りと愛するままの地点へ向かう歌。反転した世界をほどいていく。"
+    },
+    {
+      "id": 137,
+      "title": "汚れたけど、僕の青さ",
+      "album": null,
+      "x": 0.4687015638868328,
+      "y": 0.0,
+      "depth": 0.5000000000000001,
+      "quadrant_id": 3,
+      "quadrant_name": "警鐘×日常",
+      "axes": {
+        "reality_to_cosmos": 0.0,
+        "material_to_spiritual": 0.5000000000000001,
+        "warning_to_hope": 0.4687015638868328
+      },
+      "tags": [
+        "青",
+        "素直",
+        "赦し",
+        "自分",
+        "歌",
+        "希望"
+      ],
+      "summary": "汚れても消えない自分の青さを守る歌。弱さや不器用さを抱えたまま、もう一度自分の声で歌おうとする。"
+    },
+    {
+      "id": 138,
+      "title": "レラカムイの風刃（ふうじん）",
+      "album": null,
+      "x": 0.36638639358504627,
+      "y": 0.8912478804807358,
+      "depth": 0.9375000000000001,
+      "quadrant_id": 2,
+      "quadrant_name": "警鐘×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.8912478804807358,
+        "material_to_spiritual": 0.9375000000000001,
+        "warning_to_hope": 0.36638639358504627
+      },
+      "tags": [
+        "風",
+        "神",
+        "刃",
+        "祓い",
+        "浄化",
+        "誓い"
+      ],
+      "summary": "風の神の刃が欺瞞を裂き、忘れられていた誓いを果たす歌。祓いと浄化の力が命を守る。"
+    },
+    {
+      "id": 139,
+      "title": "エンシェント・ワンワールド",
+      "album": null,
+      "x": 0.896626202128531,
+      "y": 0.5623165420605062,
+      "depth": 0.9125000000000001,
+      "quadrant_id": 1,
+      "quadrant_name": "希望×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.5623165420605062,
+        "material_to_spiritual": 0.9125000000000001,
+        "warning_to_hope": 0.896626202128531
+      },
+      "tags": [
+        "古代",
+        "世界",
+        "大地",
+        "精霊",
+        "祈り",
+        "感謝"
+      ],
+      "summary": "大地と精霊、星と朝日のもとで、ひとつだけの世界を生きる祈りの歌。古代的な感謝が未来へひらく。"
+    },
+    {
+      "id": 140,
+      "title": "CODE:GIZA　コード・ギザ",
+      "album": null,
+      "x": 0.2737066084122867,
+      "y": 0.7024966976734526,
+      "depth": 0.8625,
+      "quadrant_id": 2,
+      "quadrant_name": "警鐘×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.7024966976734526,
+        "material_to_spiritual": 0.8625,
+        "warning_to_hope": 0.2737066084122867
+      },
+      "tags": [
+        "星",
+        "門",
+        "王",
+        "コード",
+        "真実",
+        "創造"
+      ],
+      "summary": "隠されたコードと奪われた真実を、星と太陽のまなざしで暴いていく歌。創造の扉が開かれる。"
+    },
+    {
+      "id": 141,
+      "title": "ドラゴニック・エイジ  − Draconic Age",
+      "album": null,
+      "x": 0.6336167375272943,
+      "y": 0.4284235301736637,
+      "depth": 0.7875000000000001,
+      "quadrant_id": 4,
+      "quadrant_name": "希望×日常",
+      "axes": {
+        "reality_to_cosmos": 0.4284235301736637,
+        "material_to_spiritual": 0.7875000000000001,
+        "warning_to_hope": 0.6336167375272943
+      },
+      "tags": [
+        "龍",
+        "翼",
+        "空",
+        "未来",
+        "祝福",
+        "いにしえ"
+      ],
+      "summary": "見えない世界から届く声に応え、龍の翼で未来へ飛ぶ歌。いにしえの炎と祝福を思い出す。"
+    },
+    {
+      "id": 142,
+      "title": "GOD era",
+      "album": null,
+      "x": 0.6803400367254253,
+      "y": 0.7143979238184128,
+      "depth": 1.0,
+      "quadrant_id": 1,
+      "quadrant_name": "希望×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.7143979238184128,
+        "material_to_spiritual": 1.0,
+        "warning_to_hope": 0.6803400367254253
+      },
+      "tags": [
+        "神",
+        "愛",
+        "再生",
+        "燔祭",
+        "祈り",
+        "光"
+      ],
+      "summary": "崩れゆく世界の中で、弱き罪を手放し、神代のしるしへ導かれる再生の歌。愛と祈りが時代をひらく。"
+    },
+    {
+      "id": 143,
+      "title": "草原、彼方のイノセンス",
+      "album": null,
+      "x": 0.539563325907531,
+      "y": 0.3176599092694938,
+      "depth": 0.6625000000000001,
+      "quadrant_id": 4,
+      "quadrant_name": "希望×日常",
+      "axes": {
+        "reality_to_cosmos": 0.3176599092694938,
+        "material_to_spiritual": 0.6625000000000001,
+        "warning_to_hope": 0.539563325907531
+      },
+      "tags": [
+        "草原",
+        "風",
+        "彼方",
+        "イノセンス",
+        "影",
+        "自然"
+      ],
+      "summary": "草原の風に影をほどかれ、広い場所と無垢さを思い出す歌。騒がしい街の外へ心を運んでいく。"
+    },
+    {
+      "id": 144,
+      "title": "世界の扉",
+      "album": null,
+      "x": 0.43381408948823474,
+      "y": 0.05218613072480108,
+      "depth": 0.75,
+      "quadrant_id": 3,
+      "quadrant_name": "警鐘×日常",
+      "axes": {
+        "reality_to_cosmos": 0.05218613072480108,
+        "material_to_spiritual": 0.75,
+        "warning_to_hope": 0.43381408948823474
+      },
+      "tags": [
+        "扉",
+        "孤独",
+        "祈り",
+        "小さき手",
+        "光",
+        "解放"
+      ],
+      "summary": "固く閉じられた扉の内側で、小さな祈りを守り抜く歌。闇が去り、世界の扉が開かれていく。"
+    },
+    {
+      "id": 145,
+      "title": "宇宙の呼吸",
+      "album": null,
+      "x": 0.6027901424697081,
+      "y": 0.89761502420684,
+      "depth": 0.8375,
+      "quadrant_id": 1,
+      "quadrant_name": "希望×宇宙",
+      "axes": {
+        "reality_to_cosmos": 0.89761502420684,
+        "material_to_spiritual": 0.8375,
+        "warning_to_hope": 0.6027901424697081
+      },
+      "tags": [
+        "宇宙",
+        "呼吸",
+        "手",
+        "星",
+        "つながり",
+        "愛"
+      ],
+      "summary": "触れた手から宇宙の呼吸を感じ、孤独な虚空を愛で満たしていく歌。星の行き先を共に決める。"
+    },
+    {
       "id": 999,
       "title": "マイステージ",
       "album": "ストーリー",
       "x": 0.8162987243912578,
-      "y": 0.10461459343051374,
-      "depth": 0.3802816901408451,
+      "y": 0.11584144334376982,
+      "depth": 0.3375000000000001,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.10461459343051374,
-        "material_to_spiritual": 0.3802816901408451,
+        "reality_to_cosmos": 0.11584144334376982,
+        "material_to_spiritual": 0.3375000000000001,
         "warning_to_hope": 0.8162987243912578
       },
       "tags": [
@@ -2948,13 +3257,13 @@
       "title": "おやすみ",
       "album": "未生",
       "x": 0.8725974087184154,
-      "y": 0.5524733392787723,
-      "depth": 0.915492957746479,
+      "y": 0.5581463349995777,
+      "depth": 0.8125000000000001,
       "quadrant_id": 1,
       "quadrant_name": "希望×宇宙",
       "axes": {
-        "reality_to_cosmos": 0.5524733392787723,
-        "material_to_spiritual": 0.915492957746479,
+        "reality_to_cosmos": 0.5581463349995777,
+        "material_to_spiritual": 0.8125000000000001,
         "warning_to_hope": 0.8725974087184154
       },
       "tags": [
@@ -2972,13 +3281,13 @@
       "title": "お誕生日ありがとう",
       "album": "イノチ",
       "x": 0.9467532368566232,
-      "y": 0.48859934154666296,
-      "depth": 0.6619718309859155,
+      "y": 0.4950641493288725,
+      "depth": 0.5875,
       "quadrant_id": 4,
       "quadrant_name": "希望×日常",
       "axes": {
-        "reality_to_cosmos": 0.48859934154666296,
-        "material_to_spiritual": 0.6619718309859155,
+        "reality_to_cosmos": 0.4950641493288725,
+        "material_to_spiritual": 0.5875,
         "warning_to_hope": 0.9467532368566232
       },
       "tags": [

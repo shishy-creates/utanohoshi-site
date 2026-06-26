@@ -216,7 +216,7 @@ def build_map():
     # manual album overrides for missing entries
     manual_album = {
         75: "メッセージ",  # 春とルルリラ
-        103: "歌の癒しシリーズ",  # あいのしるしはイノチではなくこちら
+        104: "歌の癒しシリーズ",  # あいのしるしはイノチではなくこちら
     }
 
     ensure_manual_template(songs)
