@@ -1,6 +1,147 @@
 {
   "albums": [
     {
+      "key": "the_world",
+      "title_ja": "ザ・ワールド",
+      "title_en": "The World",
+      "year": "2026",
+      "type": "Album",
+      "album_jacket": "images/the_world_jacket.jpg",
+      "description": "反転する世界を越え、古代の祈りから未来へと向かう10曲",
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "反転世界の渦の外",
+          "title_en": "Beyond the Inverted World",
+          "lyric_id": 136,
+          "audio_embed": "https://www.youtube.com/embed/xCIS3Oz7DdU",
+          "analysis": "力と権力に呑み込まれた世界が反転し、祈りと愛の世界へ移り変わる瞬間を描く歌。渦の外へ出ることは、奪い合う価値観を手放し、本来の自分へ還ることでもある。アルバムの世界を開く入口となる一曲。",
+          "omikuji_message": "握りしめていた力を手放す日。やさしい世界へ向かう風に乗って。",
+          "links": {
+            "youtube": "https://youtu.be/xCIS3Oz7DdU",
+            "spotify": "https://open.spotify.com/track/2slsjfgpCNuGG5sgJ0UdVg"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "草原、彼方のイノセンス",
+          "title_en": "Grassland, Innocence Beyond",
+          "lyric_id": 143,
+          "audio_embed": "https://www.youtube.com/embed/veX6Q6YJyUI",
+          "analysis": "街のざわめきから離れ、草原を渡る風の中で忘れていた無垢な心を取り戻す歌。鳥、雨、土へと姿を変える風が、悲しみを遠い彼方へ運んでいく。広い世界を旅するアルバムの最初の景色が開かれる。",
+          "omikuji_message": "風の合図に気づく日。胸の中に残るイノセンスを感じて。",
+          "links": {
+            "youtube": "https://youtu.be/veX6Q6YJyUI",
+            "spotify": "https://open.spotify.com/track/5cy6Fg9aNyZjCDJ9ZVCnln"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "汚れたけど、僕の青さ",
+          "title_en": "Stained, but Still My Blue",
+          "lyric_id": 137,
+          "audio_embed": "https://www.youtube.com/embed/PDXne9OMXHo",
+          "analysis": "傷つき、汚れながらも失われない心の青さを抱いて進む歌。過去を消すのではなく、そのすべてを自分の色として受け入れることで、もう一度未来へ向かう強さが生まれる。",
+          "omikuji_message": "あなたの青さが光る日。傷も迷いも、自分だけの色として抱いて。",
+          "links": {
+            "youtube": "https://youtu.be/PDXne9OMXHo",
+            "spotify": "https://open.spotify.com/track/5XlEnhKkYAdrLvmu9Lq9kw"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "ドラゴニック・エイジ",
+          "title_en": "Draconic Age",
+          "lyric_id": 141,
+          "audio_embed": "https://www.youtube.com/embed/eLQjp4twe_g",
+          "analysis": "見えない世界から届く声に応え、龍の翼で未来へ飛び立つ歌。涙に託された光と、古代から受け継がれた愛の炎を思い出すとき、新しい時代の空が開かれていく。",
+          "omikuji_message": "心の翼を広げる日。遠くから届く祝福の声に応えて。",
+          "links": {
+            "youtube": "https://youtu.be/eLQjp4twe_g",
+            "spotify": "https://open.spotify.com/track/0qm6vTNeValpfL6so7De1E"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "エンシェント・ワンワールド",
+          "title_en": "Ancient One World",
+          "lyric_id": 139,
+          "audio_embed": "https://www.youtube.com/embed/6n3uVyxBo-8",
+          "analysis": "雨と土、海と星、精霊と祖先の記憶をたどりながら、世界がひとつであることを歌う祈り。自然の恵みに感謝し、手を取り踊る営みの中に、古代から変わらない命のつながりを見つめる。",
+          "omikuji_message": "誰かと手を取り合う日。ひとつだけの世界に感謝を伝えて。",
+          "links": {
+            "youtube": "https://youtu.be/6n3uVyxBo-8",
+            "spotify": "https://open.spotify.com/track/3iNS5am7KAjvmXJ6TXmjf2"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "CODE:GIZA　コード・ギザ",
+          "title_en": "Code: Giza",
+          "lyric_id": 140,
+          "audio_embed": "https://www.youtube.com/embed/5GZ16xQaYJg",
+          "analysis": "ギザの石造建築とホルスの目を手がかりに、長い時を越えて隠されてきた世界のコードを読み解く歌。奪われた真実を見る目と創造する声を取り戻すことで、終末の扉は創造の扉へと姿を変える。",
+          "omikuji_message": "隠されていた答えを思い出す日。自分の声で世界を選んで。",
+          "links": {
+            "youtube": "https://youtu.be/5GZ16xQaYJg",
+            "spotify": "https://open.spotify.com/track/1zxCzjnSY94nqehV4ByukO"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "レラカムイの風刃（ふうじん）",
+          "title_en": "The Windblade of Rera Kamuy",
+          "lyric_id": 138,
+          "audio_embed": "https://www.youtube.com/embed/mEVtejrpMCw",
+          "analysis": "風の神レラカムイが刃となり、人の欺瞞を払い、命と大地を清めていく歌。鏡に映る自分の真心と向き合うことで、忘れられていた古代の誓いが再び果たされる。",
+          "omikuji_message": "風が迷いを払う日。曇りなき心で、自分の誓いを確かめて。",
+          "links": {
+            "youtube": "https://youtu.be/mEVtejrpMCw",
+            "spotify": "https://open.spotify.com/track/4fprmfNhldDzMVwpV3s9w9"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "世界の扉",
+          "title_en": "The Door of the World",
+          "lyric_id": 144,
+          "audio_embed": "https://www.youtube.com/embed/NvLXDFetjig",
+          "analysis": "閉ざされた暗い部屋で、小さな命を守りながら光の帰りを待つ歌。冷たい扉は外界を遮る一方で、争う世界から祈りを守る壁にもなる。闇が去り扉が開く結末に、静かな再生への希望が宿る。",
+          "omikuji_message": "光が戻るまで大切なものを守る日。静かな祈りを絶やさずに。",
+          "links": {
+            "youtube": "https://youtu.be/NvLXDFetjig",
+            "spotify": "https://open.spotify.com/track/7w0zcovVLoJwmNWCNsB3Z5"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "GOD era",
+          "title_en": "GOD era",
+          "lyric_id": 142,
+          "audio_embed": "https://www.youtube.com/embed/GUQ9QYot0cY",
+          "analysis": "古い世界が剥がれ落ちる燔祭と、光の世界が生まれ直す再生の時を描く歌。弱さや恐れを手放し、命の器として古代のしるしに導かれることで、愛と神の時代へ歩み出していく。",
+          "omikuji_message": "生まれ変わる光に導かれる日。恐れを手放し、愛を選んで。",
+          "links": {
+            "youtube": "https://youtu.be/GUQ9QYot0cY",
+            "spotify": "https://open.spotify.com/track/4WdbJG1zitAakOAVqpKdYx"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "宇宙の呼吸",
+          "title_en": "Breath of the Universe",
+          "lyric_id": 145,
+          "audio_embed": "https://www.youtube.com/embed/KT8rj7Ylu54",
+          "analysis": "触れ合う二人の命を、星々を巡る宇宙の呼吸として描く歌。孤独な虚空を埋め、同じ舟で星の行き先を決める二人は、天の川を昇りながら大きな生命の流れとひとつになる。アルバムの旅を愛と宇宙へ還す終曲。",
+          "omikuji_message": "宇宙の呼吸と重なる日。大切な人と同じ未来を見つめて。",
+          "links": {
+            "youtube": "https://youtu.be/KT8rj7Ylu54",
+            "spotify": "https://open.spotify.com/track/0koBprnEzQciifGCuCMNaO"
+          }
+        }
+      ]
+    },
+    {
       "key": "stellar_ring",
       "title_ja": "星環",
       "title_en": "Stellar Ring",
@@ -19,7 +160,7 @@
           "omikuji_message": "星と歩調を合わせる日。自分の声で祈りを捧げてみて。",
           "links": {
             "youtube": "https://youtu.be/qNO0t3GevU4",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/2npY4idmWBo9XDQ4y9kytc"
           }
         },
         {
@@ -32,7 +173,7 @@
           "omikuji_message": "閉じていた扉を少し開くと風が入る日。昔の呼び名を思い出してみて。",
           "links": {
             "youtube": "https://youtu.be/SG4t9p-7qgE",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/0cFqojcgre9wdzbMilR8LR"
           }
         },
         {
@@ -45,7 +186,7 @@
           "omikuji_message": "厳しい風の中でも願いが灯る日。胸の奥の祈りをそっと抱いて。",
           "links": {
             "youtube": "https://youtu.be/-iK3ORsXhno",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/1QZhNgiWbQ0siI5Qpwzgss"
           }
         },
         {
@@ -58,7 +199,7 @@
           "omikuji_message": "流れに乗ると景色が変わる日。軽やかに一歩踏み出して。",
           "links": {
             "youtube": "https://youtu.be/R7KMtw1d7po",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/5YajkzGvZkflzpOokaFUUW"
           }
         },
         {
@@ -71,7 +212,7 @@
           "omikuji_message": "息を整えるだけで心がほぐれる日。小さな笑顔を空に向けて。",
           "links": {
             "youtube": "https://youtu.be/BYJcdGT10mw",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/5AfUrI4UQBdlQT3tIHg3R8"
           }
         },
         {
@@ -84,7 +225,7 @@
           "omikuji_message": "刹那の愛しさが道を照らす日。いまの温度を大事に。",
           "links": {
             "youtube": "https://youtu.be/5FQli7lw3sw",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/0pKaEyIVisNN5onJnleTBm"
           }
         },
         {
@@ -97,7 +238,7 @@
           "omikuji_message": "冬空の灯りに心が回り出す日。そばにいる想いを信じて。",
           "links": {
             "youtube": "https://youtu.be/s8sUs1N2DgQ",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/3YiBG25GSyL4SJO65E28Cb"
           }
         },
         {
@@ -110,7 +251,7 @@
           "omikuji_message": "心は離れても響き合う日。そばにいる想いを信じて。",
           "links": {
             "youtube": "https://youtu.be/W2VHRso2io8",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/2kYfe2TUTSnUf615Gidx6v"
           }
         },
         {
@@ -123,7 +264,7 @@
           "omikuji_message": "赦されて生きていることに気づく日。窓の光を受け取って。",
           "links": {
             "youtube": "https://youtu.be/nhzIppjSyMw",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/6iUXAZx42EdztzRvJY7Spy"
           }
         },
         {
@@ -136,7 +277,7 @@
           "omikuji_message": "みんなが星だと気づく日。ありがとうを心の中で伝えてみて。",
           "links": {
             "youtube": "https://youtu.be/sXI1tWX3yjw",
-            "spotify": ""
+            "spotify": "https://open.spotify.com/track/4nvlymg612qZLYNaWenpMR"
           }
         }
       ]
