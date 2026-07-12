@@ -1451,6 +1451,10 @@ body {
   letter-spacing: 0.06em;
 }
 
+#orbit-heading {
+  font-size: clamp(1.05rem, 2.1vw, 1.6rem);
+}
+
 .album-view-toggle,
 .orbit-album-link {
   border: 1px solid rgba(104, 105, 150, 0.25);
