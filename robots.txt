@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shishy-creates.github.io/utanohoshi-site/sitemap.xml

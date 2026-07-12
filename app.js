@@ -4,6 +4,40 @@ function getQueryParam(name) {
   return params.get(name);
 }
 
+const SITE_BASE_URL = "https://shishy-creates.github.io/utanohoshi-site/";
+
+function setSeoMeta({ title, description, canonical, image }) {
+  if (title) document.title = title;
+
+  const setMeta = (selector, attribute, value) => {
+    if (!value) return;
+    let element = document.head.querySelector(selector);
+    if (!element) {
+      element = document.createElement("meta");
+      const [key, keyValue] = attribute;
+      element.setAttribute(key, keyValue);
+      document.head.appendChild(element);
+    }
+    element.setAttribute("content", value);
+  };
+
+  setMeta('meta[name="description"]', ["name", "description"], description);
+  setMeta('meta[property="og:title"]', ["property", "og:title"], title);
+  setMeta('meta[property="og:description"]', ["property", "og:description"], description);
+  setMeta('meta[property="og:url"]', ["property", "og:url"], canonical);
+  setMeta('meta[property="og:image"]', ["property", "og:image"], image);
+
+  if (canonical) {
+    let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement("link");
+      canonicalLink.rel = "canonical";
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.href = canonical;
+  }
+}
+
 // discography.json 読み込み
 async function loadDiscography() {
   const res = await fetch("discography.json");
@@ -570,6 +604,17 @@ async function initAlbumPage() {
       return;
     }
 
+    const albumCanonical = `${SITE_BASE_URL}album.html?album=${encodeURIComponent(album.key)}`;
+    const albumImage = album.album_jacket
+      ? new URL(album.album_jacket, SITE_BASE_URL).href
+      : `${SITE_BASE_URL}images/utanohoshi_profile_full.jpg`;
+    setSeoMeta({
+      title: `${album.title_ja}${album.title_en ? `（${album.title_en}）` : ""} | うたのほし`,
+      description: `${album.description || "うたのほしのアルバム"}。収録曲の歌詞と楽曲解説を紹介します。`,
+      canonical: albumCanonical,
+      image: albumImage,
+    });
+
     // ★ ミニヘッダーにアルバム名を表示
     const pageTitleSpan = document.getElementById("album-page-title");
     if (pageTitleSpan) {
@@ -756,6 +801,23 @@ async function initSongPage() {
 
     // 歌詞データはこれまで通り lyric_id から取得
     const songData = await fetchSongByLyricId(lyricId);
+
+    const songTitle = foundTrack ? foundTrack.title_ja : songData.title;
+    const songCanonical = foundAlbum && foundTrack
+      ? `${SITE_BASE_URL}song.html?album=${encodeURIComponent(foundAlbum.key)}&track=${encodeURIComponent(foundTrack.track_no)}`
+      : `${SITE_BASE_URL}song.html?id=${encodeURIComponent(lyricId)}`;
+    const songDescription = foundTrack && foundTrack.analysis
+      ? foundTrack.analysis
+      : `${songTitle}の歌詞と楽曲解説。うたのほしのオリジナル楽曲です。`;
+    const songImage = foundAlbum && foundAlbum.album_jacket
+      ? new URL(foundAlbum.album_jacket, SITE_BASE_URL).href
+      : `${SITE_BASE_URL}images/utanohoshi_profile_full.jpg`;
+    setSeoMeta({
+      title: `${songTitle}${foundTrack && foundTrack.title_en ? `（${foundTrack.title_en}）` : ""} | うたのほし`,
+      description: songDescription,
+      canonical: songCanonical,
+      image: songImage,
+    });
 
     // 星座マップへの導線にアルバム指定を付与（アルバムが判明している場合）
     if (foundAlbum) {
