@@ -1374,3 +1374,766 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================
+   Orbit discography home
+   ========================= */
+
+.discography-home {
+  background:
+    radial-gradient(100% 70% at 50% 0%, rgba(213, 224, 255, 0.72), transparent 54%),
+    linear-gradient(180deg, #f8f6ff 0%, #f7f8ff 48%, #fffaf5 100%);
+}
+
+.orbit-site-header {
+  padding: 18px 24px;
+  background: rgba(250, 248, 255, 0.86);
+  background-image: none;
+  border-bottom: 1px solid rgba(91, 92, 132, 0.12);
+  box-shadow: none;
+}
+
+.orbit-site-header .site-title-block h1 {
+  font-size: 1.28rem;
+  letter-spacing: 0.18em;
+}
+
+.orbit-site-header .site-title-block p {
+  margin-top: 3px;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+}
+
+.home-nav {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-nav a {
+  color: #514f68;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.home-nav a:hover {
+  color: #8a5a9b;
+}
+
+.orbit-discography-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 34px 20px 12px;
+}
+
+.orbit-section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.orbit-kicker {
+  margin: 0 0 6px;
+  color: #807b99;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+}
+
+.orbit-section-head h2,
+.album-list-heading h2 {
+  margin: 0;
+  font-size: clamp(1.45rem, 3vw, 2.25rem);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.album-view-toggle,
+.orbit-album-link {
+  border: 1px solid rgba(104, 105, 150, 0.25);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+  color: #4d4d68;
+  padding: 9px 16px;
+  font-size: 0.84rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.album-view-toggle:hover,
+.orbit-album-link:hover {
+  transform: translateY(-2px);
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(34, 37, 77, 0.12);
+}
+
+.album-orbit {
+  position: relative;
+  min-height: 650px;
+  overflow: hidden;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(126, 151, 255, 0.25), transparent 18%),
+    radial-gradient(circle at 50% 45%, rgba(180, 128, 205, 0.15), transparent 40%),
+    url("images/night-sky.jpg") center / cover no-repeat,
+    #080c1d;
+  box-shadow: 0 28px 70px rgba(26, 29, 68, 0.22);
+  color: #f6f2ff;
+}
+
+.album-orbit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(5, 8, 22, 0.04), rgba(5, 8, 22, 0.6));
+  pointer-events: none;
+}
+
+.orbit-ring {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  border: 1px solid rgba(210, 220, 255, 0.18);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(-7deg);
+  pointer-events: none;
+}
+
+.orbit-ring-outer {
+  width: 86%;
+  height: 65%;
+}
+
+.orbit-ring-inner {
+  width: 59%;
+  height: 42%;
+  transform: translate(-50%, -50%) rotate(12deg);
+}
+
+.orbit-album-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.orbit-album-star {
+  position: absolute;
+  z-index: 3;
+  width: 92px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #f8f5ff;
+  cursor: pointer;
+  text-align: center;
+  animation: orbit-star-drift 5.5s ease-in-out infinite alternate;
+  transition: left 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    right 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    top 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    bottom 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    width 0.45s ease,
+    opacity 0.35s ease;
+}
+
+.orbit-album-star img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(235, 239, 255, 0.7);
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.04), 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.orbit-album-star span {
+  display: block;
+  margin-top: 7px;
+  font-size: 0.72rem;
+  line-height: 1.25;
+  text-shadow: 0 2px 8px #050716;
+}
+
+.orbit-album-star:hover img,
+.orbit-album-star:focus-visible img {
+  box-shadow: 0 0 0 5px rgba(255, 234, 156, 0.18), 0 0 28px rgba(255, 234, 156, 0.5);
+}
+
+.orbit-album-star.is-active {
+  width: 178px;
+  z-index: 5;
+  animation-duration: 7s;
+}
+
+.orbit-album-star.is-active img {
+  border-color: #fff1a9;
+  box-shadow: 0 0 0 7px rgba(255, 238, 158, 0.1), 0 0 42px rgba(255, 232, 130, 0.38);
+}
+
+.orbit-album-star.is-active span {
+  opacity: 0;
+}
+
+.orbit-pos-p0 {
+  left: calc(50% - 89px);
+  top: 68px;
+}
+
+.orbit-pos-m1 { left: 16%; top: 128px; animation-delay: -1s; }
+.orbit-pos-p1 { right: 16%; top: 138px; animation-delay: -2.5s; }
+.orbit-pos-m2 { left: 5%; top: 340px; animation-delay: -3.2s; }
+.orbit-pos-p2 { right: 5%; top: 350px; animation-delay: -4.1s; }
+.orbit-pos-m3 { left: 22%; bottom: 58px; animation-delay: -2.1s; }
+.orbit-pos-p3 { right: 22%; bottom: 54px; animation-delay: -4.8s; }
+
+@keyframes orbit-star-drift {
+  from { transform: translate3d(-4px, -5px, 0); }
+  to { transform: translate3d(6px, 7px, 0); }
+}
+
+.orbit-focus-copy {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 282px;
+  width: min(440px, 46%);
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.orbit-album-meta {
+  margin: 0 0 5px;
+  color: #bbc4e8;
+  font-size: 0.72rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.orbit-album-title {
+  margin: 0;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+.orbit-album-title-en {
+  margin: 6px 0 15px;
+  color: #c9cdea;
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+}
+
+.orbit-album-description {
+  margin: 0 auto 22px;
+  color: #e3e5f5;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.orbit-album-link {
+  display: inline-block;
+  border-color: rgba(255, 237, 154, 0.55);
+  background: rgba(20, 28, 65, 0.82);
+  color: #fff0a6;
+}
+
+.orbit-arrow {
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background: rgba(8, 12, 29, 0.6);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.orbit-arrow-prev { left: 18px; }
+.orbit-arrow-next { right: 18px; }
+
+.orbit-position {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  color: #aeb6db;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+}
+
+.album-index-section--orbit {
+  scroll-margin-top: 110px;
+}
+
+.album-index-section--orbit[hidden] {
+  display: none;
+}
+
+.album-list-heading {
+  margin-bottom: 18px;
+}
+
+.discography-home .omikuji-section {
+  margin-top: 42px;
+}
+
+@media (max-width: 700px) {
+  .orbit-site-header {
+    padding: 13px 16px;
+  }
+
+  .orbit-site-header .header-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .home-nav {
+    gap: 12px;
+  }
+
+  .discography-home .home-nav a:first-child,
+  .discography-home .home-nav a:nth-child(2) {
+    display: none;
+  }
+
+  .profile-page .home-nav a[aria-current="page"] {
+    display: none;
+  }
+
+  .orbit-section-head {
+    align-items: flex-start;
+  }
+
+  .album-orbit {
+    min-height: 610px;
+    border-radius: 20px;
+  }
+
+  .orbit-ring-outer {
+    width: 120%;
+    height: 56%;
+  }
+
+  .orbit-ring-inner {
+    width: 82%;
+    height: 38%;
+  }
+
+  .orbit-album-star {
+    width: 67px;
+  }
+
+  .orbit-album-star.is-active {
+    width: 138px;
+  }
+
+  .orbit-pos-p0 {
+    left: calc(50% - 69px);
+    top: 70px;
+  }
+
+  .orbit-pos-m1 { left: -10px; top: 185px; }
+  .orbit-pos-p1 { right: -10px; top: 185px; }
+  .orbit-pos-m2,
+  .orbit-pos-p2,
+  .orbit-pos-m3,
+  .orbit-pos-p3 {
+    display: none;
+  }
+
+  .orbit-focus-copy {
+    top: 278px;
+    width: 78%;
+  }
+
+  .orbit-arrow {
+    top: 47%;
+  }
+
+  .orbit-arrow-prev { left: 10px; }
+  .orbit-arrow-next { right: 10px; }
+}
+
+@media (max-width: 460px) {
+  .orbit-discography-section {
+    padding-inline: 10px;
+  }
+
+  .orbit-section-head {
+    padding-inline: 6px;
+  }
+
+  .orbit-section-head h2 {
+    font-size: 1.35rem;
+  }
+
+  .album-view-toggle {
+    padding: 8px 12px;
+    font-size: 0.76rem;
+  }
+}
+
+/* =========================
+   Cosmic dark theme
+   ========================= */
+
+body:not(.constellation-body) {
+  color: #edf0ff;
+  background:
+    radial-gradient(100% 70% at 14% 0%, rgba(70, 88, 160, 0.24), transparent 50%),
+    radial-gradient(90% 65% at 86% 12%, rgba(117, 70, 145, 0.18), transparent 48%),
+    linear-gradient(180deg, #080d20 0%, #0c1228 48%, #070b18 100%);
+  background-attachment: fixed;
+}
+
+body:not(.constellation-body)::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.24;
+  background:
+    radial-gradient(circle at 8% 18%, rgba(255,255,255,0.8) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 22% 72%, rgba(255,255,255,0.65) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 38% 28%, rgba(255,255,255,0.72) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 58% 80%, rgba(255,255,255,0.7) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 74% 22%, rgba(255,255,255,0.76) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 91% 64%, rgba(255,255,255,0.7) 0 1px, transparent 1.5px);
+  background-size: 270px 220px, 330px 280px, 290px 250px, 360px 310px, 310px 270px, 340px 300px;
+}
+
+body:not(.constellation-body) .site-header,
+.orbit-site-header {
+  background: rgba(7, 12, 29, 0.82);
+  background-image: none;
+  border-bottom-color: rgba(168, 181, 240, 0.14);
+  backdrop-filter: blur(16px);
+}
+
+body:not(.constellation-body) .site-header h1 {
+  color: #f4f1ff;
+}
+
+body:not(.constellation-body) .site-header p,
+body:not(.constellation-body) .subtitle-en {
+  color: #aeb8df;
+}
+
+body:not(.constellation-body) .home-nav a {
+  color: #ccd3f1;
+}
+
+body:not(.constellation-body) .home-nav a:hover,
+body:not(.constellation-body) .home-nav a[aria-current="page"] {
+  color: #ffe9a0;
+}
+
+.discography-home,
+.profile-page {
+  background: transparent;
+}
+
+.orbit-section-head h2,
+.album-list-heading h2,
+.profile-copy h2 {
+  color: #f1efff;
+}
+
+.orbit-kicker {
+  color: #99a7d7;
+}
+
+.album-view-toggle {
+  border-color: rgba(177, 188, 232, 0.3);
+  background: rgba(17, 25, 57, 0.78);
+  color: #e7eaff;
+}
+
+.album-view-toggle:hover {
+  background: rgba(31, 42, 82, 0.94);
+}
+
+body:not(.constellation-body) .omikuji-card,
+body:not(.constellation-body) .album,
+body:not(.constellation-body) .album-index-card,
+body:not(.constellation-body) .lyrics-block,
+body:not(.constellation-body) .analysis-block,
+body:not(.constellation-body) .song-player.pending {
+  color: #edf0ff;
+  background: linear-gradient(135deg, rgba(24, 33, 70, 0.88), rgba(16, 24, 53, 0.82));
+  border: 1px solid rgba(167, 179, 229, 0.16);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.24);
+}
+
+body:not(.constellation-body) .omikuji-label,
+body:not(.constellation-body) .album-card-meta,
+body:not(.constellation-body) .album-title span,
+body:not(.constellation-body) .album-meta,
+body:not(.constellation-body) .song-title span,
+body:not(.constellation-body) .song-meta,
+body:not(.constellation-body) .notice {
+  color: #aeb7da;
+}
+
+body:not(.constellation-body) .omikuji-note,
+body:not(.constellation-body) .omikuji-placeholder,
+body:not(.constellation-body) .omikuji-track-meta,
+body:not(.constellation-body) .album-card-desc,
+body:not(.constellation-body) .album-desc,
+body:not(.constellation-body) .track-note,
+body:not(.constellation-body) .pending-text {
+  color: #cad0ea;
+}
+
+body:not(.constellation-body) .omikuji-message {
+  color: #f6e7ae;
+}
+
+body:not(.constellation-body) .omikuji-result {
+  border-top-color: rgba(172, 184, 227, 0.22);
+}
+
+body:not(.constellation-body) .omikuji-link-btn,
+body:not(.constellation-body) .song-tab-button {
+  border-color: rgba(166, 178, 226, 0.25);
+  background: rgba(21, 30, 65, 0.88);
+  color: #e4e8ff;
+}
+
+body:not(.constellation-body) .album-index-card:hover {
+  background: rgba(33, 43, 83, 0.92);
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.28);
+}
+
+body:not(.constellation-body) .album-card-title,
+body:not(.constellation-body) .album-title,
+body:not(.constellation-body) .track-title,
+body:not(.constellation-body) .song-title,
+body:not(.constellation-body) .analysis-block h3 {
+  color: #f2f0ff;
+}
+
+body:not(.constellation-body) .album-card-title span,
+body:not(.constellation-body) .track-title span {
+  color: #aeb7da;
+}
+
+body:not(.constellation-body) .album-page-header {
+  background: rgba(8, 13, 31, 0.9);
+  border-bottom-color: rgba(168, 181, 240, 0.12);
+}
+
+body:not(.constellation-body) .album-page-title {
+  color: #aeb7da;
+}
+
+body:not(.constellation-body) .track-card {
+  color: #edf0ff;
+  background: rgba(17, 25, 55, 0.82);
+  border-color: rgba(163, 176, 225, 0.15);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+}
+
+body:not(.constellation-body) .track-card--clickable:hover {
+  background: rgba(31, 43, 84, 0.9);
+  border-color: rgba(161, 181, 255, 0.38);
+}
+
+body:not(.constellation-body) .track-badge {
+  background: rgba(120, 140, 220, 0.2);
+  color: #e2e8ff;
+}
+
+body:not(.constellation-body) .song-tab-header {
+  background: rgba(33, 43, 84, 0.9);
+}
+
+body:not(.constellation-body) .song-tab-button.active {
+  background: #e9edff;
+  color: #182044;
+}
+
+body:not(.constellation-body) .back-link {
+  color: #f4dfa0;
+  background: rgba(24, 34, 71, 0.88);
+  border-color: rgba(236, 215, 146, 0.3);
+}
+
+body:not(.constellation-body) .back-link:hover {
+  color: #fff1b5;
+  background: rgba(38, 50, 93, 0.96);
+  border-color: rgba(241, 221, 153, 0.5);
+}
+
+.profile-landscape img {
+  border: 1px solid rgba(184, 194, 235, 0.18);
+  box-shadow: 0 30px 76px rgba(0, 0, 0, 0.36);
+}
+
+.profile-youtube-copy {
+  color: #e4e8f9;
+}
+
+.profile-youtube-copy p:nth-child(3) {
+  color: #aab4d8;
+}
+
+.profile-youtube-link {
+  border-color: rgba(177, 188, 232, 0.3);
+  background: rgba(20, 29, 63, 0.84);
+  color: #f1e4ad;
+}
+
+.profile-youtube-link:hover {
+  background: rgba(34, 45, 87, 0.96);
+}
+
+body:not(.constellation-body) .site-footer {
+  color: #8f99bd;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit-album-star {
+    animation: none;
+    transition: none;
+  }
+
+  .album-view-toggle,
+  .orbit-album-link {
+    transition: none;
+  }
+}
+
+/* =========================
+   Profile page
+   ========================= */
+
+.profile-page {
+  background:
+    radial-gradient(100% 65% at 50% 0%, rgba(211, 218, 255, 0.72), transparent 58%),
+    #f8f7ff;
+}
+
+.profile-main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 34px 24px 64px;
+}
+
+.profile-landscape {
+  margin: 0;
+}
+
+.profile-landscape img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 26px;
+  box-shadow: 0 24px 60px rgba(43, 45, 88, 0.14);
+}
+
+.profile-copy {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.72fr) minmax(320px, 1.28fr);
+  gap: 32px 70px;
+  align-items: start;
+  max-width: 920px;
+  margin: 46px auto 0;
+}
+
+.profile-copy h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+
+.profile-youtube-copy {
+  color: #3f3e52;
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.profile-youtube-copy p {
+  margin: 0 0 12px;
+}
+
+.profile-youtube-copy p:nth-child(2) {
+  margin-top: 24px;
+  font-size: 1.12rem;
+}
+
+.profile-youtube-copy p:nth-child(3) {
+  color: #77738f;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+}
+
+.profile-youtube-link {
+  display: inline-block;
+  margin-top: 18px;
+  border: 1px solid rgba(104, 105, 150, 0.25);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #4d4d68;
+  padding: 9px 17px;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.profile-youtube-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(34, 37, 77, 0.12);
+}
+
+@media (max-width: 700px) {
+  .profile-main {
+    padding: 18px 12px 48px;
+  }
+
+  .profile-landscape img {
+    border-radius: 16px;
+  }
+
+  .profile-copy {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    margin-top: 30px;
+    padding: 0 8px;
+  }
+}
+
+/* Dark theme final profile overrides */
+.profile-page {
+  color: #edf0ff;
+  background: transparent;
+}
+
+.profile-page .profile-copy h2 {
+  color: #f1efff;
+}
+
+.profile-page .profile-youtube-copy {
+  color: #e4e8f9;
+}
+
+.profile-page .profile-youtube-copy p:nth-child(3) {
+  color: #aab4d8;
+}
+
+.profile-page .profile-youtube-link {
+  border-color: rgba(177, 188, 232, 0.3);
+  background: rgba(20, 29, 63, 0.84);
+  color: #f1e4ad;
+}
+
+.profile-page .profile-youtube-link:hover {
+  background: rgba(34, 45, 87, 0.96);
+}

@@ -258,6 +258,150 @@ function findTrackByAlbumAndNo(disc, albumKey, trackNo) {
    index.html アルバム一覧
    ========================= */
 
+function initAlbumOrbit(albums) {
+  const orbit = document.getElementById("album-orbit");
+  const layer = document.getElementById("orbit-album-layer");
+  const title = document.getElementById("orbit-album-title");
+  const titleEn = document.getElementById("orbit-album-title-en");
+  const meta = document.getElementById("orbit-album-meta");
+  const description = document.getElementById("orbit-album-description");
+  const albumLink = document.getElementById("orbit-album-link");
+  const position = document.getElementById("orbit-position");
+  const prev = document.getElementById("orbit-prev");
+  const next = document.getElementById("orbit-next");
+  const toggle = document.getElementById("album-view-toggle");
+  const listWrap = document.getElementById("album-list-wrap");
+
+  if (!orbit || !layer || !albums.length) return;
+
+  function buildAlbumPages(total) {
+    const pageCount = Math.max(1, Math.ceil(total / 7));
+    const baseSize = Math.floor(total / pageCount);
+    const remainder = total % pageCount;
+    const pages = [];
+    let cursor = 0;
+
+    for (let pageIndex = 0; pageIndex < pageCount; pageIndex += 1) {
+      const size = baseSize + (pageIndex < remainder ? 1 : 0);
+      pages.push(
+        Array.from({ length: size }, (_, offset) => cursor + offset)
+      );
+      cursor += size;
+    }
+    return pages;
+  }
+
+  const albumPages = buildAlbumPages(albums.length);
+  let currentPage = 0;
+  let activeIndex = albumPages[0][0];
+  const stars = albums.map((album, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "orbit-album-star";
+    button.dataset.index = String(index);
+    button.setAttribute("aria-label", `${album.title_ja}を中央に表示`);
+
+    if (album.album_jacket) {
+      const img = document.createElement("img");
+      img.src = album.album_jacket;
+      img.alt = "";
+      img.loading = index === 0 ? "eager" : "lazy";
+      button.appendChild(img);
+    }
+
+    const label = document.createElement("span");
+    label.textContent = album.title_ja;
+    button.appendChild(label);
+    button.addEventListener("click", () => {
+      if (index === activeIndex) {
+        window.location.href = `album.html?album=${encodeURIComponent(album.key)}`;
+      } else {
+        selectAlbum(index);
+      }
+    });
+    layer.appendChild(button);
+    return button;
+  });
+
+  function relativePosition(index, page) {
+    const localIndex = page.indexOf(index);
+    const activeLocalIndex = page.indexOf(activeIndex);
+    if (localIndex < 0 || activeLocalIndex < 0) return null;
+
+    let diff = localIndex - activeLocalIndex;
+    const half = page.length / 2;
+    if (diff > half) diff -= page.length;
+    if (diff < -half) diff += page.length;
+    return diff;
+  }
+
+  function selectAlbum(index) {
+    const targetPage = albumPages.findIndex((page) => page.includes(index));
+    if (targetPage < 0) return;
+
+    currentPage = targetPage;
+    activeIndex = index;
+    const album = albums[activeIndex];
+    const page = albumPages[currentPage];
+
+    stars.forEach((star, starIndex) => {
+      const diff = relativePosition(starIndex, page);
+      const visible = diff !== null;
+      star.hidden = !visible;
+      star.className = "orbit-album-star";
+      if (visible) {
+        const positionName = diff < 0 ? `m${Math.abs(diff)}` : `p${diff}`;
+        star.classList.add(`orbit-pos-${positionName}`);
+      }
+      star.classList.toggle("is-active", diff === 0);
+      star.setAttribute("aria-pressed", String(diff === 0));
+      star.setAttribute(
+        "aria-label",
+        diff === 0
+          ? `${albums[starIndex].title_ja}のアルバムをひらく`
+          : `${albums[starIndex].title_ja}を中央に表示`
+      );
+    });
+
+    meta.textContent = `${album.year || ""} · ${album.type || "Album"}`;
+    title.textContent = album.title_ja || "";
+    titleEn.textContent = album.title_en || "";
+    description.textContent = album.description || "";
+    albumLink.href = `album.html?album=${encodeURIComponent(album.key)}`;
+    position.textContent = `${currentPage + 1} / ${albumPages.length}`;
+  }
+
+  function changePage(direction) {
+    const targetPage =
+      (currentPage + direction + albumPages.length) % albumPages.length;
+    const targetAlbumIndex = albumPages[targetPage][0];
+    selectAlbum(targetAlbumIndex);
+  }
+
+  orbit.addEventListener("click", (event) => {
+    const arrow = event.target.closest(".orbit-arrow");
+    if (!arrow) return;
+    changePage(arrow === next ? 1 : -1);
+  });
+  orbit.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") changePage(-1);
+    if (event.key === "ArrowRight") changePage(1);
+  });
+
+  if (toggle && listWrap) {
+    toggle.addEventListener("click", () => {
+      const willOpen = listWrap.hidden;
+      listWrap.hidden = !willOpen;
+      toggle.setAttribute("aria-expanded", String(willOpen));
+      toggle.textContent = willOpen ? "軌道表示に戻る" : "全作品を見る";
+      orbit.hidden = willOpen;
+      if (willOpen) listWrap.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  selectAlbum(albumPages[0][0]);
+}
+
 async function initIndexPage() {
   const listEl = document.getElementById("album-list");
   if (!listEl) return;
@@ -274,6 +418,8 @@ async function initIndexPage() {
       return;
     }
 
+    initAlbumOrbit(albums);
+
     albums.forEach((album) => {
       const card = document.createElement("a");
       card.href = `album.html?album=${encodeURIComponent(album.key)}`;
@@ -284,6 +430,7 @@ async function initIndexPage() {
         img.src = album.album_jacket;
         img.alt = `${album.title_ja} ジャケット`;
         img.className = "album-card-image";
+        img.loading = "lazy";
         card.appendChild(img);
       }
 

@@ -6,19 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-<header class="site-header">
+<body class="discography-home">
+<header class="site-header orbit-site-header">
   <div class="header-flex">
     <div class="site-title-block">
-      <h1>うたのほし Discography</h1>
-      <p>UTANOHOSHI Official Discography &amp; Lyrics Portal</p>
+      <h1>うたのほし</h1>
+      <p>UTANOHOSHI DISCOGRAPHY</p>
     </div>
-    <a class="back-link hero-link" href="constellations.html">→ 星座マップを見る</a>
+    <nav class="home-nav" aria-label="メインナビゲーション">
+      <a href="#discography-orbit">作品</a>
+      <a href="#today-song">おみくじ</a>
+      <a href="constellations.html">星座マップ</a>
+      <a href="profile.html">プロフィール</a>
+    </nav>
   </div>
 </header>
 
 <main>
-  <section class="omikuji-section">
+  <section id="discography-orbit" class="orbit-discography-section" aria-labelledby="orbit-heading">
+    <div class="orbit-section-head">
+      <div>
+        <h2 id="orbit-heading">唄と愛をこの星に。あなたのもとに。</h2>
+      </div>
+      <button id="album-view-toggle" class="album-view-toggle" type="button" aria-expanded="false" aria-controls="album-list-wrap">
+        全作品を見る
+      </button>
+    </div>
+
+    <div id="album-orbit" class="album-orbit" aria-live="polite">
+      <div class="orbit-ring orbit-ring-outer" aria-hidden="true"></div>
+      <div class="orbit-ring orbit-ring-inner" aria-hidden="true"></div>
+      <div id="orbit-album-layer" class="orbit-album-layer"></div>
+
+      <div class="orbit-focus-copy">
+        <p id="orbit-album-meta" class="orbit-album-meta"></p>
+        <h3 id="orbit-album-title" class="orbit-album-title"></h3>
+        <p id="orbit-album-title-en" class="orbit-album-title-en"></p>
+        <p id="orbit-album-description" class="orbit-album-description"></p>
+        <a id="orbit-album-link" class="orbit-album-link" href="#">アルバムをひらく</a>
+      </div>
+
+      <button id="orbit-prev" class="orbit-arrow orbit-arrow-prev" type="button" aria-label="前の作品群">←</button>
+      <button id="orbit-next" class="orbit-arrow orbit-arrow-next" type="button" aria-label="次の作品群">→</button>
+      <div id="orbit-position" class="orbit-position"></div>
+    </div>
+  </section>
+
+  <section id="today-song" class="omikuji-section">
     <div class="omikuji-card">
       <div class="omikuji-head">
         <div>
@@ -34,7 +68,11 @@
     </div>
   </section>
 
-  <section class="album-index-section">
+  <section id="album-list-wrap" class="album-index-section album-index-section--orbit" hidden>
+    <div class="album-list-heading">
+      <p class="orbit-kicker">ALL ALBUMS</p>
+      <h2>すべての作品</h2>
+    </div>
     <div id="album-list" class="album-index-grid">
       <!-- app.js でアルバムカードが生成されます -->
     </div>
@@ -45,6 +83,6 @@
   © うたのほし / UTANOHOSHI
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=20260712-orbit-5"></script>
 </body>
 </html>
