@@ -1938,6 +1938,65 @@ body:not(.constellation-body) .album-page-title {
   color: #aeb7da;
 }
 
+/* アルバム・曲詳細は作品本文を早く見せるコンパクトヘッダー */
+.detail-page .site-header {
+  padding: 12px 20px 10px;
+}
+
+.detail-page .site-header .header-flex {
+  max-width: 960px;
+}
+
+.detail-page .site-header h1 {
+  font-size: 1.05rem;
+  letter-spacing: 0.07em;
+}
+
+.detail-page .site-header p {
+  margin-top: 2px;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+}
+
+.detail-page .site-header .hero-link {
+  margin: 0;
+  padding: 6px 11px;
+  font-size: 0.76rem;
+}
+
+.detail-page .album-page-header {
+  top: 58px;
+}
+
+@media (max-width: 600px) {
+  .detail-page .site-header {
+    padding: 10px 12px 8px;
+  }
+
+  .detail-page .site-header .header-flex {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .detail-page .site-header h1 {
+    font-size: 0.95rem;
+  }
+
+  .detail-page .site-header p {
+    font-size: 0.6rem;
+  }
+
+  .detail-page .site-header .hero-link {
+    padding: 5px 8px;
+    font-size: 0.68rem;
+  }
+
+  .detail-page .album-page-header {
+    top: 50px;
+  }
+}
+
 body:not(.constellation-body) .track-card {
   color: #edf0ff;
   background: rgba(17, 25, 55, 0.82);
