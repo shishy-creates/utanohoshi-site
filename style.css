@@ -2147,6 +2147,15 @@ body:not(.constellation-body) .site-footer {
   box-shadow: 0 24px 60px rgba(43, 45, 88, 0.14);
 }
 
+.profile-illustration-credit {
+  margin: 8px 8px 0;
+  color: #8f99bd;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-align: right;
+}
+
 .profile-copy {
   display: grid;
   grid-template-columns: minmax(220px, 0.72fr) minmax(320px, 1.28fr);
