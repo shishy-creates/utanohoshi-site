@@ -452,7 +452,16 @@ async function initIndexPage() {
       return;
     }
 
+    document.documentElement.classList.add("js-enhanced");
     initAlbumOrbit(albums);
+
+    const orbit = document.getElementById("album-orbit");
+    const listWrap = document.getElementById("album-list-wrap");
+    if (orbit) orbit.hidden = false;
+    if (listWrap) listWrap.hidden = true;
+
+    // JavaScriptなしでも読める静的一覧がある場合は、重複生成しない。
+    if (listEl.querySelector(".static-album-card")) return;
 
     albums.forEach((album) => {
       const card = document.createElement("a");

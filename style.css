@@ -1489,6 +1489,10 @@ body {
   color: #f6f2ff;
 }
 
+.album-orbit[hidden] {
+  display: none;
+}
+
 .album-orbit::before {
   content: "";
   position: absolute;
@@ -1681,6 +1685,47 @@ body {
 
 .album-list-heading {
   margin-bottom: 18px;
+}
+
+.static-album-card {
+  display: block;
+}
+
+.static-album-main {
+  color: inherit;
+  text-decoration: none;
+}
+
+.static-track-list {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(174, 182, 219, 0.24);
+}
+
+.static-track-list h3 {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  color: #aeb6db;
+}
+
+.static-track-list ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.static-track-list li {
+  margin: 5px 0;
+}
+
+.static-track-list a {
+  color: inherit;
+  text-decoration-color: rgba(174, 182, 219, 0.55);
+  text-underline-offset: 0.2em;
+}
+
+.js-enhanced .static-track-list {
+  display: none;
 }
 
 .discography-home .omikuji-section {
