@@ -40,7 +40,7 @@ function setSeoMeta({ title, description, canonical, image }) {
 
 // discography.json 読み込み
 async function loadDiscography() {
-  const res = await fetch("discography.json");
+  const res = await fetch("discography.json?v=20261111-spark", { cache: "no-cache" });
   if (!res.ok) {
     throw new Error("discography.json を読み込めませんでした");
   }
