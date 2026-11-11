@@ -9,7 +9,7 @@
   let selectedStarId = null;
   const albumSelect = document.getElementById("albumSelect");
   const allowedAlbums = new Set([
-    "SPARK",
+    "スパーク",
     "ザ・ワールド",
     "星環",
     "イブキ",
@@ -28,7 +28,7 @@
     "歌の癒しシリーズ",
   ]);
   const albumOrder = [
-    "SPARK",
+    "スパーク",
     "ザ・ワールド",
     "星環",
     "イブキ",
@@ -65,7 +65,7 @@
   }
 
   function normalizeAlbumName(name) {
-    return typeof name === "string" ? name.trim() : "";
+    return typeof name === "string" ? (name.trim() === "SPARK" ? "スパーク" : name.trim()) : "";
   }
 
   function getQueryParam(name) {
