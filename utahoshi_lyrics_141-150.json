@@ -15,7 +15,12 @@
     "GOD era": 142,
     "草原、彼方のイノセンス": 143,
     "世界の扉": 144,
-    "宇宙の呼吸": 145
+    "宇宙の呼吸": 145,
+    "サイドb": 146,
+    "大丈夫": 147,
+    "ハートで話そう": 148,
+    "Vivaration": 149,
+    "ひかり": 150
   },
   "songs": [
     {
@@ -87,6 +92,70 @@
       "tone": null,
       "notes": "English translation provided separately.",
       "source_file": null
+    },
+    {
+      "id": 146,
+      "title": "サイドb",
+      "title_en": "Side b",
+      "credits": "作詞：Hana／作曲：Shishy／歌唱：Hana",
+      "date": "2026/6/27",
+      "album": "SPARK",
+      "youtube": "https://youtu.be/bf0yUiu-9GE",
+      "lyrics": "他人に媚びるのはいつも弱虫でその場限り\nでも優しい人なのよ\n演技して見栄を張って\nだけど、なぜ？\n「好かれたいだけだったの、君に。」\n避けられるのはわからないけど、ただ　ああ\n\n知らない自分\n勝手に値踏みする\nそれはやめて\n心が傷ついちゃう\n失態泣いて　走ってまた泣いて\n嫉妬気づいて　知って片付けて\n叱咤激励にシッターにすがる\n執行者のような\n知らない自分\n\n支配欲で泣く涙　アピールで\n人に見せない泣き顔は勇ましい\n美しい涙だけは海のように\n恨みさえ洗い流し残せないものなのよ\nわかってるよ、ただ　ああ\n\n知ってる自分\n勝手に怯えてるフリはやめて\n心が冷めきっちゃう\n失敗しても　走って逃げても\n嫉妬しても　静かに祈って\n芝居しても　支配してても\nしらばっくれても\n知ってる自分",
+      "theme_keywords": null,
+      "tone": null,
+      "notes": null,
+      "source_file": null
+    },
+    {
+      "id": 147,
+      "title": "大丈夫",
+      "title_en": "DAIJOBU - It’s Alright",
+      "credits": "作詞・作曲：Shishy／歌唱：Hana",
+      "date": "2026/7/26",
+      "album": "SPARK",
+      "youtube": "https://youtu.be/UHBBOCBVFfA",
+      "lyrics": "周りに追われて息を切らして\nしめつけた胸も独演エチュード\n空回りだらけの午後に\n置き去りの本当の自分から\n「もう少しだけ僕を見ていて！」\n大丈夫　大丈夫　大丈夫\n心配事込みのハッピーエンドの今日に\n大丈夫　大丈夫　大丈夫ちゃんとできてなくても\nカーテンコールを僕に\n素晴らしき今日の日に\n\n動きたくない朝が来て\n逃げ出したくなっていたら　もう\n白旗あげて　笑っちゃえばいい\n\n大丈夫　大丈夫　あの空に\n戻りたい時も\n　\n大丈夫　大丈夫　大丈夫生きて息していたら　\nここまでプロローグ\n\n大丈夫　大丈夫　大丈夫\n僕たちの人生　傷ついていても光る\n大丈夫　大丈夫　大丈夫\nうまくいかない時も　\nお日さまのスポット\n光を当ててくれるから",
+      "theme_keywords": null,
+      "tone": null,
+      "notes": null,
+      "source_file": null
+    },
+    {
+      "id": 148,
+      "title": "ハートで話そう",
+      "title_en": "Let’s Speak from the Heart",
+      "credits": "作詞・作曲：Shishy／歌唱：Hana",
+      "date": "2026/8/10",
+      "album": "SPARK",
+      "youtube": "https://youtu.be/nSZOqlgYKTw",
+      "lyrics": "想い出してあの頃の夏は\n赤いサルビアと\n笑う僕たちの声が\n咲いてた道端で\n\nどおしても伝えたいことがあって\n待ってる　見えない世界で\n忘れないでくれたら\n\nみんな集まって\n１つのテーブルを囲って\nみんなで話そう\n見えないハートを持ち寄って\n\nどおしても聞きたいことがあって\n待ってる　心の世界で\n忘れないでくれたら\n\n蒼い夏空に\n映す笑顔思い出してね\nみんなでありがとう\n呼び合う時　きっと\n\nみんな集まって\n１つのテーブルを囲って\nみんなでありがとう\n涙もハートに解けあうの　",
+      "theme_keywords": null,
+      "tone": null,
+      "notes": "English translation provided separately.",
+      "source_file": null
+    },
+    {
+      "id": 149,
+      "title": "Vivaration",
+      "title_en": "Vivaration",
+      "credits": "作詞・作曲：Shishy／歌唱：Hana",
+      "date": "2026-08-16",
+      "album": "SPARK",
+      "youtube": "https://youtu.be/2fEQ_SkJC-8",
+      "lyrics": "捉えた影　渦巻くわ　\n私の胸の中で　怒りのソルベ\nいただきます\n\n固く凝りつづけた痛み　\n麻痺させてく\n怒る権威至上主義を\n脱いでみて\n\nああ\n1つ2つ3つの鎧を\n\n重たくしてる　\n偉いしすごい\n力持ってる\n尊敬を集めたい常識　見て\n\nそんなあなたと力比べの時\nもう譲れないから　ほら\n道が裂けだしてる\n早くこちらへ来て\nもう間に合わないから\nこの手を掴んで\n\n揺れている\n\n捉えた影　渦巻くわ　\n私の胸の中で　怒りのソルベ　\n味わってる\n\nああ\n4つ5つ6つの\n\n重たいエゴに\n犯されて傷をつけ合ってる\nその道は行き止まり　見て\n\nそんな　あなたと　力比べの時\nもう譲れないから　ほら\n道が裂けだしてる\n早くこちらへ来て\nまだ間に合うから\nこの手を掴んで　\n\n7つ8つ9つ10\n\n（バックコーラス）\n後ろ盾から覗く瞳は　暗い冷たい甘いソルベ　気づかない罪味\n\n苦労積み上げすごい力持ってる　自分の権利さ　集めたい常識\n\n苦労させられて　傷をつけ合ってる　自業自得の道は行き止まり　どうする？",
+      "lyrics_en": "The shadow I caught is swirling now\nDeep inside my chest—anger sorbet\nI’ll take a taste\n\nPain that’s hardened, tight and cold\nKeeps numbing everything\nTry taking off that angry worship\nOf authority\n\nAh—\nOne, two, three layers of armor\n\nThey’re weighing you down\n“I’m important, I’m amazing\nI’ve got all the power”\nLook at the rules that say respect is yours to collect\n\nNow you and I are matching strength for strength\nI won’t give way anymore—look\nThe road is splitting open\nHurry, come over to this side\nSoon it will be far too late\nCome and take my hand\n\nEverything is shaking\n\nThe shadow I caught is swirling now\nDeep inside my chest—anger sorbet\nI’m tasting it\n\nAh—\nFour, five, six more layers\n\nConsumed by all these heavy egos\nWe keep wounding one another\nLook—the road you’re on is a dead end\n\nNow you and I are matching strength for strength\nI won’t give way anymore—look\nThe road is splitting open\nHurry, come over to this side\nWe can still make it in time\nCome and take my hand\n\nSeven, eight, nine, ten\n\n(Backing vocals)\n\nThose eyes peering out from behind your wall of influence\nDark and cold, sweet sorbet\nSin-flavored—and you don’t even know\n\n“I piled up all my hardships\nNow I hold tremendous power\nIt is mine by right”\nThe common sense that tells you to collect respect\n\nMade to suffer\nWe keep wounding one another\nThe road of reaping what we sow\nIs a dead end\nSo what will you do?"
+    },
+    {
+      "id": 150,
+      "title": "ひかり",
+      "title_en": "HIKARI — Light",
+      "credits": "作詞・作曲：Shishy／歌唱：Hana",
+      "date": "2026-08-30",
+      "album": "SPARK",
+      "youtube": "https://youtu.be/-SY7rqKWmnY",
+      "lyrics": "出口を前に\nためらいながら捨てた傘に\n明日の雨はもう降らない\n\n傷つけあってるなら　もう　\n聞かないで　言わないで　行き先は　\n消えそうでも\n\n歩いてく\n踏みしめたこの大地と\n交わす言葉は風に乗っていって\nああ、完全音の鐘が時を告げた　今　\n\nさよなら　恋しさ残し　ブランニューデイズ\n追い越した未来　彼方光のなか\n\nようこそ　優しさ残す　ホーリーデイズ\n追いかけた過去も　みんな光になって\n照らして\n\n愛して　失くしても\n光が　包んでる　愛されている\nあなたも照らして",
+      "lyrics_en": "Standing at the doorway\nI hesitated, left my umbrella there\nTomorrow’s rain won’t fall again\n\nIf all we do is hurt each other now\nDon’t ask me why, don’t say a word\nThough the road ahead\nMay fade away\n\nI’ll keep walking on\nWith every step upon this solid ground\nThe words we share go riding on the wind\nAh, the bell of perfect tone\nHas rung to mark the hour—now\n\nGoodbye, with longing still inside\nBrand-new days\nThe future I outran\nBeyond, within the light\n\nWelcome, with kindness left behind\nHoly days\nEven all the past I chased\nIs turning into light\nShining on\n\nEven when we love and lose\nThe light surrounds us\nWe are loved\nMay it shine on you, too"
     }
   ]
 }

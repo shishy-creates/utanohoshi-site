@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_at": "2026-07-12T07:52:43",
-    "n_songs": 148,
+    "n_songs": 158,
     "grid": "A1..C3 (rows counted from top)",
     "axes_definition": {
       "x": "warning_to_hope (0=警鐘,1=希望)",
@@ -10,6 +10,96 @@
     }
   },
   "songs": [
+    {
+      "id": 152,
+      "title": "船は進む",
+      "album": "SPARK",
+      "x": 0.72,
+      "y": 0.73,
+      "depth": 0.5,
+      "cell": "C1"
+    },
+    {
+      "id": 146,
+      "title": "サイドb",
+      "album": "SPARK",
+      "x": 0.4,
+      "y": 0.18,
+      "depth": 0.5,
+      "cell": "B3"
+    },
+    {
+      "id": 150,
+      "title": "ひかり",
+      "album": "SPARK",
+      "x": 0.88,
+      "y": 0.88,
+      "depth": 0.5,
+      "cell": "C1"
+    },
+    {
+      "id": 151,
+      "title": "オニガイル",
+      "album": "SPARK",
+      "x": 0.16,
+      "y": 0.28,
+      "depth": 0.5,
+      "cell": "A3"
+    },
+    {
+      "id": 154,
+      "title": "ずっと未来から",
+      "album": "SPARK",
+      "x": 0.91,
+      "y": 0.61,
+      "depth": 0.5,
+      "cell": "C2"
+    },
+    {
+      "id": 149,
+      "title": "Vivaration",
+      "album": "SPARK",
+      "x": 0.28,
+      "y": 0.51,
+      "depth": 0.5,
+      "cell": "A2"
+    },
+    {
+      "id": 148,
+      "title": "ハートで話そう",
+      "album": "SPARK",
+      "x": 0.83,
+      "y": 0.46,
+      "depth": 0.5,
+      "cell": "C2"
+    },
+    {
+      "id": 153,
+      "title": "太古再醒",
+      "album": "SPARK",
+      "x": 0.055,
+      "y": 0.89,
+      "depth": 0.5,
+      "cell": "A1"
+    },
+    {
+      "id": 147,
+      "title": "大丈夫",
+      "album": "SPARK",
+      "x": 0.87,
+      "y": 0.13,
+      "depth": 0.5,
+      "cell": "C3"
+    },
+    {
+      "id": 155,
+      "title": "澄み渡る空のずっと向こう",
+      "album": "SPARK",
+      "x": 0.55,
+      "y": 0.5,
+      "depth": 0.5,
+      "cell": "B2"
+    },
     {
       "id": 1,
       "title": "クワイエットワールド",

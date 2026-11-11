@@ -1,6 +1,140 @@
 {
   "albums": [
     {
+      "key": "spark",
+      "title_ja": "SPARK",
+      "title_en": "SPARK",
+      "year": "2026",
+      "type": "Album",
+      "album_jacket": "images/spark_jacket.jpg",
+      "description": "希望と警鐘、痛みと祈り。心の火花を明日への光につなぐ10曲",
+      "links": {
+        "spotify": "https://open.spotify.com/album/4rHJ6Xo09jP7w9kMVhNOT9"
+      },
+      "tracks": [
+        {
+          "track_no": 1,
+          "title_ja": "船は進む",
+          "title_en": "The Ship Sails On",
+          "lyric_id": 152,
+          "audio_embed": "https://www.youtube.com/embed/ao3vs8OFYHE",
+          "analysis": "幾度も過ちを繰り返してきた記憶を胸に、自分たちの手で舵を取り、命と笑い声を乗せて進む旅の歌。",
+          "links": {
+          "youtube": "https://youtu.be/ao3vs8OFYHE",
+          "spotify": "https://open.spotify.com/track/61VEr9a8p0xWTw930hrKeY"
+          }
+        },
+        {
+          "track_no": 2,
+          "title_ja": "サイドb",
+          "title_en": "Side b",
+          "lyric_id": 146,
+          "audio_embed": "https://www.youtube.com/embed/bf0yUiu-9GE",
+          "analysis": "好かれたい気持ちの裏にある、嫉妬や見栄。知らない自分と知っている自分を見つめ、揺れる心の素顔に触れる一曲。",
+          "links": {
+          "youtube": "https://youtu.be/bf0yUiu-9GE",
+          "spotify": "https://open.spotify.com/track/45ig7ukLWlO5fr08HhR1Qw"
+          }
+        },
+        {
+          "track_no": 3,
+          "title_ja": "ひかり",
+          "title_en": "HIKARI — Light",
+          "lyric_id": 150,
+          "audio_embed": "https://www.youtube.com/embed/-SY7rqKWmnY",
+          "analysis": "変化の折に手放したものへの心残りを抱きながら、新しい日々へ歩き出す歌。失くしたものも過去も光となり、今を生きる自分とあなたを包んでいく。",
+          "links": {
+          "youtube": "https://youtu.be/-SY7rqKWmnY",
+          "spotify": "https://open.spotify.com/track/1FADyN4qBNnoJdoYI0TOEE"
+          }
+        },
+        {
+          "track_no": 4,
+          "title_ja": "オニガイル",
+          "title_en": "ONI GA IRU — Demons Among Us",
+          "lyric_id": 151,
+          "audio_embed": "https://www.youtube.com/embed/2bAi2eoxpFk",
+          "analysis": "傷つけられた人も、石を投げれば鬼になる。力を求めて傷つけ合う人の弱さと、笑顔の奥に潜む涙を描く一曲。",
+          "links": {
+          "youtube": "https://youtu.be/2bAi2eoxpFk",
+          "spotify": "https://open.spotify.com/track/5FgTD0dygn4SchDm89MGFd"
+          }
+        },
+        {
+          "track_no": 5,
+          "title_ja": "ずっと未来から",
+          "title_en": "From Far in the Future",
+          "lyric_id": 154,
+          "audio_embed": "https://www.youtube.com/embed/bwLRcqe-0EI",
+          "analysis": "泣いている今の自分へ、未来の自分から届く声。大切なものを信じて選ぶ日々が、時を越えて愛でつながる歌。",
+          "links": {
+          "youtube": "https://youtu.be/bwLRcqe-0EI",
+          "spotify": "https://open.spotify.com/track/3iKU3CC2EOxbRnQ1c9hgcg"
+          }
+        },
+        {
+          "track_no": 6,
+          "title_ja": "Vivaration",
+          "title_en": "Vivaration",
+          "lyric_id": 149,
+          "audio_embed": "https://www.youtube.com/embed/2fEQ_SkJC-8",
+          "analysis": "権力を求める者と、支配する力を持たないよう踏みとどまる者。その「力比べ」を描く一曲。",
+          "links": {
+          "youtube": "https://youtu.be/2fEQ_SkJC-8",
+          "spotify": "https://open.spotify.com/track/4omMrZrgAH0DXdJKczMvKf"
+          }
+        },
+        {
+          "track_no": 7,
+          "title_ja": "ハートで話そう",
+          "title_en": "Let’s Speak from the Heart",
+          "lyric_id": 148,
+          "audio_embed": "https://www.youtube.com/embed/nSZOqlgYKTw",
+          "analysis": "この世界を離れた大切な人たちとも、心を通わせ、一つのテーブルを囲むように語り合う歌。見えないハートを持ち寄り、ありがとうを呼び交わす。",
+          "links": {
+          "youtube": "https://youtu.be/nSZOqlgYKTw",
+          "spotify": "https://open.spotify.com/track/0gwOCY8vkOe0vPTVf9cUoe"
+          }
+        },
+        {
+          "track_no": 8,
+          "title_ja": "太古再醒",
+          "title_en": "Ancient Reawakening",
+          "lyric_id": 153,
+          "audio_embed": "https://www.youtube.com/embed/u32sK2MB9bc",
+          "analysis": "太古から繰り返される過ちを見つめ、大地との絆を問い直す歌。本当の炎に呑まれる前に、心に灯した火で偽りや驕りを焼き尽くす、一縷の希望を描く。",
+          "links": {
+          "youtube": "https://youtu.be/u32sK2MB9bc",
+          "spotify": "https://open.spotify.com/track/3E8wZQyf2X3BMM3zDMMTGl"
+          }
+        },
+        {
+          "track_no": 9,
+          "title_ja": "大丈夫",
+          "title_en": "DAIJOBU - It’s Alright",
+          "lyric_id": 147,
+          "audio_embed": "https://www.youtube.com/embed/UHBBOCBVFfA",
+          "analysis": "ちゃんとできない日も、生きて息をしていれば大丈夫。空回りする毎日に、カーテンコールを贈る励ましの歌。",
+          "links": {
+          "youtube": "https://youtu.be/UHBBOCBVFfA",
+          "spotify": "https://open.spotify.com/track/7wo5BzvItMKCKKNQ7reAWm"
+          }
+        },
+        {
+          "track_no": 10,
+          "title_ja": "澄み渡る空のずっと向こう",
+          "title_en": "Far Beyond the Clear Blue Sky",
+          "lyric_id": 155,
+          "audio_embed": "https://www.youtube.com/embed/heSPMDw1E-I",
+          "analysis": "澄んだ空の下、遠い誰かの痛みに祈りを寄せる。震える小さな歌声も、青い星の響きへとつながっていく一曲。",
+          "links": {
+          "youtube": "https://youtu.be/heSPMDw1E-I",
+          "spotify": "https://open.spotify.com/track/53Zv3rpH14Gx7H1ohDGSQZ"
+          }
+        }
+      ]
+    },
+    {
       "key": "the_world",
       "title_ja": "ザ・ワールド",
       "title_en": "The World",
